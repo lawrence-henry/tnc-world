@@ -1,0 +1,25 @@
+site_name: The Nomad Chronicles (TNC)
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+nav:
+  - Home: index.md
+  - Player’s Manual:
+      - Introduction: intro.md
+      - Core Rules: core-rules.md
+      - Character Creation: character-creation.md
+      - Equipment: equipment.md
+  - Bestiary: bestiary.md
+  - Appendix: appendix.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/yourname/tnc-world

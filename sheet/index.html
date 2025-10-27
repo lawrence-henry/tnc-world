@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>TNC Character Sheet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    h1 { margin-bottom: .25rem; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 12px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 12px; }
+    label { font-size: .9rem; display: block; margin-bottom: 4px; }
+    input, select, textarea { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 8px; }
+    .btn { padding: 8px 12px; border-radius: 8px; border: 1px solid #333; background: #f9f9f9; cursor: pointer; }
+    .btn + .btn { margin-left: 8px; }
+    .muted { color: #555; font-size: .9rem; }
+    .col-3 { grid-column: span 3; } .col-4 { grid-column: span 4; } .col-6 { grid-column: span 6; } .col-12 { grid-column: span 12; }
+    .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  </style>
+</head>
+<body>
+  <h1>TNC Character Sheet</h1>
+  <p class="muted">v0 · Stores in your browser. No login needed.</p>
+
+  <div class="grid">
+    <div class="card col-6">
+      <label>Name</label>
+      <input id="name" />
+      <div class="row">
+        <div style="flex:1">
+          <label>Level</label>
+          <input id="level" type="number" value="1" />
+        </div>
+        <div style="flex:1">
+          <label>Background</label>
+          <input id="background" />
+        </div>
+      </div>
+    </div>
+
+    <div class="card col-6">
+      <label>Concept / Notes</label>
+      <textarea id="notes" rows="5"></textarea>
+    </div>
+
+    <div class="card col-12">
+      <h3>Abilities</h3>
+      <div class="grid">
+        <div class="col-2"><label>Might</label><input id="might" type="number" value="0" /></div>
+        <div class="col-2"><label>Reflexes</label><input id="reflexes" type="number" value="0" /></div>
+        <div class="col-2"><label>Constitution</label><input id="constitution" type="number" value="0" /></div>
+        <div class="col-2"><label>Wits</label><input id="wits" type="number" value="0" /></div>
+        <div class="col-2"><label>Willpower</label><input id="willpower" type="number" value="0" /></div>
+        <div class="col-2"><label>Perception</label><input id="perception" type="number" value="0" /></div>
+      </div>
+    </div>
+
+    <div class="card col-12">
+      <h3>Vitals & Derived</h3>
+      <div class="grid">
+        <div class="col-2"><label>HP Max</label><input id="hpMax" type="number" value="10" /></div>
+        <div class="col-2"><label>HP Cur</label><input id="hpCur" type="number" value="10" /></div>
+        <div class="col-2"><label>Armor Defense</label><input id="armorDefense" type="number" value="0" /></div>
+        <div class="col-2"><label>Armor Penalty</label><input id="armorPenalty" type="number" value="0" /></div>
+        <div class="col-2"><label>Speed (auto)</label><input id="speed" disabled /></div>
+        <div class="col-2"><label>Defense (auto)</label><input id="defense" disabled /></div>
+      </div>
+      <p class="muted">Speed = Reflexes + Armor Defense - Armor Penalty · Defense uses your system’s formula; we’ll wire it next.</p>
+    </div>
+
+    <div class="card col-12">
+      <h3>Dice Roller (3d6)</h3>
+      <div class="row">
+        <button class="btn" id="roll3d6">Roll 3d6</button>
+        <span id="rollResult" class="muted"></span>
+      </div>
+      <div id="rollLog" class="muted" style="margin-top:8px"></div>
+    </div>
+
+    <div class="card col-12">
+      <div class="row">
+        <button class="btn" id="save">Save</button>
+        <button class="btn" id="load">Load</button>
+        <button class="btn" id="export">Export JSON</button>
+        <button class="btn" id="importBtn">Import JSON</button>
+        <input type="file" id="importFile" accept="application/json" style="display:none" />
+        <span class="muted">Saved locally as “tnc_character.json”.</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const F = id => document.getElementById(id);
+    const fields = ["name","level","background","notes","might","reflexes","constitution","wits","willpower","perception","hpMax","hpCur","armorDefense","armorPenalty"];
+    function calc() {
+      const reflexes = Number(F("reflexes").value||0);
+      const armorDef = Number(F("armorDefense").value||0);
+      const armorPen = Number(F("armorPenalty").value||0);
+      // Your stated formula:
+      F("speed").value = reflexes + armorDef - armorPen;
+      // Placeholder Defense; change to your exact rule:
+      F("defense").value = 10 + reflexes + armorDef - armorPen;
+    }
+    fields.forEach(id => F(id).addEventListener("input", calc)); calc();
+
+    // Save/Load
+    F("save").onclick = () => {
+      const data = {};
+      fields.forEach(id => data[id] = F(id).value);
+      localStorage.setItem("tnc_character", JSON.stringify(data));
+      alert("Saved.");
+    };
+    F("load").onclick = () => {
+      const raw = localStorage.getItem("tnc_character");
+      if(!raw) return alert("No save found.");
+      const data = JSON.parse(raw);
+      fields.forEach(id => { if(data[id]!==undefined) F(id).value = data[id]; });
+      calc();
+      alert("Loaded.");
+    };
+
+    // Export/Import
+    F("export").onclick = () => {
+      const data = {};
+      fields.forEach(id => data[id] = F(id).value);
+      const blob = new Blob([JSON.stringify(data,null,2)], {type: "application/json"});
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "tnc_character.json";
+      a.click();
+    };
+    F("importBtn").onclick = () => F("importFile").click();
+    F("importFile").onchange = async (e) => {
+      const file = e.target.files[0];
+      if(!file) return;
+      const text = await file.text();
+      const data = JSON.parse(text);
+      fields.forEach(id => { if(data[id]!==undefined) F(id).value = data[id]; });
+      calc();
+      alert("Imported.");
+    };
+
+    // 3d6 Roller with log
+    function roll3d6(){
+      const d = () => Math.floor(Math.random()*6)+1;
+      const a=d(), b=d(), c=d();
+      return { dice:[a,b,c], total:a+b+c };
+    }
+    F("roll3d6").onclick = () => {
+      const r = roll3d6();
+      F("rollResult").textContent = `Rolled ${r.dice.join("+")} = ${r.total}`;
+      const log = JSON.parse(localStorage.getItem("tnc_rolls")||"[]");
+      log.unshift({t:Date.now(), ...r});
+      localStorage.setItem("tnc_rolls", JSON.stringify(log.slice(0,50)));
+      renderLog();
+    };
+    function renderLog(){
+      const log = JSON.parse(localStorage.getItem("tnc_rolls")||"[]");
+      F("rollLog").innerHTML = log.map(x=>{
+        const time = new Date(x.t).toLocaleTimeString();
+        return `[${time}] ${x.dice.join("+")} = ${x.total}`;
+      }).join("<br/>");
+    }
+    renderLog();
+  </script>
+</body>
+</html>

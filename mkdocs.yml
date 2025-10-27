@@ -4,8 +4,14 @@ theme:
   features:
     - navigation.instant
     - navigation.sections
+    - navigation.expand
     - search.suggest
     - search.highlight
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
 nav:
   - Home: index.md
   - Player’s Manual:
@@ -15,11 +21,3 @@ nav:
       - Equipment: equipment.md
   - Bestiary: bestiary.md
   - Appendix: appendix.md
-markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-extra:
-  social:
-    - icon: material/github
-      link: https://github.com/yourname/tnc-world

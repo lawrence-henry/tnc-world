@@ -21,3 +21,5 @@ nav:
       - Equipment: equipment.md
   - Bestiary: bestiary.md
   - Appendix: appendix.md
+  - Tools:
+    - Digital Character Sheet: sheet/index.html

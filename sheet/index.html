@@ -14,13 +14,13 @@
     .btn { padding: 8px 12px; border-radius: 8px; border: 1px solid #333; background: #f9f9f9; cursor: pointer; }
     .btn + .btn { margin-left: 8px; }
     .muted { color: #555; font-size: .9rem; }
-    .col-3 { grid-column: span 3; } .col-4 { grid-column: span 4; } .col-6 { grid-column: span 6; } .col-12 { grid-column: span 12; }
+    .col-2 { grid-column: span 2; } .col-3 { grid-column: span 3; } .col-4 { grid-column: span 4; } .col-6 { grid-column: span 6; } .col-12 { grid-column: span 12; }
     .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
   </style>
 </head>
 <body>
   <h1>TNC Character Sheet</h1>
-  <p class="muted">v0 · Stores in your browser. No login needed.</p>
+  <p class="muted">v0 · Stores in your browser (localStorage). No login needed.</p>
 
   <div class="grid">
     <div class="card col-6">
@@ -65,7 +65,7 @@
         <div class="col-2"><label>Speed (auto)</label><input id="speed" disabled /></div>
         <div class="col-2"><label>Defense (auto)</label><input id="defense" disabled /></div>
       </div>
-      <p class="muted">Speed = Reflexes + Armor Defense - Armor Penalty · Defense uses your system’s formula; we’ll wire it next.</p>
+      <p class="muted">Speed = Reflexes + Armor Defense − Armor Penalty. Defense is a placeholder; we’ll wire your exact formula next.</p>
     </div>
 
     <div class="card col-12">
@@ -84,7 +84,7 @@
         <button class="btn" id="export">Export JSON</button>
         <button class="btn" id="importBtn">Import JSON</button>
         <input type="file" id="importFile" accept="application/json" style="display:none" />
-        <span class="muted">Saved locally as “tnc_character.json”.</span>
+        <span class="muted">Saved locally as “tnc_character”.</span>
       </div>
     </div>
   </div>
@@ -92,21 +92,19 @@
   <script>
     const F = id => document.getElementById(id);
     const fields = ["name","level","background","notes","might","reflexes","constitution","wits","willpower","perception","hpMax","hpCur","armorDefense","armorPenalty"];
+
     function calc() {
       const reflexes = Number(F("reflexes").value||0);
       const armorDef = Number(F("armorDefense").value||0);
       const armorPen = Number(F("armorPenalty").value||0);
-      // Your stated formula:
-      F("speed").value = reflexes + armorDef - armorPen;
-      // Placeholder Defense; change to your exact rule:
-      F("defense").value = 10 + reflexes + armorDef - armorPen;
+      F("speed").value = reflexes + armorDef - armorPen;                          // your stated rule
+      F("defense").value = 10 + reflexes + armorDef - armorPen;                   // placeholder; we’ll replace with your exact formula
     }
     fields.forEach(id => F(id).addEventListener("input", calc)); calc();
 
-    // Save/Load
+    // Save / Load
     F("save").onclick = () => {
-      const data = {};
-      fields.forEach(id => data[id] = F(id).value);
+      const data = {}; fields.forEach(id => data[id] = F(id).value);
       localStorage.setItem("tnc_character", JSON.stringify(data));
       alert("Saved.");
     };
@@ -115,14 +113,12 @@
       if(!raw) return alert("No save found.");
       const data = JSON.parse(raw);
       fields.forEach(id => { if(data[id]!==undefined) F(id).value = data[id]; });
-      calc();
-      alert("Loaded.");
+      calc(); alert("Loaded.");
     };
 
-    // Export/Import
+    // Export / Import
     F("export").onclick = () => {
-      const data = {};
-      fields.forEach(id => data[id] = F(id).value);
+      const data = {}; fields.forEach(id => data[id] = F(id).value);
       const blob = new Blob([JSON.stringify(data,null,2)], {type: "application/json"});
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob);
@@ -131,20 +127,25 @@
     };
     F("importBtn").onclick = () => F("importFile").click();
     F("importFile").onchange = async (e) => {
-      const file = e.target.files[0];
-      if(!file) return;
+      const file = e.target.files[0]; if(!file) return;
       const text = await file.text();
       const data = JSON.parse(text);
       fields.forEach(id => { if(data[id]!==undefined) F(id).value = data[id]; });
-      calc();
-      alert("Imported.");
+      calc(); alert("Imported.");
     };
 
-    // 3d6 Roller with log
+    // 3d6 roller with log
     function roll3d6(){
       const d = () => Math.floor(Math.random()*6)+1;
       const a=d(), b=d(), c=d();
       return { dice:[a,b,c], total:a+b+c };
+    }
+    function renderLog(){
+      const log = JSON.parse(localStorage.getItem("tnc_rolls")||"[]");
+      F("rollLog").innerHTML = log.map(x=>{
+        const time = new Date(x.t).toLocaleTimeString();
+        return `[${time}] ${x.dice.join("+")} = ${x.total}`;
+      }).join("<br/>");
     }
     F("roll3d6").onclick = () => {
       const r = roll3d6();
@@ -154,13 +155,6 @@
       localStorage.setItem("tnc_rolls", JSON.stringify(log.slice(0,50)));
       renderLog();
     };
-    function renderLog(){
-      const log = JSON.parse(localStorage.getItem("tnc_rolls")||"[]");
-      F("rollLog").innerHTML = log.map(x=>{
-        const time = new Date(x.t).toLocaleTimeString();
-        return `[${time}] ${x.dice.join("+")} = ${x.total}`;
-      }).join("<br/>");
-    }
     renderLog();
   </script>
 </body>

@@ -1,12 +1,22 @@
 site_name: The Nomad Chronicles (TNC)
 theme:
   name: material
+<<<<<<< HEAD
+=======
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: yellow
+>>>>>>> 31f79e9 (Updated Homepage, Rulebook, Digital Character Sheet)
   features:
     - navigation.instant
     - navigation.sections
     - navigation.expand
     - search.suggest
     - search.highlight
+<<<<<<< HEAD
 markdown_extensions:
   - admonition
   - toc:
@@ -23,3 +33,43 @@ nav:
   - Appendix: appendix.md
   - Tools:
     - Digital Character Sheet: sheet/index.html
+=======
+    - header.autohide
+
+extra:
+  navigation:
+    - title: Login
+      icon: "material/login"
+      link: "#"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets:
+      base_path: docs
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - def_list
+  - attr_list
+
+nav:
+  - Player's Manual:
+      - Introduction: intro.md
+      - Core Rules: core-rules.md
+      - Character Creation: character-creation.md
+      - Particulars of Expertise: expertise.md
+      - Chance Actions: chance-actions.md
+      - Hazards, Conditions, and Virus Mode: conditions.md
+      - Equipment: equipment.md
+      - Vehicles: vehicles.md
+      - Gamemaster's Guide: gamemaster.md
+      - Bestiary: bestiary.md
+      - Appendix: appendix.md
+  - Tools:
+      - Digital Character Sheet: digital-character-sheet.md
+>>>>>>> 31f79e9 (Updated Homepage, Rulebook, Digital Character Sheet)

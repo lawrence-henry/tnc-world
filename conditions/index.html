@@ -1,0 +1,1852 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../chance-actions/">
+      
+      
+        <link rel="next" href="../equipment/">
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Conditions - The Nomad Chronicles (TNC)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="yellow">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-6-hazards-conditions-virus-mode" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="The Nomad Chronicles (TNC)" class="md-header__button md-logo" aria-label="The Nomad Chronicles (TNC)" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Nomad Chronicles (TNC)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Conditions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="yellow"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="The Nomad Chronicles (TNC)" class="md-nav__button md-logo" aria-label="The Nomad Chronicles (TNC)" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    The Nomad Chronicles (TNC)
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Player's Manual
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Player's Manual
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../core-rules/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5-1.65 0-3.35.3-4.75 1.05-.1.05-.15.05-.25.05-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1 1.11-.35 2.33-.5 3.5-.5 1.95 0 4.05.4 5.5 1.5 1.45-1.1 3.55-1.5 5.5-1.5 1.17 0 2.39.15 3.5.5.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5-.1 0-.15 0-.25-.05-1.4-.75-3.1-1.05-4.75-1.05-1.7 0-4.15.65-5.5 1.5m-1-14c-1.36-.6-3.16-1-4.5-1-1.2 0-2.4.15-3.5.5v11.5c1.1-.35 2.3-.5 3.5-.5 1.34 0 3.14.4 4.5 1zM13 19c1.36-.6 3.16-1 4.5-1 1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5-1.34 0-3.14.4-4.5 1zm1-2.65c.96-.35 2.12-.52 3.5-.52 1.04 0 1.88.08 2.5.24v-1.5a13.9 13.9 0 0 0-6 .19zm0-2.66c.96-.35 2.12-.53 3.5-.53 1.04 0 1.88.08 2.5.24v-1.5c-.87-.16-1.71-.23-2.5-.23-1.28 0-2.45.15-3.5.45zM14 11c.96-.33 2.12-.5 3.5-.5.91 0 1.76.09 2.5.28V9.23c-.87-.15-1.71-.23-2.5-.23-1.32 0-2.5.15-3.5.46z"/></svg>
+  
+  <span class="md-ellipsis">
+    Core Rules
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../character-creation/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 3H2c-1.09.04-1.96.91-2 2v14c.04 1.09.91 1.96 2 2h20c1.09-.04 1.96-.91 2-2V5a2.074 2.074 0 0 0-2-2m0 16H2V5h20zm-8-2v-1.25c0-1.66-3.34-2.5-5-2.5s-5 .84-5 2.5V17zM9 7a2.5 2.5 0 0 0-2.5 2.5A2.5 2.5 0 0 0 9 12a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 9 7m5 0v1h6V7zm0 2v1h6V9zm0 2v1h4v-1z"/></svg>
+  
+  <span class="md-ellipsis">
+    Character Creation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../expertise/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18.34S4 7.09 7 3l5 1-1 3.09H9v7.16h1c2-3.07 6.14-4.19 8.64-3.07 3.3 1.53 3 6.14 0 8.18C16.24 21 9 22.43 3 18.34"/></svg>
+  
+  <span class="md-ellipsis">
+    Particulars of Expertise
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chance-actions/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0H9C7.9 0 7 .9 7 2v16c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2m0 18H9V2h10zM3 4v18c0 1.1.9 2 2 2h12v-2H5V4zm9.2 3C11 7 10 8 10 9.2c0 1.5 1.4 2.7 3.4 4.6l.6.5.6-.5c2-1.9 3.4-3.1 3.4-4.6C18 7.9 17 7 15.8 7c-.7 0-1.4.3-1.8.8-.4-.5-1.1-.8-1.8-.8"/></svg>
+  
+  <span class="md-ellipsis">
+    Chance Actions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.73 12 3.98-3.96c.39-.39.39-1.04 0-1.41l-4.34-4.34c-.37-.39-1.02-.39-1.41 0L12 6.27 8 2.29a1.001 1.001 0 0 0-1.41 0L2.25 6.63c-.39.37-.39 1.02 0 1.41L6.23 12l-3.98 4c-.39.39-.39 1 0 1.41l4.34 4.34c.41.39 1.02.39 1.41 0l4-3.98 3.96 3.98c.2.2.45.29.71.29s.51-.1.71-.29l4.34-4.34c.39-.41.39-1.02 0-1.41zM12 9a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m-4.71 1.96L3.66 7.34l3.63-3.63 3.62 3.62zM10 13a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1m2 2a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1m2-4a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m2.66 9.34-3.63-3.62 3.63-3.63 3.62 3.62z"/></svg>
+  
+  <span class="md-ellipsis">
+    Hazards, Conditions, and Virus Mode
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.73 12 3.98-3.96c.39-.39.39-1.04 0-1.41l-4.34-4.34c-.37-.39-1.02-.39-1.41 0L12 6.27 8 2.29a1.001 1.001 0 0 0-1.41 0L2.25 6.63c-.39.37-.39 1.02 0 1.41L6.23 12l-3.98 4c-.39.39-.39 1 0 1.41l4.34 4.34c.41.39 1.02.39 1.41 0l4-3.98 3.96 3.98c.2.2.45.29.71.29s.51-.1.71-.29l4.34-4.34c.39-.41.39-1.02 0-1.41zM12 9a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m-4.71 1.96L3.66 7.34l3.63-3.63 3.62 3.62zM10 13a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1m2 2a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1m2-4a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m2.66 9.34-3.63-3.62 3.63-3.63 3.62 3.62z"/></svg>
+  
+  <span class="md-ellipsis">
+    Hazards, Conditions, and Virus Mode
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#poisons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Poisons
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Poisons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#treating-poison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Treating Poison
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#environmental-hazards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Environmental Hazards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Environmental Hazards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acids-bases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acids &amp; Bases
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fire
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conditions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conditions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#condition-severity-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Condition Severity Levels
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infection-levels-virus-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Infection Levels &amp; Virus Mode
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infection Levels &amp; Virus Mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infection-level-il" class="md-nav__link">
+    <span class="md-ellipsis">
+      Infection Level (IL)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infection Level (IL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#virus-mode-activation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Virus Mode Activation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Control Check
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adverse-effect-escalation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adverse Effect Escalation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post-transformation-drawback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post-Transformation Drawback
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transformation-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transformation Templates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#talon-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Talon-Type
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Talon-Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abilities-traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abilities (Traits)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attacks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#akuma-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Akuma-Type
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Akuma-Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abilities-traits_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abilities (Traits)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attacks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leviathan-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Leviathan-Type
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Leviathan-Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abilities-traits_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abilities (Traits)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attacks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#special-ability-mutations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Special Ability Mutations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post-leviathan-mutations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post-Leviathan Mutations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../equipment/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 22h-4v-1h4zm-1-12V7h-2v3l-1 1.5V20h4v-8.5zm-1-8s-1 1-1 3v1h2V5s0-2-1-3M8 22H4v-1h4zM7 10V7H5v3l-1 1.5V20h4v-8.5zM6 2S5 3 5 5v1h2V5s0-2-1-3m14 20h-4v-1h4zm-1-12V7h-2v3l-1 1.5V20h4v-8.5zm-1-8s-1 1-1 3v1h2V5s0-2-1-3"/></svg>
+  
+  <span class="md-ellipsis">
+    Equipment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vehicles/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 11H6V6h12m-1.5 11a1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5 1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5m-9 0A1.5 1.5 0 0 1 6 15.5 1.5 1.5 0 0 1 7.5 14 1.5 1.5 0 0 1 9 15.5 1.5 1.5 0 0 1 7.5 17M4 16c0 .88.39 1.67 1 2.22V20a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1h8v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1.78c.61-.55 1-1.34 1-2.22V6c0-3.5-3.58-4-8-4s-8 .5-8 4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Vehicles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gamemaster/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-7 0a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1M5 15h3.11l1.51-2.85.76 5.77 3.69-4.71L15.89 15H19v4H5zm14-1.54h-2.47l-2.6-2.6-2.49 3.19-.94-6.97-3.33 6.38H5V5h2v1h10V5h2v8.46"/></svg>
+  
+  <span class="md-ellipsis">
+    Gamemaster's Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bestiary/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23 16.06c0 .23 0 .44-.04.64-.18-2.56-2.32-4.59-4.96-4.59-.37 0-.73.05-1.08.12.04.27.08.5.08.77 0 2.35-1.69 4.32-3.93 4.81.35 2.24 2.24 3.98 4.58 4.15-.22.04-.43.04-.65.04-2.08 0-3.93-1.06-5-2.66A6 6 0 0 1 7 22c-.22 0-.43 0-.65-.04 2.34-.17 4.22-1.9 4.58-4.15C8.68 17.32 7 15.35 7 13c0-.27.04-.5.07-.77-.34-.07-.7-.12-1.07-.12a4.97 4.97 0 0 0-4.97 4.59C1 16.5 1 16.29 1 16.06c0-3.21 2.59-5.82 5.81-5.92A5.877 5.877 0 0 1 9.06 2C7.81 2.9 7 4.34 7 6c0 1.35.56 2.59 1.47 3.5.91-.91 2.15-1.46 3.53-1.46 1.37 0 2.62.55 3.5 1.46.93-.91 1.5-2.15 1.5-3.5 0-1.66-.82-3.1-2.06-4a5.877 5.877 0 0 1 2.25 8.14c3.23.1 5.81 2.71 5.81 5.92M9.27 10.11a5 5 0 0 0 5.46 0C14 9.45 13.06 9.03 12 9.03s-2 .42-2.73 1.08M12 14.47c.82 0 1.5-.67 1.5-1.47a1.5 1.5 0 0 0-1.5-1.5 1.5 1.5 0 0 0-1.5 1.5c0 .8.67 1.47 1.5 1.47m-1.03 2.32c-.1-1.89-1.26-3.5-2.92-4.24-.02.15-.05.29-.05.45 0 1.82 1.27 3.34 2.97 3.79m4.99-4.24A4.98 4.98 0 0 0 13 16.79c1.73-.45 3-1.97 3-3.79 0-.16-.03-.3-.04-.45"/></svg>
+  
+  <span class="md-ellipsis">
+    Bestiary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendix/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 12c2.5 0 4.5 2 4.5 4.5 0 .88-.25 1.71-.69 2.4l3.08 3.1L21 23.39l-3.12-3.07c-.69.43-1.51.68-2.38.68-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5m0 2a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5M13 4v8l-2.5-2.25L8 12V4H6v16h4c.54.81 1.23 1.5 2.03 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7.81c-.58-.55-1.25-1-2-1.31V4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Appendix
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tools
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digital-character-sheet/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4h-8v3h-4V4H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2M8 9a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m4 8H4v-1c0-1.33 2.67-2 4-2s4 .67 4 2zm8 1h-6v-2h6zm0-4h-6v-2h6zm0-4h-6V8h6zm-7-4h-2V2h2z"/></svg>
+  
+  <span class="md-ellipsis">
+    Digital Character Sheet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#poisons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Poisons
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Poisons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#treating-poison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Treating Poison
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#environmental-hazards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Environmental Hazards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Environmental Hazards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acids-bases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acids &amp; Bases
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fire
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conditions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conditions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#condition-severity-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Condition Severity Levels
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infection-levels-virus-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Infection Levels &amp; Virus Mode
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infection Levels &amp; Virus Mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infection-level-il" class="md-nav__link">
+    <span class="md-ellipsis">
+      Infection Level (IL)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infection Level (IL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#virus-mode-activation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Virus Mode Activation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Control Check
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adverse-effect-escalation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adverse Effect Escalation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post-transformation-drawback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post-Transformation Drawback
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transformation-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Transformation Templates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#talon-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Talon-Type
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Talon-Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abilities-traits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abilities (Traits)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attacks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#akuma-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Akuma-Type
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Akuma-Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abilities-traits_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abilities (Traits)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attacks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leviathan-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      Leviathan-Type
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Leviathan-Type">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abilities-traits_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abilities (Traits)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attacks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#special-ability-mutations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Special Ability Mutations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post-leviathan-mutations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post-Leviathan Mutations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="chapter-6-hazards-conditions-virus-mode">Chapter 6: Hazards, Conditions, &amp; Virus Mode<a class="headerlink" href="#chapter-6-hazards-conditions-virus-mode" title="Permanent link">&para;</a></h1>
+<p>There are many ways a character can come to harm, that aren't necessarily weapon related. Following are common forms of difficulties that can arise even without combat.</p>
+<p>Hazards experienced in this way can be rated by their potency, which could in turn, correspond to a relative Threat Level. The CRs against these hazards are set by the GM based on the severity of hazard, but in general, any effect that calls for a saving throw has a CR of 10 + Threat Level.</p>
+<h2 id="poisons">Poisons<a class="headerlink" href="#poisons" title="Permanent link">&para;</a></h2>
+<p>Poisons can be broken down into five categories, based on their delivery method. This could be a dose of Curare slathered onto the blade of a knife, the bite of a venomous King Cobra, or a canister of Tear Gas.</p>
+<p>All Poisons have two effects. On application of a poison, the target immediately suffers the first effect, and gains 1 Poisoned Tier. If left uncured for 5 minutes (20 rounds), the character suffers the second effect and gains another Tier. Following this, every 5 minutes the Poison has not been treated, the Poisoned Condition automatically increases another Tier.</p>
+<p>Several sample poisons, and their effects, are listed in Chapter 7: The Armory.</p>
+<dl>
+<dt><strong>Contact</strong></dt>
+<dd>A contact poison is one that delivers its effects through touch alone. On contact, the character gains one Poison Tier and makes a Constitution Saving Throw. A contact poison will have the same effects if it is ingested.</dd>
+<dt><strong>Infections</strong></dt>
+<dd>Infections are linked, primarily, to bodily injury. If a character does not have proper medical treatment after being injured, even if they rest, they must make a Constitution Saving Throw. Success on this roll means the character heals as normal. On a failure, the character immediately gains Poisoned (T1) Condition. The character makes this save at the end of every Rest, ending its progression on a success.</dd>
+<dt><strong>Ingested</strong></dt>
+<dd>Poisons that must be ingested to be dangerous are often applied to food or drink that their target may consume.</dd>
+<dt><strong>Inhaled</strong></dt>
+<dd>These poisons are those that are often gases, fumes, and other noxious substances. If the character can see the affected area (such as with a Tear Gas Grenade) then they can opt to hold their breath to move through it. Keep in mind, however, that a character can only hold their breath for so long. - refer to suffocation</dd>
+<dt><strong>Injury</strong></dt>
+<dd>Injury poisons are those that must be administered into the bloodstream to be effective. These are things like venomous snake bites and poisonous needle traps.</dd>
+</dl>
+<h3 id="treating-poison">Treating Poison<a class="headerlink" href="#treating-poison" title="Permanent link">&para;</a></h3>
+<p>A character trained in Healing, Poison Lore, or Natural Lore can identify the symptoms of poisoning on sight. Following that, they must make a Wits Action Roll CR 15 to identify the poison. As long as they have crafting material, the character may then make a Healing Action Roll CR 11 to craft and administer the correct anti-toxin. When a character receives the anti-toxin, all of their Poisoned Tiers are removed, one Tier per Rest.</p>
+<h2 id="environmental-hazards">Environmental Hazards<a class="headerlink" href="#environmental-hazards" title="Permanent link">&para;</a></h2>
+<dl>
+<dt><strong>Acids and Bases</strong></dt>
+<dd>These are caustic chemicals that can cause burns and scarring. They tend to be somewhat viscous, sticking to the body unless thoroughly washed away.</dd>
+<dd>Acid and Basic chemicals come in levels of potency, with each potency dealing different amounts of damage per round, at the beginning of the affected character's turn, depending on whether it's splashed on or the subject of it is immersed. As a general rule, the immersion damage is ten times the amount of splash damage at the same potency.</dd>
+</dl>
+<h4 id="acids-bases">Acids &amp; Bases<a class="headerlink" href="#acids-bases" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Threat Tier</th>
+<th style="text-align: center;">Potency</th>
+<th style="text-align: center;">Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Low</td>
+<td style="text-align: center;">Mild</td>
+<td style="text-align: center;">1/10</td>
+</tr>
+<tr>
+<td style="text-align: center;">Moderate</td>
+<td style="text-align: center;">Corrosive</td>
+<td style="text-align: center;">2/20</td>
+</tr>
+<tr>
+<td style="text-align: center;">High</td>
+<td style="text-align: center;">Potent</td>
+<td style="text-align: center;">3/30</td>
+</tr>
+<tr>
+<td style="text-align: center;">Nightmare</td>
+<td style="text-align: center;">Concentrated</td>
+<td style="text-align: center;">4/40</td>
+</tr>
+</tbody>
+</table>
+<dl>
+<dt><strong>Extreme Cold</strong></dt>
+<dd>With preparation, a character can generally go some time in sub-zero environments. But there's only so many layers a person can put on. And there's only so long those layers will last in a blizzard.</dd>
+<dd>After an hour of exposure to Extreme Cold, whether by their equipment failing or simply being unprepared, the character must make a Constitution Saving Throw CR 8. This CR increases by 2 for every additional hour of exposure. On a failed save, the character gains the Slowed Condition. The following hour, if still in the elements, the character makes another Constitution Saving Throw with the same progression as above, gaining the Hypothermic Condition on a failure. A character who has not found shelter for an additional hour falls Prone and Helpless.</dd>
+<dt><strong>Extreme Heat</strong></dt>
+<dd>A character may find themselves in a desert op, or a factory or forge at some point. Either way, in similar fashion to an Extreme Cold environment, a character entering an Extreme Heat environment, should they have protection, can last longer than one who's unprepared.</dd>
+<dd>After an hour of exposure to Extreme Heat, whether by failing equipment or a lack of preparation, the character must make a Constitution Saving Throw CR 8. This CR increases by 2 for every additional hour of exposure. On a failed save, the character gains Winded Condition. The following hour, if still in the Extreme Heat environment, the character makes another Constitution Saving Throw with the same progression as above, gaining the Overheated Condition on a failure. A character who has not found a way to cool off after an additional hour falls Prone and Helpless.</dd>
+<dt><strong>Falling/Impact</strong></dt>
+<dd>Should the character be struck by falling debris, or they are the debris, they may take damage depending on the situation.</dd>
+<dd>On an Impact due to structural collapse, or other such events, the struck character takes damage equal to the AP of the falling item, adding +1 Damage for each size category larger it is than the character. Subtracting -1 Damage for each size category smaller than the character.</dd>
+<dd>As for falling, a character who falls from a significant height may suffer damage depending on how far they fall. The character takes 1 Bludgeoning Damage for every 3 yards fallen, to a maximum of 10, in addition to damage equal to the AP Value of the material they fall onto. A character can attempt a Reflexes Saving Throw CR 10 +1 for every 3 yards fallen, success removing the material amount from the damage taken.</dd>
+<dt><strong>Fire</strong></dt>
+<dd>Similar to how Acids &amp; Bases work, fires deal damage based on their size and severity. Whether this is due to direct contact or fire-related injuries such as smoke inhalation, a fire can be dangerous, even for a regenerating character. A Scalding or higher tier fire directly contacted will cause the character to gain the Burning Condition, along with suffering the damage of the fire itself.</dd>
+</dl>
+<h4 id="fire">Fire<a class="headerlink" href="#fire" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Threat Tier</th>
+<th style="text-align: center;">Severity</th>
+<th style="text-align: center;">Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Low</td>
+<td style="text-align: center;">Singing</td>
+<td style="text-align: center;">1/10</td>
+</tr>
+<tr>
+<td style="text-align: center;">Moderate</td>
+<td style="text-align: center;">Scalding</td>
+<td style="text-align: center;">2/20</td>
+</tr>
+<tr>
+<td style="text-align: center;">High</td>
+<td style="text-align: center;">Searing</td>
+<td style="text-align: center;">3/30</td>
+</tr>
+<tr>
+<td style="text-align: center;">Nightmare</td>
+<td style="text-align: center;">Destructive</td>
+<td style="text-align: center;">4/40</td>
+</tr>
+</tbody>
+</table>
+<dl>
+<dt><strong>Suffocation/Drowning</strong></dt>
+<dd>Sometimes, the danger is simply not having enough oxygen. A character can hold their breath for a number of rounds equal to their Constitution Ability. Every round following this time requires a Constitution Saving Throw CR 8 +1 for every additional round. Failure on this save causes the character to take their Constitution Ability in Damage that ignores AP from all sources.</dd>
+<dd>If a character has time to prepare, the number of rounds they can hold their breath before having to make saving throws is extended by an amount equal to their Might Ability.</dd>
+</dl>
+<h2 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">&para;</a></h2>
+<p>Throughout a game, it is possible to suffer from a number of debilitating Conditions, which are covered in this section. Conditions can be the result of environmental factors, but can also be caused by damage. All effects from Conditions occur at the start of the affected character's turn. Following is a list of potential effects a character might encounter in any given game, sorted by severity and duration. Unless otherwise stated, values among Tiers don't stack. The character simply suffers the worst Tier they are affected by.</p>
+<h4 id="condition-severity-levels">Condition Severity Levels<a class="headerlink" href="#condition-severity-levels" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Tier: Effective Threat Level</th>
+<th style="text-align: center;">Severity</th>
+<th style="text-align: center;">Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1: Trivial</td>
+<td style="text-align: center;">Minor Inconvenience</td>
+<td style="text-align: center;">Ends at the start of the attacking character's next turn or after 1 minute (4 rounds).</td>
+</tr>
+<tr>
+<td style="text-align: center;">2: Low</td>
+<td style="text-align: center;">Mild Debilitation</td>
+<td style="text-align: center;">Ends after 1 minute (4 rounds) or a Breather.</td>
+</tr>
+<tr>
+<td style="text-align: center;">3: Moderate</td>
+<td style="text-align: center;">Noticeable Impairment</td>
+<td style="text-align: center;">Requires Medical Treatment and/or a Rest.</td>
+</tr>
+<tr>
+<td style="text-align: center;">4: High</td>
+<td style="text-align: center;">Severe Hindrance</td>
+<td style="text-align: center;">Requires Medical Intervention and/or extended downtime.</td>
+</tr>
+<tr>
+<td style="text-align: center;">5: Nightmare</td>
+<td style="text-align: center;">Catastrophic</td>
+<td style="text-align: center;">Permanent or requires extreme Medical Intervention</td>
+</tr>
+</tbody>
+</table>
+<!-- prettier-ignore -->
+<div class="admonition warning">
+<p class="admonition-title">Sudden Death</p>
+<p>If a character gains 10 or more Condition Markers, in any combination, their body could potentially go into shock, killing them. At the 10th Marker, players roll a Constitution Saving Throw CR 10, adding +1 to the Save for every additional Marker over the 10th.</p>
+</div>
+<blockquote>
+<p>Revision needed beyond this point.</p>
+</blockquote>
+<h2 id="infection-levels-virus-mode">Infection Levels &amp; Virus Mode<a class="headerlink" href="#infection-levels-virus-mode" title="Permanent link">&para;</a></h2>
+<p>As a Nomad, you have a strain of the Nano-Virus flowing through your bloodstream. It might give you an edge. Or it might be your downfall.</p>
+<p>This section outlines the <strong>risks and rewards</strong> of embracing your infection through <strong>Virus Mode</strong>—a temporary state that enhances your capabilities at the cost of control.</p>
+<hr />
+<h3 id="infection-level-il">Infection Level (IL)<a class="headerlink" href="#infection-level-il" title="Permanent link">&para;</a></h3>
+<p>At character creation, a Nomad starts at <strong>Infection Level 0</strong>. From there, you may increase your Infection Level by spending Survivor Points (or via narrative developments).</p>
+<p>Each new level grants:</p>
+<ul>
+<li>A <strong>floating pool of Ability Score points</strong> (usable only during Virus Mode).</li>
+<li><strong>1 Mutation per level</strong>, rolled randomly, or chosen secretly by the GM.</li>
+</ul>
+<p>Each new level also requires the player to make an immediate Control Check.</p>
+<p>Ability Score Points can only be distributed once per activation.</p>
+<hr />
+<h4 id="virus-mode-activation">Virus Mode Activation<a class="headerlink" href="#virus-mode-activation" title="Permanent link">&para;</a></h4>
+<p>Virus Mode can be activated:</p>
+<!-- prettier-ignore -->
+<ul>
+<li><strong>Voluntarily</strong>, as a Free Action (once per Rest)</li>
+<li><strong>Involuntarily</strong>, if:<ul>
+<li>You enter the <strong>Dying state</strong> and have <strong>Regeneration</strong> or receive <strong>Healing</strong>.</li>
+<li>You are suffering <strong>both Confusion (T3)</strong> and <strong>Enraged (T3)</strong></li>
+<li>The GM deems it appropriate (trauma, overwhelming stress, etc.)</li>
+</ul>
+</li>
+</ul>
+<hr />
+<div class="container">
+  <div class="content-box">
+
+<table style="text-align:center;">
+<thead>
+<tr>
+<th colspan="5">Virus Mode Overview</th>
+</tr>
+<tr>
+<th>IL</th>
+<th>Transformation</th>
+<th>Ability Bonus</th>
+<th>Mutations</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1–5</td>
+<td>Talon</td>
+<td>+1</td>
+<td>1 per Level</td>
+<td>1 minute (4 rounds)</td>
+</tr>
+<tr>
+<td>6–8</td>
+<td>Akuma</td>
+<td>+2</td>
+<td>1 per Level</td>
+<td>1 minute (4 rounds)</td>
+</tr>
+<tr>
+<td>9–10</td>
+<td>Leviathan</td>
+<td>+3</td>
+<td>1 per Level</td>
+<td>2 minutes (8 rounds)</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+
+<hr />
+<h4 id="control-check">Control Check<a class="headerlink" href="#control-check" title="Permanent link">&para;</a></h4>
+<p>Each time you activate Virus Mode, make a <strong>Willpower Save</strong>:</p>
+<blockquote>
+<p><strong>CR = 8 + Infection Level</strong></p>
+</blockquote>
+<p>A <strong>success</strong> means you're in full control.<br />
+A <strong>failure</strong> begins a chain of <strong>adverse effects</strong>.<br />
+Only <strong>one success</strong> is needed to halt escalation.</p>
+<hr />
+<h4 id="adverse-effect-escalation">Adverse Effect Escalation<a class="headerlink" href="#adverse-effect-escalation" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Failure Count</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1st Failure</td>
+<td>Gain <strong>Confused (T4)</strong></td>
+</tr>
+<tr>
+<td>2nd Failure</td>
+<td>Also gain <strong>Enraged (T4)</strong></td>
+</tr>
+<tr>
+<td>3rd Failure</td>
+<td>Trigger <strong>Forced Transformation</strong> (<em>unless IL 9 or higher</em>)</td>
+</tr>
+</tbody>
+</table>
+<p>If a character below IL 9 transforms, they become <strong>permanently unplayable</strong>—a bioweapon NPC.</p>
+<p>Leviathan characters may <strong>bypass the Control Check</strong>, and can end Virus Mode early with a Major Action, once each per Rest.</p>
+<hr />
+<h4 id="post-transformation-drawback">Post-Transformation Drawback<a class="headerlink" href="#post-transformation-drawback" title="Permanent link">&para;</a></h4>
+<p>Virus Mode does not end cleanly.</p>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>End Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Talon/Akuma</strong></td>
+<td>After 1 minute (4 rounds), Virus Mode ends. Roll the <strong>Chance Die</strong>. The total becomes the number of <strong>Condition Tiers</strong> applied to your character. These last for <strong>10 minutes</strong> unless worsened.</td>
+</tr>
+<tr>
+<td><strong>Leviathan</strong></td>
+<td>After 2 minutes (8 rounds), or upon voluntarily ending it, roll the <strong>Chance Die</strong> and halve the result. Apply that number of <strong>Condition Tiers</strong>. These last for <strong>5 minutes</strong> unless worsened.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<!-- prettier-ignore -->
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Transformation at Infection Levels below 9 results in permanent character loss. Use Virus Mode carefully. High power carries high consequence.</p>
+</div>
+<!-- prettier-ignore -->
+<details class="tip">
+<summary>GM Tip - Virus Mode</summary>
+<p><strong>GM Tip:</strong> Virus Mode is a power spike. It’s meant to feel overwhelming—like lighting yourself on fire to burn down the battlefield. But it could also be your best chance when everything is falling apart.</p>
+<p>Encourage it. Punish carelessness. Reward bravery. And never forget: control is earned, not given.</p>
+</details>
+<h3 id="transformation-templates">Transformation Templates<a class="headerlink" href="#transformation-templates" title="Permanent link">&para;</a></h3>
+<dl>
+<dd>If a character loses control and transforms, the GM will use the following templates to determine their mutated state. These reflect raw, unstable mutations tailored to the character's Infection Level.</dd>
+</dl>
+<hr />
+<h3 id="talon-type">Talon-Type<a class="headerlink" href="#talon-type" title="Permanent link">&para;</a></h3>
+<h4 id="abilities-traits">Abilities (Traits)<a class="headerlink" href="#abilities-traits" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th>Trait</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+1</td>
+<td>Might</td>
+</tr>
+<tr>
+<td>+1</td>
+<td>Reflexes</td>
+</tr>
+<tr>
+<td>+1</td>
+<td>Constitution</td>
+</tr>
+<tr>
+<td>–2</td>
+<td>Wits</td>
+</tr>
+<tr>
+<td>–2</td>
+<td>Willpower</td>
+</tr>
+<tr>
+<td>–2</td>
+<td>Perception</td>
+</tr>
+</tbody>
+</table>
+<h4 id="attacks">Attacks<a class="headerlink" href="#attacks" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Attack Roll</th>
+<th>Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bone Claw</td>
+<td>+1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="akuma-type">Akuma-Type<a class="headerlink" href="#akuma-type" title="Permanent link">&para;</a></h3>
+<h4 id="abilities-traits_1">Abilities (Traits)<a class="headerlink" href="#abilities-traits_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th>Trait</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+2</td>
+<td>Might (Martial Arts)</td>
+</tr>
+<tr>
+<td>+2</td>
+<td>Reflexes</td>
+</tr>
+<tr>
+<td>+2</td>
+<td>Constitution</td>
+</tr>
+<tr>
+<td>–1</td>
+<td>Wits</td>
+</tr>
+<tr>
+<td>–1</td>
+<td>Willpower</td>
+</tr>
+<tr>
+<td>–1</td>
+<td>Perception</td>
+</tr>
+</tbody>
+</table>
+<h4 id="attacks_1">Attacks<a class="headerlink" href="#attacks_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Attack Roll</th>
+<th>Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bone Claw</td>
+<td>+2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="leviathan-type">Leviathan-Type<a class="headerlink" href="#leviathan-type" title="Permanent link">&para;</a></h3>
+<h4 id="abilities-traits_2">Abilities (Traits)<a class="headerlink" href="#abilities-traits_2" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th>Trait</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+3</td>
+<td>Might (Martial Arts)</td>
+</tr>
+<tr>
+<td>+3</td>
+<td>Reflexes</td>
+</tr>
+<tr>
+<td>+3</td>
+<td>Constitution</td>
+</tr>
+<tr>
+<td>+3</td>
+<td>Wits</td>
+</tr>
+<tr>
+<td>+3</td>
+<td>Willpower</td>
+</tr>
+<tr>
+<td>+3</td>
+<td>Perception</td>
+</tr>
+</tbody>
+</table>
+<h4 id="attacks_2">Attacks<a class="headerlink" href="#attacks_2" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Attack Roll</th>
+<th>Damage</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unarmed Attack</td>
+<td>+3</td>
+<td>5</td>
+<td>Armor-Piercing</td>
+</tr>
+</tbody>
+</table>
+<h3 id="special-ability-mutations">Special Ability Mutations<a class="headerlink" href="#special-ability-mutations" title="Permanent link">&para;</a></h3>
+<dl>
+<dt><strong>Acute Reflexes</strong></dt>
+<dd>Gain +2 to Defense per instance of this Mutation (max +10).</dd>
+<dt><strong>Adrenal Surge</strong></dt>
+<dd>Gain +1 additional Minor <em>and</em> Major Action per round per instance (max +5 each).</dd>
+<dt><strong>Aggressive Adaptation</strong></dt>
+<dd>For each target you successfully hit during Virus Mode, reduce one active Condition by 1 Tier (max once per round)</dd>
+<dt><strong>Analytical Senses</strong></dt>
+<dd>Detect nearby infected creatures. Range = 10 yards × number of instances (max 100 yards).</dd>
+<dd>You may ask 1 question per instance (max 5). These must be answered truthfully and pertain to:</dd>
+</dl>
+<ul>
+<li>Approximate location</li>
+<li>Infection Level</li>
+<li>General health</li>
+<li>Ability Scores</li>
+</ul>
+<!-- prettier-ignore -->
+<div class="admonition note">
+<p class="admonition-title">NOTE</p>
+<p>This is not telepathy. Emotional state can be inferred, but not surface thoughts.</p>
+</div>
+<dl>
+<dt><strong>Cognitive Shielding</strong></dt>
+<dd>Each instance allows you to ignore the Confused or Enraged Condition for 1 Round.</dd>
+</dl>
+<!-- prettier-ignore -->
+<div class="admonition note">
+<p class="admonition-title">NOTE</p>
+<p>This ability can be used in and out of Virus Mode.</p>
+</div>
+<dl>
+<dt><strong>Combat Instincts</strong></dt>
+<dd>Gain +2 to Initiative per instance (max +10).</dd>
+<dt><strong>Enhanced Durability</strong></dt>
+<dd>Gain ×0.5 multiplier to Health per instance (cumulative).</dd>
+<dd>On the fifth instance, the multiplier becomes ×4 total.</dd>
+</dl>
+<!-- prettier-ignore -->
+<div class="admonition note">
+<p class="admonition-title">NOTE</p>
+<p>This only applies during Virus Mode.</p>
+</div>
+<dl>
+<dt><strong>Enhanced Senses</strong></dt>
+<dd>Gain +2 to Perception Action Rolls per instance (max +10).</dd>
+<dt><strong>Enhanced Speed</strong></dt>
+<dd>Gain +2 yards of movement speed per instance (max +10).</dd>
+<dt><strong>Enhanced Strength</strong></dt>
+<dd>Gain +2 to all Melee Damage rolls per instance (max +10).</dd>
+<dt><strong>Hardened Skin</strong></dt>
+<dd>Gain +2 Armor Protection per instance (max +10), regardless of worn armor.</dd>
+<dt><strong>Regeneration</strong></dt>
+<dd>Regain (5 + Constitution) Health per minute. Reduce interval by 1 round (15 seconds) per instance (min 1 round).</dd>
+</dl>
+<!-- prettier-ignore -->
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><em>Outside of Virus Mode</em>: Regain HP every 12 hours, reduced by 2 hours per instance (min 2 hours).</p>
+</div>
+<h3 id="post-leviathan-mutations">Post-Leviathan Mutations<a class="headerlink" href="#post-leviathan-mutations" title="Permanent link">&para;</a></h3>
+<p>These mutations can only be gained after a character has reached Infection Level 9 or higher.</p>
+<dl>
+<dt><strong>Flare</strong></dt>
+<dd>Once per rest, you may instantly trigger full Virus Mode for 1 round as a Free Action.</dd>
+<dd>This activation does not require a transformation check and does not count against your normal Virus Mode usage.</dd>
+<dd>After this flare, Virus Mode ends automatically, and you suffer 2 random Tier 2 Conditions.</dd>
+<dt><strong>Instinct Override</strong></dt>
+<dd>Your physical body adapts to any threat without conscious input. Outside of Virus Mode, gain a +1 to all Saving Throws. While Virus Mode is active, this bonus increases to a +2. Additionally, once per Rest, you can declare a failed Save as a success instead. (<em>You must declare this after rolling but before consequences are applied.</em>)</dd>
+<dt><strong>Low Pulse</strong></dt>
+<dd>Your Virus Mode effects are passively active at half strength.</dd>
+<dd>You can attempt an opposed roll: Infection Level + 3d6 vs. enemy Perception (Analytical Senses) to remain hidden.</dd>
+<dt><strong>Neural Overrun</strong></dt>
+<dd>You can spend 1 Major Action to hijack the nervous system of a creature within 10 yards that you can accurately perceive. The target makes a Willpower Saving Throw (CR 10 + your Infection Level). On a failure, they suffer the Fear Condition (T3) for 1 Round, and Bleeding Condition (T2) for 1 minute (4 Rounds).</dd>
+<dt><strong>Perfect Symbiosis</strong></dt>
+<dd>You are immune to the Confused and Enraged Conditions while in Virus Mode. If your Virus Mode would force a Transformation, you can choose whether or not to allow it.</dd>
+<dt><strong>Superior Adaptation</strong></dt>
+<dd>Whenever you suffer a Condition, roll your Chance Die. On a 4 or above, you become immune to that Condition until the end of your next Rest.</dd>
+<dt><strong>Virus Manipulation</strong></dt>
+<dd>Once per rest, you may influence another character's use of Virus Mode, granting either a Major Advantage (+5) or Major Disadvantage (-5) to one of their Adverse Effect Rolls.</dd>
+<dt><strong>Worldbreaker's Howl</strong></dt>
+<dd>Once per Virus Mode activation, you can release a primal scream. All creatures within 10 yards that can see and hear you must make a Willpower Saving Throw (CR 12 + your Infection Level) or suffer the Fear Condition (T2) for 1 minute. Failure by 5 or more adds the Stunned Condition (T3). Failure by 10 or more additionally adds the Fatigue Condition (T4).</dd>
+</dl>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.expand", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

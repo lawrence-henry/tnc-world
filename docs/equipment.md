@@ -813,7 +813,7 @@ For assault with a weapon no one thought could be deadly, but unfortunately was.
 
 <!-- prettier-ignore -->
 !!!info "Reload Boxes"
-**Note:** Each Ammunition purchase refreshes a single Reload box for the weapon type indicated.
+    **Note:** Each Ammunition purchase refreshes a single Reload box for the weapon type indicated.
 
 ### Archaic Ranged Weapons
 
@@ -889,16 +889,16 @@ There are a few special rules when dealing with firearms. As they are complex me
 
 ### Small-Arms
 
-|Weapon|Damage|Ammo| Min. Perception |RP Cost | Units |Notes|
-|:----:|:----:|:--:|:--:|:-------:|:---:|:--:|
-|Revolver | 3 | 5 | 2 | 10 | 2 | Reliable, Single Shot|
-|Compact Pistol | 3 | 9 | 0 |10| 1 | Concealable, Quick Draw |
-|Light Pistol | 4 | 12 | 1 |12| 2 | - |
-|Custom Pistol | 4 | 15 | 3 | 20 | 2 | Precise, CP Boost|
-|Machine Pistol | 3 | 30 | 2 | 35 | 2 | Auto-Fire, Spray, Unreliable|
-|Submachine Gun | 3 | 50 | 3 | 25 | 2 | Select Fire, Two-Handed|
-|Heavy Pistol | 8 | 8 | 3 | 30 | 2 | Armor-Piercing, High Caliber|
-|Taser Pistol | 2 | 2 | 1 | 15 | 2 | Ionic, Single Shot |
+|     Weapon     | Damage | Ammo | Min. Perception | RP Cost | Units |            Notes             |
+| :------------: | :----: | :--: | :-------------: | :-----: | :---: | :--------------------------: |
+|    Revolver    |   3    |  5   |        2        |   10    |   2   |    Reliable, Single Shot     |
+| Compact Pistol |   3    |  9   |        0        |   10    |   1   |   Concealable, Quick Draw    |
+|  Light Pistol  |   4    |  12  |        1        |   12    |   2   |              -               |
+| Custom Pistol  |   4    |  15  |        3        |   20    |   2   |      Precise, CP Boost       |
+| Machine Pistol |   3    |  30  |        2        |   35    |   2   | Auto-Fire, Spray, Unreliable |
+| Submachine Gun |   3    |  50  |        3        |   25    |   2   |   Select Fire, Two-Handed    |
+|  Heavy Pistol  |   8    |  8   |        3        |   30    |   2   | Armor-Piercing, High Caliber |
+|  Taser Pistol  |   2    |  2   |        1        |   15    |   2   |      Ionic, Single Shot      |
 
 ##### Revolver
 
@@ -1146,181 +1146,192 @@ _Note:_ For a 6-cylinder revolver, increase RP cost by 5
 
 ## Explosives
 
-| Explosives | Damage | Min. Wits | Cost | Notes |
-|:----------:|:----------:|:----------:|:----:|:-----:|
-| C-4 (1 pound) | 4 Blast | 4 | 25  | Shapeable, Stable, Destructive|
-| Det-Cord        | 2 Fire + 2 Blast | 0 | 2 | Shapeable, Stable |
-| Dynamite        | 6 Blast | 4 | 10 | Unstable, Destructive |
-| Grenade (Concussion) | 2 Bludgeoning | 1 | 5 | Knockdown, Stun, Timed |
-| Grenade (Bean Bag) | 5 Bludgeoning | 2 | 8 | Knockdown, Non-Lethal
-| Grenade (Nitrogen) | 6 Cold | 3 | 5 | Hypothermic|
-| Grenade (Acid) | 6 Acid | 4 | 5 | Burn |
-| Grenade (Foam) | 0 | 2 | 8 | Sticky |
-| Grenade (Smoke) | 0 | 0 | 8 | Concealment, Color-Code |
-| Grenade (EMP)   | 0 | 0 | 20 | Blind, Ion Blast  |
-| Grenade (Flash) | 0 | 0 | 10 | Blind, Sensory Impairment (T4:Deafen) |
-| Grenade (Fragmentation)| 4 Blast + 2 Slashing | 3 | 20 | Bleed (T2), Timed |
-| Grenade (Improvised) | 3 Slashing + 2 Blast | 4 | 15 | Bleed (T4), Unstable |
-| Grenade (Teargas) | 0 | 0 | 15 | Spread, Nauseate, Suffocate |
-| Mine (Claymore) | 3 Blast + 3 Slashing | 4 | 25 | Directional, Bleed (T5) |
-| Mine (EMP) | 0 | 0 | 25 | Directional, Blind, Ion Blast|
-| Molotov Cocktail | 3 Fire | 2 | 8 | Splash x2, Burn |
-| Sticky Bomb | 5 Blast | 5 | 30 | Sticky, Timed x2 |
-| Thermite Charge | 10 Fire  | 5 | 30 | Sticky, Burning, Destructive |
-
-
+|       Explosives        |        Damage        | Min. Wits | Cost |                 Notes                 |
+| :---------------------: | :------------------: | :-------: | :--: | :-----------------------------------: |
+|      C-4 (1 pound)      |       4 Blast        |     4     |  25  |    Shapeable, Stable, Destructive     |
+|        Det-Cord         |   2 Fire + 2 Blast   |     0     |  2   |           Shapeable, Stable           |
+|        Dynamite         |       6 Blast        |     4     |  10  |         Unstable, Destructive         |
+|  Grenade (Concussion)   |    2 Bludgeoning     |     1     |  5   |        Knockdown, Stun, Timed         |
+|   Grenade (Bean Bag)    |    5 Bludgeoning     |     2     |  8   |         Knockdown, Non-Lethal         |
+|   Grenade (Nitrogen)    |        6 Cold        |     3     |  5   |              Hypothermic              |
+|     Grenade (Acid)      |        6 Acid        |     4     |  5   |                 Burn                  |
+|     Grenade (Foam)      |          0           |     2     |  8   |                Sticky                 |
+|     Grenade (Smoke)     |          0           |     0     |  8   |        Concealment, Color-Code        |
+|      Grenade (EMP)      |          0           |     0     |  20  |           Blind, Ion Blast            |
+|     Grenade (Flash)     |          0           |     0     |  10  | Blind, Sensory Impairment (T4:Deafen) |
+| Grenade (Fragmentation) | 4 Blast + 2 Slashing |     3     |  20  |           Bleed (T2), Timed           |
+|  Grenade (Improvised)   | 3 Slashing + 2 Blast |     4     |  15  |         Bleed (T4), Unstable          |
+|    Grenade (Teargas)    |          0           |     0     |  15  |      Spread, Nauseate, Suffocate      |
+|     Mine (Claymore)     | 3 Blast + 3 Slashing |     4     |  25  |        Directional, Bleed (T5)        |
+|       Mine (EMP)        |          0           |     0     |  25  |     Directional, Blind, Ion Blast     |
+|    Molotov Cocktail     |        3 Fire        |     2     |  8   |            Splash x2, Burn            |
+|       Sticky Bomb       |       5 Blast        |     5     |  30  |           Sticky, Timed x2            |
+|     Thermite Charge     |       10 Fire        |     5     |  30  |     Sticky, Burning, Destructive      |
 
 :
+
 ##### C-4 (1 pound)
-**Damage:**  4 Blast
-**Radius:**  2 yards per ounce
-**Save:**  Reflexes CR 12
-**Special Properties:**  Shapeable, Stable, Destructive
+
+**Damage:** 4 Blast
+**Radius:** 2 yards per ounce
+**Save:** Reflexes CR 12
+**Special Properties:** Shapeable, Stable, Destructive
 
 Explodes in a radius of 2 yards per ounce. Can be reshaped to change the shape of the area of effect, using a Wits (Explosives) Action Roll CR 12. This reshaping cannot be attempted by any character without the Wits (Explosives) Expertise. The Damage of C-4 gains a +3 cumulative bonus for every pound added.
 
 ##### Det-Cord (4 yards)
-**Damage:**  2 Fire + 2 Blast
-**Radius:**  N/A
-**Save:**  N/A
-**Special Properties:**  Shapeable, Stable
+
+**Damage:** 2 Fire + 2 Blast
+**Radius:** N/A
+**Save:** N/A
+**Special Properties:** Shapeable, Stable
 
 A replacement for cloth wicks, this cord resembles a yellow nylon rope. Within it is a stable blasting agent for use as an explosive, or to activate C-4 from a distance. Lengths of Det-Cord can be connected for more distance from the eventual explosion.
 
 ##### Dynamite
-**Damage:**  6 Blast (Unstable, Destructive)
-**Radius:**  4 yards
-**Save:**  Reflexes CR 14
-**Special Properties:**  Unstable, Destructive
+
+**Damage:** 6 Blast (Unstable, Destructive)
+**Radius:** 4 yards
+**Save:** Reflexes CR 14
+**Special Properties:** Unstable, Destructive
 
 Explodes in a 4-yard radius. A staple explosive from years gone by, Dynamite tends to be prone to shock. If it's been wet or exposed to the natural elements for an extended period of time after being made, it can occasionally go off randomly without warning.
 
 ##### Grenade (Concussion)
-**Damage:**  2 Bludgeoning
-**Radius:**  6 yards
-**Save:**  Constitution CR 13
-**Special Properties:**  Knockdown, Stun, Timed
+
+**Damage:** 2 Bludgeoning
+**Radius:** 6 yards
+**Save:** Constitution CR 13
+**Special Properties:** Knockdown, Stun, Timed
 
 Explodes in a 6-yard radius. A less lethal option, ideal for capturing and detaining, as opposed to outright elimination. Targets damaged by this weapon must make a Constitution Saving Throw CR 13. If failed, this weapon applies the Stunned and Prone Conditions.
 
 ##### Grenade (Bean Bag)
-**Damage:**  5 Bludgeoning
-**Save:**  Constitution CR 12
+
+**Damage:** 5 Bludgeoning
+**Save:** Constitution CR 12
 
 Deals damage to a single target. The target must make a CR 12 Constitution Saving Throw or become Stunned.
 
 ##### Grenade (Nitrogen)
-**Damage:**  6 Cold
-**Radius:**  6 yards
-**Save:**  Reflexes CR 14
+
+**Damage:** 6 Cold
+**Radius:** 6 yards
+**Save:** Reflexes CR 14
 
 Explodes in a 6 yard radius. Any creatures caught in the blast must make a Reflexes Saving Throw CR 15 or suffer the Hypothermic Condition.
 
-
-
-
 ##### Grenade (Acid)
-**Damage:**  6 Acid
-**Radius:**  5 yards
+
+**Damage:** 6 Acid
+**Radius:** 5 yards
 
 Explodes in a 5 yard radius. Any creatures caught in the splash of chemicals takes 5 Acid damage on the first round, then continues taking 3 Acid damage for the following 3 rounds.
 
 ##### Grenade (Foam)
-**Damage:**  0
-**Radius:**  6 yards
-**Save:**  Might CR 15
+
+**Damage:** 0
+**Radius:** 6 yards
+**Save:** Might CR 15
 
 Explodes in a 4 yard radius, foaming up then quickly hardening. Targets hit must make a Might Saving Throw CR 15 or gain the Entangled Condition.
 
-
 ##### Grenade (Smoke)
-**Damage:**  0
-**Radius:**  5 yard column
-**Save:**  N/A
-**Special Properties:**  Spread, Concealment, Color-Code
+
+**Damage:** 0
+**Radius:** 5 yard column
+**Save:** N/A
+**Special Properties:** Spread, Concealment, Color-Code
 
 Releases opaque smoke in up to a 5-yard wide column for up to 1d6+1 minutes. Can be color-coded for tactical communications.
 
 ##### Grenade (EMP)
-**Damage:**  0
-**Radius:**  10 yard
-**Save:**  Reflexes CR 10
-**Special Properties:**  Blind, Ion Blast, Timed
+
+**Damage:** 0
+**Radius:** 10 yard
+**Save:** Reflexes CR 10
+**Special Properties:** Blind, Ion Blast, Timed
 
 Explodes in a 10-yard radius. This radius goes through walls and other solid objects, disrupting electronics in its area. Targets that can see this weapon when it explodes must make a Reflexes Saving Throw CR 10 or be blinded until the end of their next turn.
 
 ##### Grenade (Flash)
-**Damage:**  0
-**Radius:**  10 yards
-**Save:**  Wits CR 14
-**Special Properties:**  Blind, Deafen, Timed
+
+**Damage:** 0
+**Radius:** 10 yards
+**Save:** Wits CR 14
+**Special Properties:** Blind, Deafen, Timed
 
 Explodes in a 10-yard radius. Targets within that range that can see and/or hear the explosion must make a Wits Saving Throw CR 14, or gain the Blinded and/or Deafened Conditions.
 
 ##### Grenade (Fragmentation)
-**Damage:**  3 Blast + 2 Slashing
-**Radius:**  6 yards
-**Save:**  Reflexes CR 13
-**Special Properties:**  Bleed (T2), Timed
+
+**Damage:** 3 Blast + 2 Slashing
+**Radius:** 6 yards
+**Save:** Reflexes CR 13
+**Special Properties:** Bleed (T2), Timed
 
 Explodes in a 6-yard radius. Targets damaged by this weapon must make a Reflexes Saving Throw CR 13. If successful, they take half damage. If they fail, this weapon applies two instances of the Bleeding Condition.
 
 ##### Grenade (Improvised)
-**Damage:**  3 Slashing + 2 Blast
-**Radius:**  4 yards
-**Save:**  Reflexes CR 15
-**Special Properties:**  Bleed (T4), Unstable, Timed
+
+**Damage:** 3 Slashing + 2 Blast
+**Radius:** 4 yards
+**Save:** Reflexes CR 15
+**Special Properties:** Bleed (T4), Unstable, Timed
 
 A metal shell with a homemade explosive compound inside. This weapon explodes in a 4-yard radius. Targets damaged by this weapon must make a Reflexes Saving Throw CR 15. If successful, they take half damage. If they fail, this weapon applies 4 instances of the Bleeding Condition.
 
 ##### Grenade (Teargas)
-**Damage:**  0
-**Radius:**  4 yards + 1 yard per turn (max 10 yards)
-**Save:**  Constitution CR 17
-**Special Properties:**  Spread, Nauseate, Suffocate
+
+**Damage:** 0
+**Radius:** 4 yards + 1 yard per turn (max 10 yards)
+**Save:** Constitution CR 17
+**Special Properties:** Spread, Nauseate, Suffocate
 
 Starting at a 4-yard radius, the gas from this weapon spreads 1-yard per turn, up to 10 yards. This gas spreads through cracks and around corners to reach its full size. A sufficiently strong wind may dissipate it. Targets exposed to this gas must make a Constitution Saving Throw CR 17 or gain the Nauseated and Suffocation Conditions. If they leave the gas, the Suffocation Condition ends at the start of their following turn.
 
 ##### Mine (Claymore)
-**Damage:**  3 Blast + 3 Slashing
-**Radius:**  6 yard cone
-**Save:**  Reflexes CR 15
-**Special Properties:**  Bleed (T5), Directional
+
+**Damage:** 3 Blast + 3 Slashing
+**Radius:** 6 yard cone
+**Save:** Reflexes CR 15
+**Special Properties:** Bleed (T5), Directional
 
 Can be set with a Wits (Explosives) Action Roll CR 12. Can be disarmed with a Wits (Explosives) Action Roll CR 14. The front of this weapon explodes in a 6-yard cone. Targets damaged by this weapon must make a Reflexes Saving Throw CR 15. If successful, they take half damage. If they fail, this weapon applies 5 instances of the Bleeding Condition.
 
-
-
-
 ##### Mine (EMP)
-**Damage:**  0
-**Radius:**  10 yard cone
-**Save:**  Reflexes CR 10
-**Special Properties:**  Ion Blast
+
+**Damage:** 0
+**Radius:** 10 yard cone
+**Save:** Reflexes CR 10
+**Special Properties:** Ion Blast
 
 Can be set with a Wits (Explosives) Action Roll CR 12. Can be disarmed with a Wits (Explosives) Action Roll CR 14. The front of this weapon explodes in a 10-yard cone. This cone goes through walls and other solid objects, disrupting electronics in its area. Targets that can see this weapon when it explodes must make a Reflexes Saving Throw CR 10 or be Blinded until the end of their next turn.
 
 ##### Molotov Cocktail
-**Damage:**  3 Fire (Splash x2, Burn)
-**Radius:**  8 yards
-**Save:**  Reflexes CR 12
-**Special Properties:**  Splash x2, Burn
+
+**Damage:** 3 Fire (Splash x2, Burn)
+**Radius:** 8 yards
+**Save:** Reflexes CR 12
+**Special Properties:** Splash x2, Burn
 
 Explodes in an 8-yard radius. Targets damaged by this weapon must make a Reflexes Saving Throw CR 12. If successful, they take half damage. If failed, this weapon applies the Burning Condition.
 
 ##### Sticky Bomb
-**Damage:**  4 Blast
-**Radius:**  4 yards
-**Save:**  N/A
-**Special Properties:**  Sticky, Destructive
+
+**Damage:** 4 Blast
+**Radius:** 4 yards
+**Save:** N/A
+**Special Properties:** Sticky, Destructive
 
 Explodes in a 4-yard radius. One side of this device has a strong magnet. For applications where a metal surface is unavailable, there is a patch with a fast-acting strong adhesive. If the adhesive is used, this weapon can be applied to a target or surface with a successful Wits (Explosives) Action Roll CR 10.
 
 ##### Thermite Charge
-**Damage:**  10 Fire
-**Radius:**  6 yards
-**Save:**  Reflexes CR 13
-**Special Properties:**  Sticky, Burn, Shapeable, Destructive
+
+**Damage:** 10 Fire
+**Radius:** 6 yards
+**Save:** Reflexes CR 13
+**Special Properties:** Sticky, Burn, Shapeable, Destructive
 
 A 1-foot patch filled with thermite. When activated, it burns through structural and hardened materials, creating intense heat in a 6-yard radius. Anyone within 3 yards of this device while it's active must make a Reflexes Saving Throw CR 13. If successful, target takes half damage. If failed, this weapon applies the Burning Condition.
 
@@ -1328,95 +1339,95 @@ A 1-foot patch filled with thermite. When activated, it burns through structural
 
 ### Attachments (2 Units)
 
-|Item|RP Cost|Notes|
-|:--:|:-----:|:---:|
-| Ammo Belt | 7 | A linked belt that can be affixed to a Machine Gun. Any Machine Gun with an attached belt will not expend a reload box on any roll outside of a 1. Instead, the weapon gains the Unreliable property, raising the likelihood of malfunctions.
-| Bandolier | 5 | A steel-core leather belt that can be fitted with up to 6 Reload Refills that don't count toward Carry Capacity. |
-|Gun Belt | 3 | Standard steel-core leather belt that can be fitted with up to 1 Small-Arms Weapon and 3 Reload Refills that don't count toward Carry Capacity. |
-| Holster (Concealed) | 2 | A leather and nylon belt, worn in an inconspicuous place on the body. While undrawn, short of a physical search, a Perception (Searching) Action Roll CR 18 is required to spot the weapon. Allows for 1 Small-Arms Weapon that doesn't count toward Carry Capacity.|
-| Holster (Knife)     | 1 | A leather or polymer sheath, designed to hold a knife in place, without counting toward Carry Capacity. |
-| Holster (Standard)  | 1 | A leather and nylon holster that clips to a belt, to allow safe storage of a sidearm. |
-| Holster (Tactical) | 3 | A polymer holster fitted with a leg strap, allowing it to be attached to the thigh, allowing for faster draw. Allows for 1 Small-Arms Weapon and 3 Reload Refills that don't count toward Carry Capacity. |
-|Magazine Pouch| 2 | A nylon pouch designed for the quick stowing and retrieval of up to 3 Weapon Reload Refills that don't count toward Carry Capacity. |
-|Suppressor| 3 | Lowers the report of the weapon it's attached to. When firing from Stealth, or at or beyond your weapon's Long Range, the attack does not automatically give away your position. Opponents must succeed on a Perception roll CR 10 + your Chance Die to spot you.|
+|        Item         | RP Cost |                                                                                                                                Notes                                                                                                                                 |
+| :-----------------: | :-----: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|      Ammo Belt      |    7    |            A linked belt that can be affixed to a Machine Gun. Any Machine Gun with an attached belt will not expend a reload box on any roll outside of a 1. Instead, the weapon gains the Unreliable property, raising the likelihood of malfunctions.             |
+|      Bandolier      |    5    |                                                                           A steel-core leather belt that can be fitted with up to 6 Reload Refills that don't count toward Carry Capacity.                                                                           |
+|      Gun Belt       |    3    |                                                           Standard steel-core leather belt that can be fitted with up to 1 Small-Arms Weapon and 3 Reload Refills that don't count toward Carry Capacity.                                                            |
+| Holster (Concealed) |    2    | A leather and nylon belt, worn in an inconspicuous place on the body. While undrawn, short of a physical search, a Perception (Searching) Action Roll CR 18 is required to spot the weapon. Allows for 1 Small-Arms Weapon that doesn't count toward Carry Capacity. |
+|   Holster (Knife)   |    1    |                                                                               A leather or polymer sheath, designed to hold a knife in place, without counting toward Carry Capacity.                                                                                |
+| Holster (Standard)  |    1    |                                                                                        A leather and nylon holster that clips to a belt, to allow safe storage of a sidearm.                                                                                         |
+| Holster (Tactical)  |    3    |                              A polymer holster fitted with a leg strap, allowing it to be attached to the thigh, allowing for faster draw. Allows for 1 Small-Arms Weapon and 3 Reload Refills that don't count toward Carry Capacity.                               |
+|   Magazine Pouch    |    2    |                                                                 A nylon pouch designed for the quick stowing and retrieval of up to 3 Weapon Reload Refills that don't count toward Carry Capacity.                                                                  |
+|     Suppressor      |    3    |  Lowers the report of the weapon it's attached to. When firing from Stealth, or at or beyond your weapon's Long Range, the attack does not automatically give away your position. Opponents must succeed on a Perception roll CR 10 + your Chance Die to spot you.   |
 
 ### Crafting Materials (2 Units)
 
-|Item|RP Cost|Notes|
-|:--:|:-----:|:---:|
-| Alcohol | 2 | A bottle of drinkable alcohol. 10 uses per bottle, except certain crafting. |
-| Bowgun Powder | 5 | +2 Fire Damage, Arrows Only |
-| Chemical (Acid) | 2 | A bottle of low-pH chemicals. |
-| Chemical (Base) | 2 | A bottle of high-pH chemicals. |
-| Gunpowder | 2 | 3lb bottle |
-| Sample Tubes (5) | 1 | A set of break-resistant glass, designed to hold various samples, liquids, and chemicals. |
-| Scraps | 2 | A small collection of various parts used to craft, repair, or modify basic items and equipment. Up to 5 uses. |
+|       Item       | RP Cost |                                                     Notes                                                     |
+| :--------------: | :-----: | :-----------------------------------------------------------------------------------------------------------: |
+|     Alcohol      |    2    |                  A bottle of drinkable alcohol. 10 uses per bottle, except certain crafting.                  |
+|  Bowgun Powder   |    5    |                                          +2 Fire Damage, Arrows Only                                          |
+| Chemical (Acid)  |    2    |                                         A bottle of low-pH chemicals.                                         |
+| Chemical (Base)  |    2    |                                        A bottle of high-pH chemicals.                                         |
+|    Gunpowder     |    2    |                                                  3lb bottle                                                   |
+| Sample Tubes (5) |    1    |           A set of break-resistant glass, designed to hold various samples, liquids, and chemicals.           |
+|      Scraps      |    2    | A small collection of various parts used to craft, repair, or modify basic items and equipment. Up to 5 uses. |
 
 ### Survival Gear (1 Unit)
 
-|Item|RP Cost|Notes|
-|:--:|:-----:|:---:|
-| Canteen | 1 | A small bottle that can be filled with various liquids. 4 uses per fill. |
-| Food (4) | 1 | Enough fresh food to feed an average human adult for four meals. |
-| MRE (12) | 4 | A case of 12 vacuum-sealed foil packages, each MRE supplies enough food to feed an average adult. Shelf stable for up to 5 years. |
+|   Item   | RP Cost |                                                               Notes                                                               |
+| :------: | :-----: | :-------------------------------------------------------------------------------------------------------------------------------: |
+| Canteen  |    1    |                             A small bottle that can be filled with various liquids. 4 uses per fill.                              |
+| Food (4) |    1    |                                 Enough fresh food to feed an average human adult for four meals.                                  |
+| MRE (12) |    4    | A case of 12 vacuum-sealed foil packages, each MRE supplies enough food to feed an average adult. Shelf stable for up to 5 years. |
 
 ### Tool Kits (3 Units)
 
-|Item|RP Cost|Notes|
-|:--:|:-----:|:---:|
-| Bartender's Kit | 3 | A rollable leather bag filled with implements for mixing various beverages and tinctures.|
-| Chef's Kit | 15 | A collection of tools and spices used in preparing meals. |
-| Electrician's Kit | 14 | A large set of rubber-handled tools for working on items capable of electrical current. |
-| Gunsmith's Kit | 3 | A set of precision tools and brushes for modifying, maintaining, and cleaning firearms. |
-| Locksmith's Kit | 5 | A zippered leather pouch filled with picks for various standard locks. |
-| Mechanic's Kit | 5 | A rolling polymer and steel box, about the size of a backpack, brimming with tools for working on mechanical devices. |
-| Portable Laboratory | 15 | A compact chemical laboratory, packed safely into a briefcase. Components are powered by an attached solar panel and back-up battery. |
-| Reloading Kit | 10 | A compact set of tools, packed in a polymer case, for reloading bullets into cartridges. Requires a sturdy surface, such as a table to mount the reloading tool. |
+|        Item         | RP Cost |                                                                              Notes                                                                               |
+| :-----------------: | :-----: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   Bartender's Kit   |    3    |                                    A rollable leather bag filled with implements for mixing various beverages and tinctures.                                     |
+|     Chef's Kit      |   15    |                                                    A collection of tools and spices used in preparing meals.                                                     |
+|  Electrician's Kit  |   14    |                                     A large set of rubber-handled tools for working on items capable of electrical current.                                      |
+|   Gunsmith's Kit    |    3    |                                     A set of precision tools and brushes for modifying, maintaining, and cleaning firearms.                                      |
+|   Locksmith's Kit   |    5    |                                              A zippered leather pouch filled with picks for various standard locks.                                              |
+|   Mechanic's Kit    |    5    |                      A rolling polymer and steel box, about the size of a backpack, brimming with tools for working on mechanical devices.                       |
+| Portable Laboratory |   15    |              A compact chemical laboratory, packed safely into a briefcase. Components are powered by an attached solar panel and back-up battery.               |
+|    Reloading Kit    |   10    | A compact set of tools, packed in a polymer case, for reloading bullets into cartridges. Requires a sturdy surface, such as a table to mount the reloading tool. |
 
 ### Wearables (1 Unit)
 
-|Item|RP Cost|Notes|
-|:--:|:-----:|:---:|
-| Ballistic Mask | 7 | Major Advantage (+5) on Constitution saving throws against Called Shots to the Head. +3 bonus to Intimidation. |
-| Combat Boots | 5 | Major Advantage (+5) to Might Action Rolls involving leg use. |
-| Helmet | 4 | Minor Advantage (+2) to the Constitution saving throw against Called Shots to the Head. |
-| NBC/Gas Mask | 6 | A hard plastic mask, fitted with filters designed to filter nuclear, biological, and chemical agents from breathable air.|
-|Smartwatch| 5 | +1 to Wits (Navigation) checks.|
-|Tactical Shades| 6 | +2 to Perception (Spot) rolls. Immune to T1 Sensory Impairment (Vision).|
-|Tactical Earbuds| 6 | +2 to Perception (Hearing) rolls. Immune to T1 Sensory Impairment (Hearing).|
-  
+|       Item       | RP Cost |                                                           Notes                                                           |
+| :--------------: | :-----: | :-----------------------------------------------------------------------------------------------------------------------: |
+|  Ballistic Mask  |    7    |      Major Advantage (+5) on Constitution saving throws against Called Shots to the Head. +3 bonus to Intimidation.       |
+|   Combat Boots   |    5    |                               Major Advantage (+5) to Might Action Rolls involving leg use.                               |
+|      Helmet      |    4    |                  Minor Advantage (+2) to the Constitution saving throw against Called Shots to the Head.                  |
+|   NBC/Gas Mask   |    6    | A hard plastic mask, fitted with filters designed to filter nuclear, biological, and chemical agents from breathable air. |
+|    Smartwatch    |    5    |                                              +1 to Wits (Navigation) checks.                                              |
+| Tactical Shades  |    6    |                         +2 to Perception (Spot) rolls. Immune to T1 Sensory Impairment (Vision).                          |
+| Tactical Earbuds |    6    |                       +2 to Perception (Hearing) rolls. Immune to T1 Sensory Impairment (Hearing).                        |
+
 ### Medical Items
 
-|Item|RP Cost|Units|Notes|
-|:--:|:-----:|:---:|:---:|
-| First-Aid Kit| 5 |2|A polyester pouch containing a variety of medical supplies. Improve the Health recovery effect of other Medical Items by 1.|
-| Bandages | 2 | 1|Reduces Bleeding Tier, up to T3. 5 Uses. |
-| Painkillers | 1 |1| Recover 5 Health. 5 Uses. |
-| Antiseptic | 2 | 1|Automatically pass Saving Throw related to injury-based Infections. 5 uses. |
-| Anti-emetic | 1 | 1|Reduces Poisoned by 1 Tier, up to T3. 5 uses. |
-| Medic's Bag | 10 | 2|A large nylon bag containing a comprehensive set of first-aid supplies needed in emergencies. Improve the Health recovery effect of other Medical Items by 5. Reduce any Condition by 1 Tier, up to T3.|
-| Portable Hospital | 20 |3| A tightly packed nylon bag filled with medical supplies, for use in potentially fatal emergencies where it's not possible to reach a hospital in a reasonable amount of time. Improve the Health recovery effect of other Medical Items by 10. Reduce any Condition by 2 Tiers.|
-| Adrenaline Booster | 5 | 1|Reduce Stunned, Weakness, or Winded (any Tier) by 2 Tiers. Once per Rest. |
-| Hemostatic Medicine | 8 | 1|Recover 3 Health. Reduce Bleeding Condition (any Tier) by 2. Once per Rest.|
-| Splint | 1 | 2|A makeshift brace. If you are suffering Slowed or Weakness T4 or above, this item treats those Conditions as reduced by 2 Tiers for up to 2 Rests. |
+|        Item         | RP Cost | Units |                                                                                                                                      Notes                                                                                                                                      |
+| :-----------------: | :-----: | :---: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    First-Aid Kit    |    5    |   2   |                                                                           A polyester pouch containing a variety of medical supplies. Improve the Health recovery effect of other Medical Items by 1.                                                                           |
+|      Bandages       |    2    |   1   |                                                                                                                    Reduces Bleeding Tier, up to T3. 5 Uses.                                                                                                                     |
+|     Painkillers     |    1    |   1   |                                                                                                                            Recover 5 Health. 5 Uses.                                                                                                                            |
+|     Antiseptic      |    2    |   1   |                                                                                                   Automatically pass Saving Throw related to injury-based Infections. 5 uses.                                                                                                   |
+|     Anti-emetic     |    1    |   1   |                                                                                                                  Reduces Poisoned by 1 Tier, up to T3. 5 uses.                                                                                                                  |
+|     Medic's Bag     |   10    |   2   |                                     A large nylon bag containing a comprehensive set of first-aid supplies needed in emergencies. Improve the Health recovery effect of other Medical Items by 5. Reduce any Condition by 1 Tier, up to T3.                                     |
+|  Portable Hospital  |   20    |   3   | A tightly packed nylon bag filled with medical supplies, for use in potentially fatal emergencies where it's not possible to reach a hospital in a reasonable amount of time. Improve the Health recovery effect of other Medical Items by 10. Reduce any Condition by 2 Tiers. |
+| Adrenaline Booster  |    5    |   1   |                                                                                                    Reduce Stunned, Weakness, or Winded (any Tier) by 2 Tiers. Once per Rest.                                                                                                    |
+| Hemostatic Medicine |    8    |   1   |                                                                                                   Recover 3 Health. Reduce Bleeding Condition (any Tier) by 2. Once per Rest.                                                                                                   |
+|       Splint        |    1    |   2   |                                                               A makeshift brace. If you are suffering Slowed or Weakness T4 or above, this item treats those Conditions as reduced by 2 Tiers for up to 2 Rests.                                                                |
 
 ### Storage Tools
 
-|Item|RP Cost|Notes|
-|:--:|:-----:|:---:|
-|Backpack|8|+10 Units Carry Capacity|
-|Waist Bag|4|+5 Units Carry Capacity|
-|Belt Pouch|2|+3 Units Carry Capacity|
-|Thigh Pouch|1|+2 Units Carry Capacity|
-|***Note:** You can only benefit from one storage tool of the same type, once, regardless of the number owned.*|||
+|                                                       Item                                                       | RP Cost |          Notes           |
+| :--------------------------------------------------------------------------------------------------------------: | :-----: | :----------------------: |
+|                                                     Backpack                                                     |    8    | +10 Units Carry Capacity |
+|                                                    Waist Bag                                                     |    4    | +5 Units Carry Capacity  |
+|                                                    Belt Pouch                                                    |    2    | +3 Units Carry Capacity  |
+|                                                   Thigh Pouch                                                    |    1    | +2 Units Carry Capacity  |
+| **\*Note:** You can only benefit from one storage tool of the same type, once, regardless of the number owned.\* |         |                          |
 
 ## Crafting
 
-Over the course of a Nomad campaign, a character may or may not be exactly inclined to buy just any run-of-the-mill items. Perhaps they have an engineering background, and have an idea for a new device. Perhaps they simply want to forge their own weapons and armor. Perhaps they wish to concoct medicines or poisons which simply are not available over the counter. 
+Over the course of a Nomad campaign, a character may or may not be exactly inclined to buy just any run-of-the-mill items. Perhaps they have an engineering background, and have an idea for a new device. Perhaps they simply want to forge their own weapons and armor. Perhaps they wish to concoct medicines or poisons which simply are not available over the counter.
 
 Whatever the case may be, this Sub-Section of the Equipment Chapter is for those characters who can't leave an item half-finished.
 
-Creating new items often costs time, money, and materials. How much time, how much money, and how much of what materials all depend on the kind of item you wish to create. 
+Creating new items often costs time, money, and materials. How much time, how much money, and how much of what materials all depend on the kind of item you wish to create.
 
 <!-- prettier-ignore -->
 !!! info "NOTE"
@@ -1478,44 +1489,44 @@ Crafting time can be reduced if multiple characters assist with the creation of 
 
 #### Complications (3d6 Roll)
 
-| Roll | Complication |
-|------|--------------|
+| Roll | Complication                                                                                                                                               |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 3    | Item breaks on first use, dealing damage based on tier (1 for Trivial or Common Items, 2 for Uncommon Items, 3 for Rare Items, and 4 for Legendary Items). |
-| 4    | Item's AP is considered 5 points lower, making it easier to break. |
-| 5    | Item's effectiveness is reduced by 1 tier (e.g., a Rare item functions as an Uncommon item). |
-| 6    | Item has a minor defect, reducing its usability (e.g., -1 to relevant checks or attacks). |
-| 7    | Item is bulky, increasing its weight by 75%, imposing its AP times 3 to the wielder's Speed. |
-| 8    | Item's lifespan is halved. |
-| 9    | Item requires frequent maintenance, doubling maintenance time or cost. |
-| 10   | Item is prone to malfunction, with a 10% chance to fail on use. |
-| 11   | Item's weight is twice its AP, and heavier than expected. The wielder takes an additional penalty to Speed while this item is on their person.|
-| 12   | Item is difficult to use, imposing a -2 penalty on relevant checks. |
-| 13   | Item has a 10% chance to break under stress (e.g., during combat). |
-| 14   | Item has a negative side effect when used (e.g., inflicts 1d6 damage to the user). |
-| 15   | Item is incompatible with one type of equipment (e.g., cannot be used with specific armor). |
-| 16   | Item has a minor design flaw, reducing the number of Modification Slots by 1. |
-| 17   | Item has an adverse effect (e.g., imposes a -2 penalty to a random ability score while equipped). |
-| 18   | Item causes unintended harm or danger (e.g., explodes dealing tier-based damage to any creatures within 3 yards). |
+| 4    | Item's AP is considered 5 points lower, making it easier to break.                                                                                         |
+| 5    | Item's effectiveness is reduced by 1 tier (e.g., a Rare item functions as an Uncommon item).                                                               |
+| 6    | Item has a minor defect, reducing its usability (e.g., -1 to relevant checks or attacks).                                                                  |
+| 7    | Item is bulky, increasing its weight by 75%, imposing its AP times 3 to the wielder's Speed.                                                               |
+| 8    | Item's lifespan is halved.                                                                                                                                 |
+| 9    | Item requires frequent maintenance, doubling maintenance time or cost.                                                                                     |
+| 10   | Item is prone to malfunction, with a 10% chance to fail on use.                                                                                            |
+| 11   | Item's weight is twice its AP, and heavier than expected. The wielder takes an additional penalty to Speed while this item is on their person.             |
+| 12   | Item is difficult to use, imposing a -2 penalty on relevant checks.                                                                                        |
+| 13   | Item has a 10% chance to break under stress (e.g., during combat).                                                                                         |
+| 14   | Item has a negative side effect when used (e.g., inflicts 1d6 damage to the user).                                                                         |
+| 15   | Item is incompatible with one type of equipment (e.g., cannot be used with specific armor).                                                                |
+| 16   | Item has a minor design flaw, reducing the number of Modification Slots by 1.                                                                              |
+| 17   | Item has an adverse effect (e.g., imposes a -2 penalty to a random ability score while equipped).                                                          |
+| 18   | Item causes unintended harm or danger (e.g., explodes dealing tier-based damage to any creatures within 3 yards).                                          |
 
 #### Bonuses (3d6 Roll)
 
-| Roll | Bonus |
-|------|-------|
-| 3    | Item grants a bonus equivalent to its tier on relevant checks or attacks (+1 for Trivial, +2 for Common, etc.). |
-| 4    | Item's AP is considered 5 points higher, making it harder to break. |
-| 5    | Item provides a +1 bonus on relevant checks. |
-| 6    | Item grants a minor ability enhancement (+1 to a relevant ability score while equipped). |
-| 7    | Item is exceptionally well-crafted, reducing maintenance time or cost by 50%. |
-| 8    | Item has a pleasing aesthetic quality, providing a +1 bonus to social checks involving the item. |
-| 9    | Item is lighter and easier to handle, reducing its weight by 25%. Reduce AP penalty to Speed by 1.|
-| 10   | Item's effectiveness is increased by 1 tier (e.g., a Common item functions as an Uncommon item). |
-| 11   | Item grants an extra minor benefit (e.g., +2 to a single relevant check per day). |
-| 12   | Item has a unique design feature, providing a +1 bonus to a specific use. |
-| 13   | Item has enhanced performance, granting a +2 bonus to relevant checks or attacks. |
-| 14   | Item has an additional useful feature (e.g., may gain 1 bonus Modification). |
-| 15   | Item grants a significant bonus (+2 to a relevant ability score while equipped). |
-| 16   | Item is Masterfully crafted, providing a +3 bonus to relevant checks or attacks. |
-| 17   | Item grants a unique ability or property (e.g., allows the user to perform a specific action once per day). |
+| Roll | Bonus                                                                                                              |
+| ---- | ------------------------------------------------------------------------------------------------------------------ |
+| 3    | Item grants a bonus equivalent to its tier on relevant checks or attacks (+1 for Trivial, +2 for Common, etc.).    |
+| 4    | Item's AP is considered 5 points higher, making it harder to break.                                                |
+| 5    | Item provides a +1 bonus on relevant checks.                                                                       |
+| 6    | Item grants a minor ability enhancement (+1 to a relevant ability score while equipped).                           |
+| 7    | Item is exceptionally well-crafted, reducing maintenance time or cost by 50%.                                      |
+| 8    | Item has a pleasing aesthetic quality, providing a +1 bonus to social checks involving the item.                   |
+| 9    | Item is lighter and easier to handle, reducing its weight by 25%. Reduce AP penalty to Speed by 1.                 |
+| 10   | Item's effectiveness is increased by 1 tier (e.g., a Common item functions as an Uncommon item).                   |
+| 11   | Item grants an extra minor benefit (e.g., +2 to a single relevant check per day).                                  |
+| 12   | Item has a unique design feature, providing a +1 bonus to a specific use.                                          |
+| 13   | Item has enhanced performance, granting a +2 bonus to relevant checks or attacks.                                  |
+| 14   | Item has an additional useful feature (e.g., may gain 1 bonus Modification).                                       |
+| 15   | Item grants a significant bonus (+2 to a relevant ability score while equipped).                                   |
+| 16   | Item is Masterfully crafted, providing a +3 bonus to relevant checks or attacks.                                   |
+| 17   | Item grants a unique ability or property (e.g., allows the user to perform a specific action once per day).        |
 | 18   | Item is of legendary quality, granting a +4 bonus to relevant checks or attacks and an additional unique property. |
 
 Below are several examples of items and substances you can craft. These lists are not intended to be all-inclusive, but could potentially be a jumping off point for those focused on crafting.
@@ -1568,7 +1579,7 @@ Below are several examples of items and substances you can craft. These lists ar
 
 ##### Acids & Bases
 
-: Acids are damaging, corrosive substances. Bases can be used to neutralize acids or vice versa. Counteracting damage from a base or acid requires a use of its opposite at the same potency. Using a lesser potency simply reduces the damage caused by the substance in question. In the potency column, the numbers in parentheses are typical splash and/or immersion damage caused per round of exposure to the caustic substance. Further information about Acid Damage can be found in [Appendix A - Items Properties Index on pg. 91](#91).
+: Acids are damaging, corrosive substances. Bases can be used to neutralize acids or vice versa. Counteracting damage from a base or acid requires a use of its opposite at the same potency. Using a lesser potency simply reduces the damage caused by the substance in question. In the potency column, the numbers in parentheses are typical splash and/or immersion damage caused per round of exposure to the caustic substance.
 
 <table>
 <thead>
@@ -1598,7 +1609,7 @@ Below are several examples of items and substances you can craft. These lists ar
 
 : Perhaps, instead of dealing damage, you'd like to make your friends a delicious meal or two. Eating carefully prepared meals can provide some minor benefits. A GM may decide cooking provides temporary Ability buffs lasting 1d6 hours per tier of meal. Or, it may provide some minor healing, 1d6 per tier plus the Material Cost of the type of meal consumed. This is one of the few crafting types that does not take nearly as long as others.
 
-: Using the Jury-Rig Expertise with this could cause unexpected side effects, randomly rolled from the Complications and Bonuses Chart, its effects last 2d6 hours after consumption. 
+: Using the Jury-Rig Expertise with this could cause unexpected side effects, randomly rolled from the Complications and Bonuses Chart, its effects last 2d6 hours after consumption.
 
 : Under normal circumstances, gathering food should not cause any undue pressure. The only real limit in this circumstance would be the character's ability, and how good they think they can cook. Should your characters find themselves in a difficult situation, however, such as lost in the woods, deep behind enemy lines, or what have you, the GM could readily decide that tracking your food stores is essential in said situation.
 
@@ -1768,7 +1779,7 @@ Below are several examples of items and substances you can craft. These lists ar
 
 ##### Pharmaceutical
 
-: With the right training, you can compound medicinal drugs to aid in speeding up someone's natural healing processes,  defend themselves against treatable illnesses and poisons, or grant temporary boosts. This is by no means an all-inclusive list. If you can think of a way to use this that isn't listed, discuss your ideas with your GM to determine the item you're wanting to make and its efficacy.
+: With the right training, you can compound medicinal drugs to aid in speeding up someone's natural healing processes, defend themselves against treatable illnesses and poisons, or grant temporary boosts. This is by no means an all-inclusive list. If you can think of a way to use this that isn't listed, discuss your ideas with your GM to determine the item you're wanting to make and its efficacy.
 
 <table>
 <thead>
@@ -1878,7 +1889,7 @@ Below are several examples of items and substances you can craft. These lists ar
 
 Not all items are created with equal toughness in mind. This sub-chapter presents rules for attacking and damaging items, vehicles, and structures. The purpose for this mechanic is to give another layer of tactical edge to the system as a whole. Items can be targeted by enemy attacks. Buildings and vehicles can be hit by rockets, or demolished with planted explosives. And, most unfortunately, sometimes bullets don't care about what taking cover might mean to you.
 
-In terms of direct attacks, items and equipment must be targeted via Called Shot for sundering. This Called Shot is made at a Minor Disadvantage. For additional [Called Shot rules, see pg. 88](#88). Splash, Blast, or otherwise area affecting attacks usually deal damage to everything within a certain space.
+In terms of direct attacks, items and equipment must be targeted via Called Shot for sundering. This Called Shot is made at a Minor Disadvantage. Splash, Blast, or otherwise area affecting attacks usually deal damage to everything within a certain space.
 
 Any time an item is hit, or if an attack roll would hit a target behind full cover, or if the target is missed by 2 or less, the item or cover's AP soaks up a portion of the damage. Subtract the AP from the attack's damage, representing the absorption of some of the impact. If the damage exceeds the cover or item's AP, any remaining damage goes through to what's behind it.
 
@@ -1888,18 +1899,17 @@ Some objects are harder than others to destroy. You can't bring a building down 
 
 Some items have thresholds of damaged AP, at which their utility and effectiveness are decreased to the point of malfunctioning or losing functionality altogether.
 
-|AP Threshold| Effect |
-|------------|--------|
-|Full | The item works in its optimal condition, with little to no issues. |
-|Half | The item begins malfunctioning, imposing Minor Disadvantage on all rolls associated with the item. |
-|Quarter | Severe malfunctions occur, imposing Major Disadvantage on all rolls associated with the item. The item has a chance to stop working temporarily. If a player rolls doubles while using this item, it ceases to function for a number of rounds equal to the Chance Die.|
-|0 AP | The item is destroyed, too damaged to protect, or is otherwise completely useless.|
-
-
-
+| AP Threshold | Effect                                                                                                                                                                                                                                                                  |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Full         | The item works in its optimal condition, with little to no issues.                                                                                                                                                                                                      |
+| Half         | The item begins malfunctioning, imposing Minor Disadvantage on all rolls associated with the item.                                                                                                                                                                      |
+| Quarter      | Severe malfunctions occur, imposing Major Disadvantage on all rolls associated with the item. The item has a chance to stop working temporarily. If a player rolls doubles while using this item, it ceases to function for a number of rounds equal to the Chance Die. |
+| 0 AP         | The item is destroyed, too damaged to protect, or is otherwise completely useless.                                                                                                                                                                                      |
 
 ### Materials & AP Values
+
 ##### Soft Cover
+
 **Examples:** Curtains, cloth, thin wooden panels
 
 **AP Value:** 1 - 2
@@ -1907,6 +1917,7 @@ Some items have thresholds of damaged AP, at which their utility and effectivene
 **Description:** Minimal protection, easily penetrated by most weapons. Soft cover is generally destroyed after one or two breaches.
 
 ##### Light Cover
+
 **Examples:** Thick wooden furniture, drywall, car door, dumpster
 
 **AP Value:** 3 - 5
@@ -1914,6 +1925,7 @@ Some items have thresholds of damaged AP, at which their utility and effectivene
 **Description:** Provides some protection, but can be penetrated by most firearms.
 
 ##### Medium Cover
+
 **Examples:** Concrete wall, HVAC Unit
 
 **AP Value:** 6 - 8
@@ -1921,6 +1933,7 @@ Some items have thresholds of damaged AP, at which their utility and effectivene
 **Description:** Offers substantial protection against small arms fire.
 
 ##### Heavy Cover
+
 **Examples:** Steel barriers, vehicle engine block, armored vehicle parts
 
 **AP Value:** 9 - 12
@@ -1928,6 +1941,7 @@ Some items have thresholds of damaged AP, at which their utility and effectivene
 **Description:** Resistant to most small arms and provides excellent protection.
 
 ##### Reinforced Cover
+
 **Example:** Bunkers, thick steel, building supports
 
 **AP Value:** 13 +

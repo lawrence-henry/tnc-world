@@ -4,6 +4,7 @@ icon: material/clipboard-pulse-outline
 ---
 
 ### Role of the GM
+
 As a GameMaster, your rulings are absolute, and you are the final arbiter of the game's world and rules. Despite the fact you'll often find yourself in control of the bad guys, your position need not be adversarial. Your goal in this system, as in all systems, is to facilitate your storytellers--aka--players in their adventures.
 
 As the GM, you set the tone of the game, manage the overall narrative, balance encounters, and above all else, make an engaging and fun experience for everyone at the table; yourself included. Place problems in the world for your players, then sit back and let them figure out how to solve them. A great deal of the themes surrounding the Nomad series of novels is compelling moral dilemmas. Not every encounter need be a shootout on the docks or a car chase, fun as those are.
@@ -12,22 +13,23 @@ Have your players consider their Backgrounds and the stories about how their cha
 
 Remember to balance your pace, tone, and narrative to keep the game running smoothly. For some GMs, this means having an outline in which they can reliably set out a path for themselves in terms of major plot threads. For others, it means on-the-fly, seat-of-the-pants, figure it out as we go storytelling. Try not to overwhelm your players with too much action (which is just as dull as no action), too much roleplay (I'm not sure what the upper limit to this is, but I'm sure it exists), too much exploration, or too much item and money management.
 
-Always remember that the game only exists when everyone at the table is engaged and having a good time. If at any point the rules get in the way of the fun, throw them out the window with some bath water, and adjust as needed. 
+Always remember that the game only exists when everyone at the table is engaged and having a good time. If at any point the rules get in the way of the fun, throw them out the window with some bath water, and adjust as needed.
 
 There's a very special die that all GMs possess, system independent. It's called the d1. Also known as "I'm the GM. I said, and we agreed, that this is how this world works."
 
 And, never forget the old adage: "No plan survives first contact with the Player Characters"
 
-
-
 ### Session-0
-A popular trend among TTRPG players recently is called a Session-0. This is generally a chance to build characters, consider concepts, and for the players and GM to come to a consensus on rules, abilities, themes, and included or banned subjects or topics. If you're starting with a new group or individuals who've never played together before, a Session-0 may not be a bad idea. 
+
+A popular trend among TTRPG players recently is called a Session-0. This is generally a chance to build characters, consider concepts, and for the players and GM to come to a consensus on rules, abilities, themes, and included or banned subjects or topics. If you're starting with a new group or individuals who've never played together before, a Session-0 may not be a bad idea.
 
 ### Game Customization
+
 No game or system is one size fits all. If you have an idea for a mechanic or system that works better than what's in this book, feel free to homebrew some house rules. An important note to that, is to write down said rules, so that everyone can play on equal footing, and nobody can accuse you of making up the rules as you go (even though that's totally what we do &mdash; don't tell my players). Below are a few ideas for customizing your game.
 
 ### Game Difficulty Setting
-First up is difficulty settings. Some GMs and players enjoy a solid power fantasy. Others prefer gritty realism. And, others find their home in absolutely brutal grimdark. This is a suggestion for how to accommodate each kind of playstyle, simply by changing the most important currency of the game, the Survivor Points, with which a character can modify and advance their characters. The lower difficulties allow for moderate to fast character growth, and an abundance of versatility, whereas the higher difficulties are unforgiving for mistakes in concept, build, or simply poor dice rolls. 
+
+First up is difficulty settings. Some GMs and players enjoy a solid power fantasy. Others prefer gritty realism. And, others find their home in absolutely brutal grimdark. This is a suggestion for how to accommodate each kind of playstyle, simply by changing the most important currency of the game, the Survivor Points, with which a character can modify and advance their characters. The lower difficulties allow for moderate to fast character growth, and an abundance of versatility, whereas the higher difficulties are unforgiving for mistakes in concept, build, or simply poor dice rolls.
 
 > Adjust as needed.
 
@@ -44,6 +46,7 @@ First up is difficulty settings. Some GMs and players enjoy a solid power fantas
 : Players gain 1 Survivor Point every 4 levels, starting at character creation. GM rolls 1d6 per character, the result of which is each character's starting Infection Level. Virus Mode always imposes the Exhausted Condition after use.
 
 ### XP Growth or Milestones
+
 A GM has, at their disposal, a flexible leveling system capable of both XP gain and Milestone leveling.
 
 XP Rewards automatically scale with level, as each encounter can be divided into one of the five Threat Levels, and anything providing XP rewards would have a fail condition. For non-combat encounters you would like to provide XP for, reference the Advanced Action Roll chart, which is perfectly aligned to the Threat system.
@@ -53,23 +56,27 @@ Milestone Rewards are an equally equitable solution for player advancement, as i
 A crafty GM may choose to use a hybrid of this, for added story flexibility when needed.
 
 ### House Rules
+
 No TTRPG system is universal without heavy lifting or a steep learning curve. And despite a few coming close with the vast, crunchy options at their disposal. This system was designed with simplicity and fast-paced, dynamic, and brutal combat in mind. If you'd like to implement rules that change the tone or flavor of the game, feel free and have fun.
 
 ### Modules
+
 The base mechanics of this ruleset are designed for streamlined tactical play, with modularity in mind. While the core game centers around gritty survival scenarios and enhanced humans navigating a world they don't fit, its structure is flexible enough to support a variety of genres and tones with just a few focused tweaks.
 
 - **Zombie Apocalypse:**
-: Infection Level becomes an almost purely negative item to track. Got bitten? Now there's a timer. Find a cure, or succumb. And the Transformation Stages instead represent Special Infected mutations, each one dragging the character further from humanity.
+  : Infection Level becomes an almost purely negative item to track. Got bitten? Now there's a timer. Find a cure, or succumb. And the Transformation Stages instead represent Special Infected mutations, each one dragging the character further from humanity.
 
 - **Martial Arts Mastery:**
-: Got an idea for a rogue warrior, fighting through underground circuits or in street duels? Let Infection Level fuel powerful finishing moves and ki bursts. Possibly even super-powered transformations. Use CP as a finishing move meter system. Chance Breaks become power surges & dangerous overloads.
+  : Got an idea for a rogue warrior, fighting through underground circuits or in street duels? Let Infection Level fuel powerful finishing moves and ki bursts. Possibly even super-powered transformations. Use CP as a finishing move meter system. Chance Breaks become power surges & dangerous overloads.
 
 The rules are a tool. Not a cage. If the game you want is in here somewhere, play it. It's not universal, but it can do a lot.
 
 ### Number of Dice
+
 This system’s mechanics were designed with ease of building and play in mind. Therefore, every roll in the game has been balanced around three six-sided dice (3d6). GMs and players can absolutely expand on this if they like, but as it is, those should be the absolute only dice needed in a Nomad campaign.
 
 ### Running Encounters
+
 > Combat Encounters, Building Monster Manual still, Horde Combat, Using the Environment, Special Challenges/Objectives
 
 <table>
@@ -124,12 +131,12 @@ At its heart, a Called Shot lets a character aim at a specific part of an oppone
 The system is narrative-focused, as opposed to a simple increase in damage. It imposes Conditions, adds into Lingering Injuries, or could simply be used by the GM to add flavor to the flow of battles.
 
 - **Attempting A Called Shot:**
-: The character must first spend a Minor Action to "Call" their shot. This is an opposed Action Roll:
+  : The character must first spend a Minor Action to "Call" their shot. This is an opposed Action Roll:
 
 **Wits (Healing)** vs **Target's Reflexes (Acrobatics)** or **Willpower (Deception)** (target's choice).
 
 - **Attack Roll Penalties:**
-: Depending on where the character aims:
+  : Depending on where the character aims:
 
 **Minor Disadvantage (-2)**
 : For non-vital locations such as extremities or limbs.
@@ -138,15 +145,13 @@ The system is narrative-focused, as opposed to a simple increase in damage. It i
 : For vital points such as head, heart, or internal organs.
 
 - **Resolution:**
-: If the Called Shot hits, the GM rolls or selects an appropriate result on the **Hit Locations Table**. For areas where the left or right side of the body are of importance during the random roll, the GM's Chance Die determines the side. An odd number indicates the left; whereas an even number indicates the right.
+  : If the Called Shot hits, the GM rolls or selects an appropriate result on the **Hit Locations Table**. For areas where the left or right side of the body are of importance during the random roll, the GM's Chance Die determines the side. An odd number indicates the left; whereas an even number indicates the right.
 
 <!-- prettier-ignore -->
 !!! info "Hit Locations, Conditions, Healing"
     Outer body hit locations can go up to Tier 3 Conditions. All effects last until Healed via Surgery Action Roll. Unless specified in a special ability, only one Condition can be applied per hit.
 
     All internal hit locations impose Tier 3 or above Conditions. All effects last until Healed via Surgery Action Roll. Unless specified in a special ability, only one Condition can be applied per hit.
-
-#### Non-Vital Locations
 
 <table>
 <thead>
@@ -181,7 +186,6 @@ The system is narrative-focused, as opposed to a simple increase in damage. It i
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -374,11 +378,11 @@ Infection Level measures a character's integration with the Nano-Virus. Or, conv
 
 Virus Mode is a powerful ability&mdash;a last resort. A powerful, desperate transformation that can mean the difference between victory and death. Outside of the players activating it on their own terms, use it sparingly to maintain its impact.
 
-- **Highlight Loss of Control** Even when successful, the experience should feel dangerous and on edge. Describe the bloodlust, the way the character's body and mind prepare for violence. Describe how those around the character react in horror or awe.
+- **Highlight Loss of Control:** Even when successful, the experience should feel dangerous and on edge. Describe the bloodlust, the way the character's body and mind prepare for violence. Describe how those around the character react in horror or awe.
 
-- **Make it Feel Costly** Every so often, remind players of the risk: loss of agency, side effects, exhaustion. If a character fails a transformation check, shift the tone&mdash;they are no longer a PC in that moment, they are a monster.
+- **Make it Feel Costly:** Every so often, remind players of the risk: loss of agency, side effects, exhaustion. If a character fails a transformation check, shift the tone&mdash;they are no longer a PC in that moment, they are a monster.
 
-- **Create Moral Stakes** Let Virus Mode moments complicate player choices. Saving your team by going berserk might earn their fear, not their respect. Especially if your shift caused losses on both sides.
+- **Create Moral Stakes:** Let Virus Mode moments complicate player choices. Saving your team by going berserk might earn their fear, not their respect. Especially if your shift caused losses on both sides.
 
 ### Environmental Considerations
 
@@ -388,17 +392,17 @@ Games in this system rely and thrive on high tension, and one of the most effect
 
 Environmental threats should force players to adapt&mdash;not necessarily by dealing more damage, but by introducing urgency.
 
-- **Timed Hazards** Toxic Air, Radiation, Extreme Temperatures, Chemical Weapons. These are things characters have to survive. Not just fight their way through.
+- **Timed Hazards:** Toxic Air, Radiation, Extreme Temperatures, Chemical Weapons. These are things characters have to survive. Not just fight their way through.
 
-- **Stacked Conditions** Don't rely solely on combat to apply Conditions to your player's characters. Use the environment around them. If they're on an extended mission, you can stack on Fatigue. If they're exploring a secret laboratory in the arctic, they're likely to face Hypothermia. Nausea, sensory impairment. Get creative, and layer the pressure, so that encounters aren't the only time they feel the strain of their abilities.
+- **Stacked Conditions:** Don't rely solely on combat to apply Conditions to your player's characters. Use the environment around them. If they're on an extended mission, you can stack on Fatigue. If they're exploring a secret laboratory in the arctic, they're likely to face Hypothermia. Nausea, sensory impairment. Get creative, and layer the pressure, so that encounters aren't the only time they feel the strain of their abilities.
 
 #### Item and Equipment Management
 
 Let gear feel valuable and fragile.
 
-- **Encourage Planning** Players should consider what to bring into dangerous area. If they don't prepare for the cold or radiation, the environment should make them regret it.
+- **Encourage Planning:** Players should consider what to bring into dangerous area. If they don't prepare for the cold or radiation, the environment should make them regret it.
 
-- **Breakage is Drama** Have batteries short out, guns jam due to lack of maintenance, or armor melting from an acid drip. Use the player's own equipment to create tense moments and force them to adapt.
+- **Breakage is Drama:** Have batteries short out, guns jam due to lack of maintenance, or armor melting from an acid drip. Use the player's own equipment to create tense moments and force them to adapt.
 
 #### Resource Management
 
@@ -406,13 +410,14 @@ Survival in this game is a question of how long the characters can hold out, how
 
 - **Food, Ammo, Health Items:** Got critical items to collect during an extended mission? Limit availability in key moments. Use scarcity to increase the drama &mdash; maybe one Health Stim is left, but there are two PCs near 0 Health.
 
-- **Breathers &equals; Strategy** Since resting is used to recharge Health and life support, they are tactical decisions. Create times when doing one puts the other at risk.
+- **Breathers &equals; Tactical Strategy:** Since resting is used to recharge Health and life support, they are tactical decisions. Create times when doing one puts the other at risk. [revise]
 
 - **Downtime Activities** [under construction]
 
 ### Player Engagement
 
-#### Survivor Point Awards 
+#### Survivor Point Awards
+
 > [Revision Required]
 
 The Survivor Point Checklist is meant to track a character's evolution not only in combat, but through exploration, roleplay, creativity, and personal growth. However, unchecked, it can quickly snowball into power creep. Here are a few guidelines to keep rewards balanced and meaningful:
@@ -430,41 +435,45 @@ The Survivor Point Checklist is meant to track a character's evolution not only 
 Even the best GMs hit snags. Here’s how to navigate the most common issues:
 
 #### Railroading
+
 - **The Problem:**
-: You’ve crafted a story. The players ignore it.
+  : You’ve crafted a story. The players ignore it.
 
 - **The Fix:**
-: Instead of writing a plot, write consequences. Let player actions shape the world. Outline motivations for key NPCs and factions so they can respond naturally, not just by following your script.
+  : Instead of writing a plot, write consequences. Let player actions shape the world. Outline motivations for key NPCs and factions so they can respond naturally, not just by following your script.
 
 - **Tip:**
-: Ask yourself: “What’s this scene about?” If you know the stakes, you can let the outcome vary.
+  : Ask yourself: “What’s this scene about?” If you know the stakes, you can let the outcome vary.
 
 #### Power Imbalance
+
 - **The Problem:**
-: One character overshadows the others mechanically or narratively.
+  : One character overshadows the others mechanically or narratively.
 
 - **The Fix:**
-: Don’t nerf. Instead, spotlight others through environmental challenges or social scenes where different Abilities shine. Give the high-powered character a complication every so often that makes their strength a potential liability (e.g., public fear, instability, or mutation risk). But, don't overdo this.
+  : Don’t nerf. Instead, spotlight others through environmental challenges or social scenes where different Abilities shine. Give the high-powered character a complication every so often that makes their strength a potential liability (e.g., public fear, instability, or mutation risk). But, don't overdo this.
 
 #### Analysis Paralysis
+
 - **The Problem:**
-: You, or the Players freeze, debating too many options or unable to make a decision.
+  : You, or the Players freeze, debating too many options or unable to make a decision.
 
 - **The Fix:**
-: Add time pressure. Introduce a ticking clock or collapsing environment to force choices. Give incomplete intel — enough to act, but not to be certain.
+  : Add time pressure. Introduce a ticking clock or collapsing environment to force choices. Give incomplete intel — enough to act, but not to be certain.
 
 - **Tip:**
-: Limit options to three visible paths. Let players discover more only if they go looking.
+  : Limit options to three visible paths. Let players discover more only if they go looking.
 
 - **Tip 2:**
-: Use a tool, such as an oracle system (i.e.: themed random roll charts, as made popular by Mythic: Game-Master Emulator), asking questions and interpreting the results to find your next story beat.
+  : Use a tool, such as an oracle system (i.e.: themed random roll charts, as made popular by Mythic: Game-Master Emulator), asking questions and interpreting the results to find your next story beat.
 
 #### GM Burnout
+
 - **The Problem:**
-: You’re tired. You’re dreading game night.
+  : You’re tired. You’re dreading game night.
 
 - **The Fix:**
-: Simplify. Run a one-shot with pregens. Let players drive the narrative for a session. Skip to the next arc if things have stalled. You don’t owe anyone perfection — just effort.
+  : Simplify. Run a one-shot with pregens. Let players drive the narrative for a session. Skip to the next arc if things have stalled. You don’t owe anyone perfection — just effort.
 
 - **Tip:**
-: Check ahead of time if any of your players might like to GM a one-shot of some kind. Let them take the reins for a session or two. Or, if necessary, simply take a break.
+  : Check ahead of time if any of your players might like to GM a one-shot of some kind. Let them take the reins for a session or two. Or, if necessary, simply take a break.

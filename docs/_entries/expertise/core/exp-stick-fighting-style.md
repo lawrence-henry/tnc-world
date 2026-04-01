@@ -32,9 +32,9 @@ tags: [Offense, Melee]
         |**Expert:**| Whirling Staff (4 CP) |
 
     === "Basic"
-    Using the length of your weapon to your advantage, you treat enemies up to 4 yards away as if they were adjacent to you, so you can make Melee Attacks against them (they can't do the same unless they're also using this Expertise). If your way to that target is blocked by cover or another character, you can still attack that target using your Melee Weapon, with a penalty to the Attack Roll equal to the AP of the cover used.
+        Using the length of your weapon to your advantage, you treat enemies up to 4 yards away as if they were adjacent to you, so you can make Melee Attacks against them (they can't do the same unless they're also using this Expertise). If your way to that target is blocked by cover or another character, you can still attack that target using your Melee Weapon, with a penalty to the Attack Roll equal to the AP of the cover used.
     === "Initiate"
-    You can use the Stand Firm Chance Action as an Instinct Action, following its other rules as normal, but with a +2 bonus to your resistance against Footwork or Knock Prone. Additionally, if your weapon has the Double Property, you can now attack twice with the same Major Action.
+        You can use the Stand Firm Chance Action as an Instinct Action, following its other rules as normal, but with a +2 bonus to your resistance against Footwork or Knock Prone. Additionally, if your weapon has the Double Property, you can now attack twice with the same Major Action.
     === "Advanced"
         - **Heart Strike (1 CP):** You can perform the Pierce Armor Chance Action for 1 CP instead of the usual 2.
         - **Sweeping Strike:** You can perform the Knock Prone Chance Action as a Free Action.

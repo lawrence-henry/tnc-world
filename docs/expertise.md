@@ -257,14 +257,133 @@ The Expertises listed are separated into categories, indicating how they would m
 
 --8<-- "_entries/expertise/core/exp-wrestling-style.md:card"
 
-<!-- prettier-ignore-end -->
-
 ### Crafting / Engineering
+
+--8<-- "_entries/expertise/core/exp-botanist.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-technician.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-tinker.md:card"
 
 ### Exploration
 
+--8<-- "_entries/expertise/core/exp-free-running.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-quick-reflexes.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-stalker.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-survivalist.md:card"
+
 ### Social / Support
+
+--8<-- "_entries/expertise/core/exp-commander.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-first-aid.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-jack-of-all-trades.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-negotiator.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-private-investigator.md:card"
 
 ### Utility
 
+--8<-- "_entries/expertise/core/exp-animal-training.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-armor-training.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-demolitions-expert.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-scientist.md:card"
+
+---
+
+--8<-- "_entries/expertise/core/exp-puzzle-expert.md:card"
+
 ## Specializations
+
+> A single specialist could potentially turn the tide of any battle. These abilities are usually the culmination of years of specialized training.
+
+--8<-- "_entries/specializations/core/spc-assassin.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-blade-master.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-center-axis-relock.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-expert-chemist.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-field-medic.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-killswitch.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-master-infiltrator.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-master-marksman.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-opportunist.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-sifu.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-steelheart.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-style-breaker.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-systema.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-tactical-genius.md:card"
+
+---
+
+--8<-- "_entries/specializations/core/spc-tech-specialist.md:card"
+<!-- prettier-ignore-end -->

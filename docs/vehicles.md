@@ -3,7 +3,7 @@ title: Vehicles
 icon: material/bus
 ---
 
-Sometimes, a fight spills farther than you may have anticipated. Sometimes, a character needs to get in or out of a situation in a hurry. This subchapter includes vehicle rules, statistics, and modifications for resolving actions where vehicles are involved. That said, vehicles can be damaged. See [**Equipment: Damage & Destruction, pg. 85**](#85) subchapter for more information.
+Sometimes, a fight spills farther than you may have anticipated. Sometimes, a character needs to get in or out of a situation in a hurry. This subchapter includes vehicle rules, statistics, and modifications for resolving actions where vehicles are involved. That said, vehicles can be damaged.
 
 ###### Maneuvering
 

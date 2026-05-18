@@ -101,6 +101,281 @@ Throughout a game, it is possible to suffer from a number of debilitating Condit
 |         5: Nightmare         |     Catastrophic      |                   Permanent or requires extreme Medical Intervention                   |
 
 <!-- prettier-ignore -->
+!!! abstract "Bleeding"
+
+    === "Overview"
+        You've been wounded. Blood loss deals continuous damage.
+    === "Tier 1"
+        Light Bleeding: Lose 1 Health per Round.
+    === "Tier 2"
+        Moderate Bleeding: Lose 2 Health per Round. Healing effects halved.
+    === "Tier 3"
+        Severe Bleeding: Lose 3 Health per Round. Minor Disadvantage on Might Action Rolls.
+    === "Tier 4"
+        Critical Bleeding: Lose 5 Health per Round. Speed reduced by 5 yards per Round. Major Disadvantage on Might and Reflexes Action Rolls.
+    === "Tier 5"
+        Mortal Wound: If left untreated for a number of rounds up to the character's Constitution, maximum 8 rounds, character immediately falls unconscious. Dying timer starts two rounds before Unconsciousness.
+    === "Removal"
+        Beyond Tier 1, requires medical treatment or a Constitution Action Roll (CR = 10 + Bleeding Tier) to stabilize. Tier 4 and above require surgical treatment, or the stabilization only lasts 1 minute.
+
+<!-- prettier-ignore -->
+!!! abstract "Burning"
+
+    === "Overview"
+
+    === "Tier 1"
+        Singed: Causes additional pain, causing attacks against you to cause +2 Damage.
+    === "Tier 2"
+        Smoldering: Minor Disadvantage on Reflexes Action Rolls.
+    === "Tier 3"
+        First Degree: Major Disadvantage on Reflexes Action Rolls. Minor Disadvantage on Perception Action Rolls.
+    === "Tier 4"
+        Second Degree: Attacks against you cause +5 Damage. Major Disadvantage on Reflexes and Perception Action Rolls.
+    === "Tier 5"
+        Actively Burning/Third Degree: Lose 6 Health per Round. Cannot take any actions other than trying to put themselves out.
+    === "Removal"
+        Reflexes Action Roll (CR 10 + Burning Tier) to put out the Fire.
+
+<!-- prettier-ignore -->
+!!! abstract "Confusion"
+
+    === "Overview"
+
+    === "Tier 1"
+        Distracted: -1 to Wits and Perception Action Rolls.
+    === "Tier 2"
+        Muddled: Minor Disadvantage on all Mental-based Action Rolls.
+    === "Tier 3"
+        Unfocused: Major Disadvantage on all Mental-based Action Rolls.
+    === "Tier 4"
+        Delirious: Your actions target a random other character (including yourself), determined by your Chance Die.
+    === "Tier 5"
+       Catatonic: You cannot speak or take actions unless prompted externally, and only after passing a Perception Saving Throw (CR 15)
+    === "Removal"
+        Willpower or Perception (CR 10 + Confusion Tier)
+
+<!-- prettier-ignore -->
+!!! abstract "Dehydrated"
+
+    === "Overview"
+
+    === "Tier 1"
+        Thirsty: -2 to Willpower and Constitution Action Rolls.
+    === "Tier 2"
+        Dry Mouth: -3 to Willpower and Constitution Action Rolls. Speaking at all becomes a Major Action.
+    === "Tier 3"
+        Dizziness: Cannot use any actions related to Wits or Willpower if the character has moved in the same turn.
+    === "Tier 4"
+        Muscle Cramps: Movement speed halved.
+    === "Tier 5"
+        Low Blood Pressure: Carry Capacity becomes 5, regardless of Might. CR 15 Constitution Saving Throw every minute (4 Rounds), or fall unconscious.
+    === "Removal"
+        Dehydration Tiers can be removed simply by drinking water, but only a maximum of 2 Tiers can be removed per day.
+
+<!-- prettier-ignore -->
+!!! abstract "Enraged"
+
+    === "Overview"
+
+    === "Tier 1"
+        Irritated: Must attack at least once per turn, regardless of positioning.
+    === "Tier 2"
+        Furious: Opponents gain Minor Advantage on Attacks against you.
+    === "Tier 3"
+        Reckless: Cannot take any Defensive actions, including Chance Actions. Opponents gain Major Advantage on attacks against you.
+    === "Tier 4"
+        Bloodlust: Must attack the nearest creature (friend or foe). All of your attacks suffer a Minor Disadvantage, but gain a +2 Bonus to Base Damage.
+    === "Tier 5"
+        Berserk: All of your attacks suffer a Major Disadvantage, but gain a +5 Bonus to Base Damage.
+    === "Removal"
+        Ends with a successful Willpower (Self-Discipline) Action Roll (CR 10 + Enraged Tier)
+
+<!-- prettier-ignore -->
+!!! abstract "Entangled"
+
+    === "Overview"
+
+    === "Tier 1"
+        Hindered: Movement Speed is halved. Minor Disadvantage on Reflexes Action Rolls.
+    === "Tier 2"
+        Restrained: Movement Speed is 0, but you can still Attack and take Actions. All Action Rolls suffer Major Disadvantage.
+    === "Tier 3"
+        Bound: Movement Speed is 0. You can only use Actions that don't require hand or foot movement (e.g., speaking, mental abilities). Escape Action Rolls suffer Minor Disadvantage.
+    === "Tier 4"
+        Immobilized: Same as Bound, but you are no longer able to make attack rolls or most other actions. Escape tests suffer Major Disadvantage.
+    === "Tier 5"
+        Completely Restrained: You are fully incapacitated and incapable of movement. Escape at this tier requires outside assistance or a CR 20 Might (Strength) Action Roll.
+    === "Removal"
+        Tiers 1-3: Might (Strength) or Reflexes (Escape) (CR 9 + Entangled Tier)
+        Tiers 4-5: Might (Strength) or Reflexes (Escape) (CR 11 + Entangled Tier)
+        Special: This Condition does not contribute to the Sudden Death Threshold.
+
+<!-- prettier-ignore -->
+!!! abstract "Fatigue"
+
+    === "Overview"
+
+    === "Tier 1"
+        Weary: -1 to all Action Rolls
+    === "Tier 2"
+        Drained: Minor Disadvantage on physical actions requiring sustained effort.
+    === "Tier 3"
+        Exhausted: Speed is halved, and you can't take the Sprint Action.
+    === "Tier 4"
+        Collapsing: Major Disadvantage on all Action Rolls.
+    === "Tier 5"
+        Unconscious: You fall unconscious for 1d6 days, unless you receive medical aid.
+    === "Removal"
+        Reduced by 1 Tier per Rest. If Tier 5 is reached, full recovery is required before you can do anything aside from Rest.
+        Special: Effects of this Condition stack.
+
+<!-- prettier-ignore -->
+!!! abstract "Fear"
+
+    === "Overview"
+
+    === "Tier 1"
+        Uneasy: -1 to all Willpower and Perception Action Rolls.
+    === "Tier 2"
+        Anxious: Minor Disadvantage on all non-combat actions requiring a roll.
+    === "Tier 3"
+        Shaken: Major Disadvantage on all actions requiring a roll.
+    === "Tier 4"
+        Panicked: Must use all of your movement to flee or cower.
+    === "Tier 5"
+        Terrorized: Incapacitated until the threat is gone.
+    === "Removal"
+        Ends when the source of Fear is removed or via a successful Willpower Save (CR 12 + Fear Tier).
+
+<!-- prettier-ignore -->
+!!! abstract "Hypothermic"
+
+    === "Overview"
+
+    === "Tier 1"
+        Chilled: Minor Disadvantage on Reflexes, Might, and Wits Action Rolls.
+    === "Tier 2"
+        Shivering: Major Disadvantage on all Reflexes and Wits Action Rolls.
+    === "Tier 3"
+        Lethargic: Movement is halved. Major Disadvantage on all Action Rolls except Action Rolls based on Willpower.
+    === "Tier 4"
+        Frostbite: All Actions are Major Actions. Movement is quartered. Automatic failure on all Reflexes-based Action Rolls.
+    === "Tier 5"
+        Hypothermia: Character is Incapacitated and must roll a Constitution Saving Throw (Starting at CR 8, +1 every round) or suffer 1d6 Cold Damage until treated or dying.
+    === "Removal"
+        Each Tier requires an additional 30 minutes of warmth before it can be removed. Tier 4 and above require Emergency Medical Treatment to avoid permanent damage.
+
+<!-- prettier-ignore -->
+!!! abstract "Impaired Sense"
+
+    === "Overview"
+
+    === "Tier 1"
+        Discomfort: -1 to all Action Rolls related to the affected sense. Perception Distance halved.
+    === "Tier 2"
+        Hampered: -2 to all Action Rolls related to the affected sense. Must pass a Constitution Saving Throw (CR 12) to make Perception Action Rolls.
+    === "Tier 3"
+        Damaged: -5 to all Action Rolls related to the affected sense. The Constitution Saving Throw to make Perception Action Rolls increases to 15.
+    === "Tier 4"
+        Severe Damage: When you roll an Action Roll related to the affected sense, an odd number on the Chance Die means the roll automatically fails.
+    === "Tier 5"
+        Impaired: The affected sense cannot be used at all.
+    === "Removal"
+        At Tier 3 and above, Impaired Sense requires surgery to remove its effects.
+        Special: This Condition does not contribute to the Sudden Death Threshold.
+
+<!-- prettier-ignore -->
+!!! abstract "Poisoned"
+
+    === "Overview"
+
+    === "Tier 1"
+        Nausea: Minor Disadvantage on Might-based Action Rolls.
+    === "Tier 2"
+        Sickened: -1 to all Action Rolls.
+    === "Tier 3"
+        Debilitated: -3 to all Action Rolls. Movement Speed reduced by 15 yards.
+    === "Tier 4"
+        Organ Failure: Movement Speed reduced to 6 yards per Round. Lose 1d6 Health per Minute.
+    === "Tier 5"
+        Fatal Poisoning: If left untreated for 1 minute, drop to 0 Health.
+    === "Removal"
+        Requires antidote, medical treatment, or a Constitution Action Roll (CR 11 + Poisoned Tier).
+
+<!-- prettier-ignore -->
+!!! abstract "Slowed"
+
+    === "Overview"
+
+    === "Tier 1"
+        Hampered: -2 yards of Movement Speed.
+    === "Tier 2"
+        Impaired: Movement Speed halved.
+    === "Tier 3"
+        Hindered: You cannot take the Sprint Action, or any Instinct Actions.
+    === "Tier 4"
+        Crippled: Movement Speed reduced to 2 yards per Round.
+    === "Tier 5"
+        Immobilized: You cannot move.
+    === "Removal"
+        Ends when healed or through specific effects. Crippled or Immobilized require medical treatment, or specially made devices that temporarily reduce or ignore the effects of this Condition.
+        Special: This Condition does not contribute to the Sudden Death Threshold.
+
+<!-- prettier-ignore -->
+!!! abstract "Stunned"
+
+    === "Overview"
+
+    === "Tier 1"
+        Dazed: -2 to Reflexes and Perception-based Action Rolls.
+    === "Tier 2"
+        Stumbling: -5 to Reflexes and Perception-based Action Rolls.
+    === "Tier 3"
+        Disoriented: Major Disadvantage on all actions.
+    === "Tier 4"
+        Incapacitated: Cannot take Major Actions or Instinct Actions.
+    === "Tier 5"
+        Unconscious: You are unconscious for 1d6 Rounds.
+    === "Removal"
+        Constitution Action Roll (CR 10 + Stunned Tier) to reduce Tier by 1. Can be rolled once per Round as a Non-Action.
+
+<!-- prettier-ignore -->
+!!! abstract "Weakness"
+
+    === "Overview"
+
+    === "Tier 1"
+        Slight Weakness: -1 to all Might Action Rolls.
+    === "Tier 2"
+        Moderate Weakness: Carry Capacity reduced to 10 Active Inventory Slots.
+    === "Tier 3"
+        Severe Weakness: -5 to all Might-based Actions. Carry Capacity reduced to 5 Active Inventory Slots.
+    === "Tier 4"
+        Helpless: You cannot take Might-based Actions. Carry Capacity reduced to a single item.
+    === "Tier 5"
+        Paralyzed: You cannot take any Movement or Actions.
+    === "Removal"
+        Recovers at a rate of 1 Tier per Rest. Tier 5 requires medical treatment before recovery can occur.
+
+<!-- prettier-ignore -->
+!!! abstract "Winded"
+
+    === "Overview"
+
+    === "Tier 1"
+        Short of Breath: Can only hold breath for half your normal duration.
+    === "Tier 2"
+        Struggling: Can only hold breath for one round. Cannot take the Sprint Action.
+    === "Tier 3"
+        Gasping: Cannot hold breath. Cannot take the Sprint Action or any Instinct Actions.
+    === "Tier 4"
+        Suffocating: Begin suffocation; Constitution Saving Trow (CR 10 + Winded Tier) every Round. On a failure, reduce your Health by your Chance Die.
+    === "Tier 5"
+        Asphyxiation: Constitution Action Roll (CR equal to previous Suffocation Save +2). On a failure, drop to 0 Health.
+    === "Removal"
+        Recovers naturally over time. Removed by 1 Tier for every minute after getting fresh air, stopping exertion, or treating the injury that caused it.
+
+<!-- prettier-ignore -->
 !!! warning "Sudden Death"
     If a character gains 10 or more Condition Markers, in any combination, their body could potentially go into shock, killing them. At the 10th Marker, players roll a Constitution Saving Throw CR 10, adding +1 to the Save for every additional Marker over the 10th.
 

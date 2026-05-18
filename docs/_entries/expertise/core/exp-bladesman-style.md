@@ -34,8 +34,8 @@ tags: [Offense, Melee]
     === "Initiate"
         - **Perfect Parry:** When you are targeted by a Melee Attack, you can roll an opposing Melee Attack Roll with a +1 bonus to the roll, instead of relying on Defense. If you succeed, you manage to push the enemy's attack away. If you roll doubles, gain a Minor Advantage (+2) on your next Melee Attack Roll. If you roll triples, you can make one immediate Melee Attack as a Non-Action.
     === "Advanced"
-        - **Deep Wounds (1+ CP):** Instead of dealing direct damage, you can impose a number of points of the Bleeding Condition equal to the amount of CP spent into this Chance Action.
+        - **Deep Wounds (1 CP):** Instead of dealing direct damage, increase the target's Bleeding Condition Tier by 1, to a maximum of Tier 3.
     === "Expert"
-        - **Cull The Weak (9 CP):** While your target is suffering the Bleeding Condition, you can use this unique Chance Action. Roll a Melee Attack as a Major Action, regardless of any effects that increase your attack speed. On a successful hit, you gain a cumulative +1 bonus to your Melee Attack Damage per point of Bleeding Condition currently applied to your target.
+        - **Cull The Weak (9 CP):** While your target is suffering the Bleeding Condition, you can use this unique Chance Action. Roll a Melee Attack as a Major Action, regardless of any effects that increase your attack speed. On a successful hit, you apply 1 Tier of another Condition that could be caused by your attack, to a maximum of Tier 3, or increase Bleeding by 1 Tier, to a maximum of Tier 5.
 
 <!-- --8<-- [end:card] -->

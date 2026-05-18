@@ -58,6 +58,8 @@ Detailed below are descriptions, rules, and examples of the Chance Actions you c
 
 : **Close Call (9 CP):** If an attack would take you to 0 Health, you fall Unconscious with 1 Health instead.
 
+: **Weak Point (9 CP):** You find a point of extreme vulnerability that you can target for a single attack. You ignore up to half of your target's AP (round up) for this attack.
+
 : **Last Stand (9 CP):** After falling to 0 Health, you can activate this Chance Action as an Instinct Action. Doing so gives you a single round where you ignore all Damage and Conditions. During this round, no Healing Action Rolls work to your benefit, and you fall to Dying with 1d6 rounds removed from the Dying timer.
 
 ### Melee
@@ -119,3 +121,13 @@ Detailed below are descriptions, rules, and examples of the Chance Actions you c
 : **Sickle and Hammer (12 CP):** Make an opposed Attack Roll against an incoming Melee Attack. If you succeed, your target's attack fails and you initiate a Grapple, dealing Unarmed Critical Damage.
 
 : **Neckbreaker (18 CP):** While you are in control of a Grapple, you initiate a Lock Action Roll as a Major Action. Your target makes a Constitution Saving Throw CR 10 + your Chance Die. On a successful Save, the target suffers the Incapacitated Condition until they are able to get Surgery. On a failed Save, the target suffers the Paralyzed Condition and begins Suffocating.
+
+### Exploration Chance Actions
+
+: **Slice The Pie ():** You can get the lay of the land without putting yourself in danger. When near an open door, you can make a Perception Action Roll CR 9. On a success, you gain an accurate layout of the room (threats, sources of cover, points of interest, etc). If you roll Doubles with your success, you may immediately move into the nearest cover, using your result as a Reflexes (Stealth) roll.
+
+: **Vertical Coffin ():** 
+
+: **Breach and Clear ():** You go through doors ready to strike. For the next minute after activating this Chance Action, the next time you would enter a room and begin, you gain a +5 bonus to Initiative.
+
+### Roleplaying

@@ -395,3 +395,8 @@ Rest:
 
 Professional Medical Care:
 : Being cared for in a professional medical environment grants significant benefits to healing. Most notably, a +2 bonus to Health recovery for every Rest.
+
+#### Connections
+
+
+#### Character Advancement

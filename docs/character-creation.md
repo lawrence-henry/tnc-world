@@ -27,7 +27,7 @@ There are six steps to character creation, each one a straightforward extension 
 Every character starts as an idea. Who they are, what drives them, and what kind of survivor they're on track to become.
 
 <!-- prettier-ignore -->
-???+ tip "Think in Arcs"
+!!! tip "Think in Arcs"
     Before numbers hit the page, think personality, motivation, and aesthetic.
 
     - What keeps this character moving?
@@ -104,11 +104,200 @@ Instead of leaving their characters in the hands of fate with a roll, a player m
 
 ---
 
+### Might
+
+: The Might Ability determines how strong your character is; how much weight they can carry, and how much of an advantage they might have in an opposed grappling match.
+
+**Carry Capacity (lbs)**
+: A rough physical limit, used for large objects and realism.
+
+**Inventory Capacity (Units)**
+: Reflects how many items your character can _ready, access,_ or _switch between_ efficiently.
+
+<table style="text-align:center;">
+<thead>
+<tr>
+<th style="width:">Might Score</th><th style="width:">Carry Capacity (in pounds)</th>
+<th>Inventory Capacity</th>
+</tr>
+</thead>
+<tr>
+<td>-5</td><td>10lbs</td>
+<td>10 Units</td>
+</tr>
+<tr>
+<td>-4</td><td>20lbs</td>
+<td>10 Units</td>
+</tr>
+<tr>
+<td>-3</td><td>30lbs</td>
+<td>10 Units</td>
+</tr>
+<tr>
+<td>-2</td><td>40lbs</td>
+<td>10 Units</td>
+</tr>
+<tr>
+<td>-1</td><td>50lbs</td>
+<td>10 Units</td>
+</tr>
+<tr>
+<td>0</td><td>100lbs</td>
+<td>10 Units</td>
+</tr>
+<tr>
+<td>1</td><td>150lbs</td>
+<td>12 Units</td>
+</tr>
+<tr>
+<td>2</td><td>200lbs</td>
+<td>14 Units</td>
+</tr>
+<tr>
+<td>3</td><td>250lbs</td>
+<td>16 Units</td>
+</tr>
+<tr>
+<td>4</td><td>300lbs</td>
+<td>18 Units</td>
+</tr>
+<tr>
+<td>5</td><td>350lbs</td>
+<td>20 Units</td>
+</tr>
+<tr>
+<td>Above &plus;5</td>
+<td>100lbs x (1 &plus; Might &divide; 2)</td>
+<td>&plus;2 Units per Might</td>
+</tr>
+</table>
+
+### Reflexes
+
+: The Reflexes Ability is an indication of a character's nimbleness and flexibility. It represents how skilled a person is at moving their body, especially in times of high stress. It's used to determine your defensive options, your foot speed, and governs the use of certain weapons. These formulae give you a number roughly representing how many yards you can move in any given round.
+
+<table style="text-align:center;">
+<thead>
+<th colspan="3">Foot Speed</th>
+<tr>
+<th style="width:33%">Reflexes Score</th><th style="width:33%">Yards per Round</th><th style="width:33%">MPH</th>
+</tr>
+</thead>
+<tr>
+<td>-5</td><td>12</td><td>1.5</td>
+</tr>
+<tr>
+<td>-4</td><td>14</td><td>1.8</td>
+</tr>
+<tr>
+<td>-3</td><td>16</td><td>2</td>
+</tr>
+<tr>
+<td>-2</td><td>18</td><td>2.3</td>
+</tr>
+<tr>
+<td>-1</td><td>20</td><td>2.6</td>
+</tr>
+<tr>
+<td>0</td><td>22</td><td>3</td>
+</tr>
+<tr>
+<td>1</td><td>24</td><td>3.3</td>
+</tr>
+<tr>
+<td>2</td><td>26</td><td>3.6</td>
+</tr>
+<tr>
+<td>3</td><td>28</td><td>4</td>
+</tr>
+<tr>
+<td>4</td><td>30</td><td>4.4</td>
+</tr>
+<tr>
+<td>5</td><td>32</td><td>4.9</td>
+</tr>
+<tr>
+<td rowspan="2" style="vertical-align:middle;">Above &plus;5</td><td colspan="2">Yards/Round = 22 &plus; (Reflexes x 2)</td>
+</tr>
+<tr>
+<td style="text-wrap:nowrap;" colspan="2">MPH = (Yards/Round x (1 &divide; 1760) x (3600 &divide; 15)
+</tr>
+</table>
+
+### Constitution
+
+: The Constitution Ability is a measure of a character's overall health, stamina, and overall physical resilience. It determines how much damage they can endure and influences how susceptible they are to physical ailments such as poison and fatigue.
+
+### Wits
+
+: The Wits Ability measures a character's intelligence, quick thinking, and ability to process information rapidly. It governs how well they can solve puzzles, recall knowledge, and think on their feet in stressful situations.
+
+<!-- prettier-ignore -->
+!!! tip "Optional"
+    If your GM allows it, your character's Initiative roll could be based on Wits, as quicker thinking could potentially lead to faster reactions. This would need to be decided during character creation.
+
+### Willpower
+
+: The Will Ability represents a character's mental fortitude, determination, and ability to resist mental influence. It affects their ability to resist fear, charm, and other mind-altering effects.
+
+### Perception
+
+: The Perception Ability is your character's ability to notice and interpret their surroundings. It affects how well they can detect hidden objects, hear distant sounds, and see through illusions. The chart below indicates how close a character would need to be in order to perceive things that are out of the ordinary.
+
+<table style="text-align:center;">
+<thead>
+<th colspan="2">Perception Range</th>
+<tr>
+<th>Perception Score</th><th>Detection Range (Yards)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-5</td><td>10</td>
+</tr>
+<tr>
+<td>-4</td><td>15</td>
+</tr>
+<tr>
+<td>-3</td><td>20</td>
+</tr>
+<tr>
+<td>-2</td><td>25</td>
+</tr>
+<tr>
+<td>-1</td><td>30</td>
+</tr>
+<tr>
+<td>0</td><td>35</td>
+</tr>
+<tr>
+<td>1</td><td>40</td>
+</tr>
+<tr>
+<td>2</td><td>45</td>
+</tr>
+<tr>
+<td>3</td><td>50</td>
+</tr>
+<tr>
+<td>4</td><td>55</td>
+</tr>
+<tr>
+<td>5</td><td>60</td>
+</tr>
+<tr>
+<td>Above &plus;5</td><td>Add &plus;5 Yards</td>
+</tr>
+</tbody>
+</table>
+
+---
+
 ## Step 3: Background {#background}
 
 The seven Backgrounds available represent a wide swath of personal or professional inclinations and training. They encompass many common personal experiences and walks of life. They are balanced based on what individuals in those professions sociotypically encounter and work with in their everyday lives. If your table requires more specific experiences or options, be sure to discuss the particulars with your GM.
 
-Characters also do not generally start with much. Through playing, your character will have opportunities to improve their equipment but typically start with a few basics. Roll 2d6 and add your Background's RP Bonus for your starting RP amount. If you roll doubles, roll your Chance Die, and add it to the result. [See Chapter 7: The Armory, for more RP rules, and equipment.]
+Characters also do not generally start with much. Through playing, your character will have opportunities to improve their equipment but typically start with a few basics. Roll 2d6 and add your Background's RP Bonus for your starting RP amount. If you roll doubles, roll your Chance Die, and add it to the result.
 
 That said, with every Background is a list of possible starting benefits. A player may pick 1 of these benefits to go along with the other, automatic benefits of their Background. Optionally, the player may also roll 2d6 to randomly determine their starting benefit. The player may choose or roll another benefit at Levels 4, 8, 12, 16, and 20.
 

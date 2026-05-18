@@ -27,7 +27,7 @@ tags: [Defense]
         |:------:|:-|
         |**Basic:**|1/2 AP to Speed|
         |**Initiate:**| Stand Firm as Instinct Action, Armor is 1/2 Cover. |
-        |**Advanced:**| Bear The Brunt (3 CP) |
+        |**Advanced:**| Bear The Brunt (6 CP) |
         |**Expert:**| Determined Protector|
 
     === "Basic"
@@ -35,7 +35,7 @@ tags: [Defense]
     === "Initiate"
         You can use Stand Firm as an Instinct Action, instead of as a Minor Action. Additionally, your Armor counts as 1/2 Cover for you.
     === "Advanced"
-        - **Bear The Brunt (3 CP):** You can ignore Armor Piercing from all sources, including from Chance Actions, until the start of your next turn.
+        - **Bear The Brunt (6 CP):** You can ignore Armor Piercing from all sources, including from Chance Actions, until the start of your next turn.
     === "Expert"
         - **Determined Protector:** If an Attack targets any character other than you, you can use your Instinct Action to interpose yourself, automatically taking the hit. Targets protected in this way benefit from you as 3/4ths Cover. The target of this ability must be within 6 yards to benefit from this action.
 

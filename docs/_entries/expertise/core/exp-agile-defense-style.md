@@ -22,9 +22,6 @@ tags: [Defense, Melee]
     Defense is not optional for you. Your art is your bond. Your spirit is your guide. You seek safety in the heart of danger.
 
     === "Overview"
-        **Role:** Reactive defense and counter-pressure
-        **Playstyle:** Stay mobile, bait attacks, punish mistakes
-
         |Benefits||
         |:------:|:-|
         |**Basic:**|+2 Defense, Speed Boost|

@@ -93,7 +93,7 @@ The following table provides a common perception for test difficulty.
 
 Also listed below are Advanced Action Rolls. These are provided for determining the effective Threat Level of non-combat situations, or for GMs who like to determine whether partial success or failure can apply to a roll.
 
-**Standard Task Difficulty**
+**Standard Action Difficulty**
 
 |    Difficulty    | CR  |
 | :--------------: | :-: |
@@ -106,7 +106,7 @@ Also listed below are Advanced Action Rolls. These are provided for determining 
 |    Imposing:     | 19  |
 | Near Impossible: | 21  |
 
-**Advanced Task Difficulty (Success Threshold)**
+**Advanced Action Difficulty (Success Threshold)**
 
 |  Difficulty   | Threshold |
 | :-----------: | :-------: |
@@ -122,9 +122,9 @@ At times, your GM may decide a roll has been particularly affected by your circu
 
 2 or more sources of Minor Advantage/Disadvantage becomes a Major Advantage/Disadvantage. On the other hand, regardless of number, Major Advantages/Disadvantages do not stack in this way, although multiple instances and sources count when determining whether or not an Advantage or Disadvantage cancels its opposite out.
 
-**Minor Advantage/Disadvantage:** +2 (2-on-1, target flanked, climbing using a rope)
+**Minor Advantage/Disadvantage:** +2 (Outnumbered by 2 to 1, target flanked, climbing using a rope)
 
-**Major Advantage/Disadvantage:** +5 (3 or more on 1, target unaware, climbing using a ladder)
+**Major Advantage/Disadvantage:** +5 (Outnumbered by 3 or more to 1, target unaware, climbing using a ladder)
 
 <!-- prettier-ignore -->
 !!! tip "Things to remember about Action Rolls"
@@ -140,7 +140,10 @@ As mentioned above, your off-color die is called the Chance Die. The number of C
 
 When doubles are rolled on certain types of tests, this generates **Chance Points**. These points go into a pool, to be used to fuel various special maneuvers called Chance Actions.
 
-A Player Character's Chance Pool starts at **6** Chance Points at the beginning of every session, and caps at **18**. Unused points are lost at the end of the session.
+A Player Character's Chance Pool starts at **6** Chance Points at the beginning of every session and, except where specified, caps at **18**. Unused points are lost at the end of the session.
+
+<!-- prettier-ignore -->
+!!! 
 
 ## Combat
 
@@ -228,7 +231,7 @@ JUMP:
 : You can jump from a standing or moving position. A standing high or long jump has a total distance of your Might in yards. A jump while you're moving has a total distance of your Might + Reflexes in yards.
 
 PREPARE:
-: You pick one major action that you're prepared to use, and what will trigger it, and then end your turn. Any time until your next turn, you can interrupt another character and take your prepared action immediately as an Instinct Action. If you don’t use it by your next turn, the action is lost. You can only take the Prepare action if you haven't already taken a major action.
+: Instead of taking a Major Action this turn, you may reserve one for later. Choose a Major Action and the trigger that will cause it to occur. Before the start of your next turn, when the chosen event occurs, you may interrupt play and resolve the reserved action as an Instinct Action. Unused prepared actions expire at the start of your next turn.
 
 READY:
 : You draw or holster a weapon or ready an item that was otherwise stowed for quick access.
@@ -311,7 +314,7 @@ Both you and your target suffer a -2 penalty to Defense while grappling. If the 
 Each round, the Entangled character can attempt to break free or take control of the grapple by repeating the opposed Might Action Roll.
 
 HEAL:
-: You provide some quick first aid to an injured ally. You must be adjacent to your ally and you must have bandages ready. See the Healing section below for specific rules regarding Heal Action Rolls.
+: You provide some quick first aid to an injured ally. You must be adjacent to your ally and you must have supplies ready. See the Healing section below for specific rules regarding Heal Action Rolls.
 
 <!-- prettier-ignore -->
 !!! warning "Failed Heal Tests"
@@ -395,8 +398,6 @@ Rest:
 
 Professional Medical Care:
 : Being cared for in a professional medical environment grants significant benefits to healing. Most notably, a +2 bonus to Health recovery for every Rest.
-
-#### Connections
 
 
 #### Character Advancement

@@ -13,15 +13,13 @@ tags: [Offense, Melee]
 
 <!-- prettier-ignore -->
 !!! abstract ""
-    **Type:** 
+    **Type:** Style
 
-    **Tags:** 
-    
+    **Tags:** Melee, Offense
+
     **Prerequisites:** Trained in Martial Arts, Trained in Strength
 
     === "Overview"
-        **Role:** 
-
         |Benefits||
         |:------:|:-|
         |**Basic:**| Ignore Defense penalties from Grapples. |

@@ -13,17 +13,15 @@ tags: [Offense, Melee]
 
 <!-- prettier-ignore -->
 !!! abstract ""
-    **Type:** 
+    **Type:** Style
 
-    **Tags:** 
+    **Tags:** Melee, Offense
     
     **Prerequisites:** Trained in Strength
 
     Throws and takedowns are child's play for you. Anyone getting close enough to grab is going to have a bad day if you have anything to say about it.
 
     === "Overview"
-        **Role:** 
-
         |Benefits||
         |:------:|:-|
         |**Basic:**| +2 bonus to Grapples |

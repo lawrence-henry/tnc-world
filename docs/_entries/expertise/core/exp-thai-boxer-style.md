@@ -13,17 +13,15 @@ tags: [Offense, Melee]
 
 <!-- prettier-ignore -->
 !!! abstract ""
-    **Type:**
+    **Type:** Style
 
-    **Tags:**
+    **Tags:** Melee, Offense
 
-    **Prerequisites:**
+    **Prerequisites:** Trained in Martial Arts, Reflexes of 3 or higher
 
     A dangerous, brutal style for those that don't mind being close to their opponents. Your elbows and knees do the job right.
 
     === "Overview"
-        **Role:**
-
         |Benefits||
         |:------:|:-|
         |**Basic:**| Push a target away. |

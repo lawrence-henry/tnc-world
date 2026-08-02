@@ -13,11 +13,11 @@ tags: [Offense, Ranged]
 
 <!-- prettier-ignore -->
 !!! abstract ""
-    **Type:**
+    **Type:** Style
 
-    **Tags:**
+    **Tags:** Ranged, Offense
 
-    **Prerequisites:** Trained in Small-Arms
+    **Prerequisites:** Trained in Small-Arms Weapon Group
 
     Your skill with small firearms is something to behold.
 

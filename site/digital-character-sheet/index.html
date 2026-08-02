@@ -12,6 +12,8 @@
         <link rel="prev" href="../appendix/">
       
       
+        <link rel="next" href="../downloads/">
+      
       
       <link rel="icon" href="../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
@@ -607,6 +609,31 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../downloads/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2m3 14h8v-2H8zm8-7h-2.5V7h-3v3H8l4 4z"/></svg>
+  
+  <span class="md-ellipsis">
+    Downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -646,250 +673,862 @@
 
 
 
-<div class="sheet-app">
-  <header class="sheet-header">
-    <div>
-      <h1>TNC Character Sheet</h1>
-      <p class="muted">Stored in browser localStorage</p>
-    </div>
-  </header>
+  <h1>Digital Character Sheet</h1>
 
-  <section class="hud">
-    <div class="hud-item">
-      <label>Name</label>
-      <input id="name" />
+<div class="sheet-app">
+<form class="charsheet">
+  <header>
+    <section class="charname">
+      <label for="charname">Character Name</label>
+      <input name="charname" />
+    </section>
+    <section class="misc">
+      <ul>
+        <li>
+          <label for="background">Background & Level</label><input name="background" placeholder="Athlete 1" />
+        </li>
+        <li>
+          <label for="playername">Player Name</label><input name="playername" placeholder="Player McPlayerFace" />
+        </li>
+        <li>
+          <label for="survivorpoints">Survivor Points</label><input name="survivorpoints" placeholder="2" />
+        </li>
+        <li>
+          <label for="chancepool">Chance Pool</label><input name="chancepool" placeholder="6" />
+        </li>
+        <li>
+          <label for="infectionlevel">Infection Level</label><input name="infectionlevel" placeholder="0" />
+        </li>
+        <li>
+          <label for="experiencepoints">Experience Points</label><input name="experiencepoints" placeholder="3240" />
+        </li>
+      </ul>
+    </section>
+  </header>
+  <main>
+    <section>
+      <section class="attributes">
+        <div class="scores">
+          <ul>
+            <li>
+              <div class="score">
+                <label for="mightscore">Might</label><input name="mightscore" value="0" />
+              </div>
+              <div class="modifier">
+                <input name="mightprime" type="checkbox" />
+              </div>
+            </li>
+            <li>
+              <div class="score">
+                <label for="reflexesscore">Reflexes</label><input name="reflexesscore" value="0" />
+              </div>
+              <div class="modifier">
+                <input name="reflexesprime" type="checkbox" />
+              </div>
+            </li>
+            <li>
+              <div class="score">
+                <label for="constitutionscore">Constitution</label><input name="constitutionscore" value="0" />
+              </div>
+              <div class="modifier">
+                <input name="constitutionprime" type="checkbox" />
+              </div>
+            </li>
+            <li>
+              <div class="score">
+                <label for="witsscore">Wits</label><input name="witsscore" value="0" />
+              </div>
+              <div class="modifier">
+                <input name="witsprime" type="checkbox" />
+              </div>
+            </li>
+            <li>
+              <div class="score">
+                <label for="willpowerscore">Willpower</label><input name="willpowerscore" value="0" />
+              </div>
+              <div class="modifier">
+                <input name="willpowerprime" type="checkbox" />
+              </div>
+            </li>
+            <li>
+              <div class="score">
+                <label for="perceptionscore">Perception</label><input name="perceptionscore" value="0" />
+              </div>
+              <div class="modifier">
+                <input name="perceptionprime" type="checkbox" />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="attr-applications">
+        </div>
+        <div class="attr-applications">
+          <div class="saves list-section box">
+            <ul>
+              <li><textarea placeholder="Might Talents" style="height:5em;"></textarea></li>
+              <li><textarea placeholder="Reflexes Talents" style="height:5em;"></textarea></li>
+              <li><textarea placeholder="Constitution Talents" style="height:5em;"></textarea></li>
+              <li><textarea placeholder="Wits Talents" style="height:5em;"></textarea></li>
+              <li><textarea placeholder="Willpower Talents" style="height:5em;"></textarea></li>
+              <li><textarea placeholder="Perception Talents" style="height:5em;"></textarea></li>
+            </ul>
+            <div class="label"> Talents
+            </div>
+            </div>
+            </div>
+           </section>
+      <div class="otherprofs box textblock">
+        <label for="otherprofs">Conditions</label><textarea name="otherprofs"></textarea>
+      </div>
+    </section>
+<section>
+  <section class="combat">
+    <div class="armorclass">
+      <div>
+      <label for"ac">Defense</label><input name="ac" placeholder="9" type="text" />
     </div>
-    <div class="hud-item">
-      <label>Level</label>
-      <input id="level" type="number" value="1" />
     </div>
-    <div class="hud-item">
-      <label>HP</label>
-      <div class="inline-pair">
-        <input id="hpCur" type="number" value="10" />
-        <span>/</span>
-        <input id="hpMax" type="number" value="10" />
+    <div class="initiative">
+      <div>
+        <label for="initiative">Damage Resist</label><input name="initiative" placeholder="+0" type="text" />
       </div>
     </div>
-    <div class="hud-item">
-      <label>Infection</label>
-      <input id="infectionLevel" type="number" value="0" />
-    </div>
-    <div class="hud-item">
-      <label>Chance Pool</label>
-      <div class="inline-pair">
-        <input id="chanceCur" type="number" value="0" />
-        <span>/</span>
-        <input id="chanceMax" type="number" value="0" />
+    <div class="speed">
+      <div>
+        <label for="speed">Speed</label><input name="speed" placeholder="10yd" type="text" />
       </div>
     </div>
-    <div class="hud-item">
-      <label>Defense</label>
-      <input id="defense" disabled />
-    </div>
-    <div class="hud-item">
-      <label>Speed</label>
-      <input id="speed" disabled />
+    <div class="hp">
+      <div class="regular">
+        <div class="max">
+          <label for="maxhp">Health Maximum</label><input name="maxhp" placeholder="10" type="text" />
+        </div>
+        <div class="current">
+          <label for="currenthp">Current Health</label><input name="currenthp" type="text" />
+        </div>
+      </div>
+      <div class="temporary">
+        <label for="temphp">Armor Type</label><input name="temphp" type="text" />
+      </div>
     </div>
   </section>
+  <section class="attacksandspellcasting">
+    <div>
+      <label>Attacks & Weapons</label>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Atk Bonus</th>            <th>Damage/Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <input name="atkname1" type="text" />
+            </td>
+            <td>
+              <input name="atkbonus1" type="text" />
+            </td>
+            <td>
+              <input name="atkdamage1" type="text" />
+            </td>
+          </tr>
+                    <tr>
+            <td>
+              <input name="atkname2" type="text" />
+            </td>
+            <td>
+              <input name="atkbonus2" type="text" />
+            </td>
+            <td>
+              <input name="atkdamage2" type="text" />
+            </td>
+          </tr>
+                    <tr>
+            <td>
+              <input name="atkname3" type="text" />
+            </td>
+            <td>
+              <input name="atkbonus3" type="text" />
+            </td>
+            <td>
+              <input name="atkdamage3" type="text" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <textarea>
+      </textarea>
+    </div>
+  </section>
+ <section class="equipment">
+        <div>  
+    <label>Equipment</label>
+          <div class="money">
+            <ul>
+              <li>
+                <label for="cp">RP</label><input name="cp" />
+              </li>
+          </div>
+          <textarea placeholder="Equipment list here"></textarea>
+        </div>
+      </section>
+  </section>
+        <section>
+      <section class="flavor">
+        <div class="personality">
+          <label for="personality">Weapon Group Training</label><textarea name="personality"></textarea>
+        </div>
+        <div class="ideals">
+          <label for="ideals">Armor Training</label><textarea name="ideals"></textarea>
+        </div>
+        <div class="bonds">
+          <label for="bonds">Special Ability Mutations</label><textarea name="bonds"></textarea>
+        </div>
+        <div class="flaws">
+          <label for="flaws">Connections</label><textarea name="flaws"></textarea>
+        </div>
+      </section>
+      <section class="features">
+        <div>
+          <label for="features">Expertise & Specialization</label><textarea name="features"></textarea>
+        </div>
+      </section>
+    </section>
 
-  <nav class="tabs">
-    <button class="tab-btn active" data-tab="play">Play</button>
-    <button class="tab-btn" data-tab="build">Build</button>
-    <button class="tab-btn" data-tab="gear">Gear</button>
-    <button class="tab-btn" data-tab="mutation">Mutation</button>
-    <button class="tab-btn" data-tab="story">Story</button>
-  </nav>
-
-  <main>
-    <section class="tab-panel active" id="tab-play"></section>
-    <section class="tab-panel" id="tab-build"></section>
-    <section class="tab-panel" id="tab-gear"></section>
-    <section class="tab-panel" id="tab-mutation"></section>
-    <section class="tab-panel" id="tab-story"></section>
   </main>
+
+</form>
 </div>
 
 <style>
-  :root {
-    --panel: #f8f8f8;
-    --border: #d8d8d8;
-    --text: #222;
-    --muted: #666;
-    --accent: #7b1e1e;
-    --radius: 14px;
-    --gap: 12px;
-  }
+.red {
+  background: red;
+}
 
-  * {
-    box-sizing: border-box;
-  }
+.blue {
+  background: blue;
+}
 
-  .sheet-app {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.hide {
+  display: none !important;
+}
 
-  .sheet-header {
-    margin-bottom: 1rem;
-  }
+.sheet-app textarea {
+  font-size: 12px;
+  text-align: left;
+  width: calc(100% - 20px - 2px);
+  border-radius: 10px;
+  padding: 10px;
+  resize: none;
+  overflow: hidden;
+  height: 15em;
+}
 
-  .muted {
-    color: var(--muted);
-    font-size: 0.95rem;
-  }
+.sheet-app input[type=checkbox] {
+  cursor: pointer;
+}
 
-  .hud {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: var(--gap);
-  margin-bottom: 1rem;
-  position: sticky;
+.sheet-app div.box {
+  margin-top: 10px;
+}
+
+.sheet-app .charsheet {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+form.charsheet div.textblock {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  align-items: center;
+}
+form.charsheet div.textblock label {
+  text-align: center;
+  border: 1px solid black;
+  border-top: 0;
+  font-size: 10px;
+  width: calc(100% - 20px - 2px);
+  border-radius: 0 0 10px 10px;
+  padding: 4px 0;
+  font-weight: bold;
+}
+form.charsheet div.textblock textarea {
+  border: 1px solid black;
+}
+form.charsheet ul {
+  margin: 0;
+  padding: 0;
+}
+form.charsheet ul li {
+  list-style-image: none;
+  display: block;
+}
+form.charsheet ::-moz-placeholder {
+  color: #bbb;
+}
+form.charsheet :-ms-input-placeholder {
+  color: #bbb;
+}
+form.charsheet ::placeholder {
+  color: #bbb;
+}
+form.charsheet label {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+form.charsheet header {
+  display: flex;
+  align-contents: stretch;
+  align-items: stretch;
+}
+form.charsheet header section.charname {
+  border: 1px solid black;
+  border-right: 0;
+  border-radius: 10px 0 0 10px;
+  padding: 5px 0;
+  background-color: #eee;
+  width: 30%;
+  display: flex;
+  flex-direction: column-reverse;
+  bottom: 0;
   top: 0;
-  background: var(--bg);
-  padding: 0.25rem 0;
-  z-index: 10;
-  }
-
-  .hud-item,
-  .card {
-    min-height: 100px;
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 0.75rem;
-  }
-
-  label {
-    display: block;
-    font-size: 0.85rem;
-    font-weight: 600;
-    margin-bottom: 0.35rem;
-    color: var(--text);
-  }
-
-  input,
-  textarea,
-  select,
-  button {
-    font: inherit;
-    color: var(--text);
-  }
-
-  input,
-  textarea,
-  select {
-    width: 100%;
-    border: 1px solid #c9c9c9;
-    border-radius: 10px;
-    padding: 0.6rem 0.7rem;
-    background: white;
-  }
-
-  textarea {
-    resize: vertical;
-  }
-
-  .inline-pair {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .tabs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .tab-btn {
-    border: 1px solid var(--border);
-    background: white;
-    color: var(--text);
-    border-radius: 999px;
-    padding: 0.65rem 1rem;
-    cursor: pointer;
-  }
-
-  .tab-btn.active {
-    background: var(--accent);
-    color: white;
-    border-color: var(--accent);
-  }
-
-  .tab-panel {
-    display: none;
-  }
-
-  .tab-panel.active {
-    display: block;
-  }
-
-  .panel-grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: var(--gap);
-  }
-
-  .card h3 {
-    margin-top: 0;
-  }
-
-  .col-3 { grid-column: span 3; }
-  .col-4 { grid-column: span 4; }
-  .col-5 { grid-column: span 5; }
-  .col-6 { grid-column: span 6; }
-  .col-7 { grid-column: span 7; }
-  .col-8 { grid-column: span 8; }
-  .col-12 { grid-column: span 12; }
-
-  .row {
-    display: flex;
-    gap: 0.75rem;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .btn {
-    border: 1px solid #333;
-    background: white;
-    padding: 0.6rem 0.9rem;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-
-  .mini {
-    font-size: 0.8rem;
-  }
-
-  @media (max-width: 900px) {
-    .hud {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-12 {
-      grid-column: span 12;
-    }
-  }
+  margin: auto;
+}
+form.charsheet header section.charname input {
+  padding: 0.5em;
+  margin: 5px;
+  border: 0;
+}
+form.charsheet header section.charname label {
+  padding-left: 1em;
+}
+form.charsheet header section.misc {
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+form.charsheet header section.misc ul {
+  padding: 10px 0px 5px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+form.charsheet header section.misc ul li {
+  width: 33.33333%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+form.charsheet header section.misc ul li label {
+  margin-bottom: 5px;
+}
+form.charsheet header section.misc ul li input {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+form.charsheet main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+form.charsheet main div.label-container {
+  position: relative;
+  width: 100%;
+  height: 18px;
+  margin-top: 6px;
+  border: 1px solid black;
+  border-left: 0;
+  text-align: center;
+}
+form.charsheet main div.label-container > label {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  transform: translate(0%, 50%);
+  width: 100%;
+  font-size: 8px;
+}
+form.charsheet main > section {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+}
+form.charsheet main > section section.attributes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+form.charsheet main > section section.attributes div.scores {
+  width: 101px;
+  background-color: #bbb;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+form.charsheet main > section section.attributes div.scores label {
+  font-size: 8px;
+  font-weight: bold;
+}
+form.charsheet main > section section.attributes div.scores ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+form.charsheet main > section section.attributes div.scores ul li {
+  height: 80px;
+  width: 70px;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+form.charsheet main > section section.attributes div.scores ul li input {
+  width: 100%;
+  padding: 0;
+  border: 0;
+}
+form.charsheet main > section section.attributes div.scores ul li div.score input {
+  text-align: center;
+  font-size: 40px;
+  padding: 2px 0px 0px 0px;
+  background: white;
+}
+form.charsheet main > section section.attributes div.scores ul li div.modifier {
+  margin-top: 3px;
+}
+form.charsheet main > section section.attributes div.scores ul li div.modifier input {
+  background: white;
+  width: 30px;
+  height: 20px;
+  border: 1px inset black;
+  border-radius: 20px;
+  margin: -1px;
+  text-align: center;
+}
+form.charsheet main > section section.attributes div.attr-applications div.inspiration {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+form.charsheet main > section section.attributes div.attr-applications div.inspiration input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+}
+form.charsheet main > section section.attributes div.attr-applications div.proficiencybonus {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+form.charsheet main > section section.attributes div.attr-applications div.proficiencybonus input {
+  width: 30px;
+  height: 28px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+form.charsheet main > section section.attributes div.attr-applications div.list-section {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 5px;
+}
+form.charsheet main > section section.attributes div.attr-applications div.list-section div.label {
+  margin-top: 10px;
+  margin-bottom: 2.5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+form.charsheet main > section section.attributes div.attr-applications div.list-section ul li {
+  display: flex;
+  align-items: center;
+}
+form.charsheet main > section section.attributes div.attr-applications div.list-section ul li > * {
+  margin-left: 5px;
+}
+form.charsheet main > section section.attributes div.attr-applications div.list-section ul li label {
+  text-transform: none;
+  font-size: 8px;
+  text-align: left;
+  order: 3;
+}
+form.charsheet main > section section.attributes div.attr-applications div.list-section ul li label span.skill {
+  color: #bbb;
+}
+form.charsheet main > section section.attributes div.attr-applications div.list-section ul li input[type=text] {
+  width: 30px;
+  font-size: 12px;
+  text-align: center;
+  border: 0;
+  border-bottom: 1px solid black;
+  order: 2;
+}
+form.charsheet main > section section.attributes div.attr-applications div.list-section ul li input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  order: 1;
+}
+form.charsheet main > section section.attributes div.attr-applications div.list-section ul li input[type=checkbox]:checked {
+  background-color: black;
+}
+form.charsheet main > section div.passive-perception {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+form.charsheet main > section div.passive-perception input {
+  width: 30px;
+  height: 28px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+form.charsheet main > section div.otherprofs textarea {
+  height: 26em;
+}
+form.charsheet main section.combat {
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+form.charsheet main section.combat > div {
+  overflow: hidden;
+}
+form.charsheet main section.combat > div.armorclass, form.charsheet main section.combat > div.initiative, form.charsheet main section.combat > div.speed {
+  flex-basis: 33.333%;
+}
+form.charsheet main section.combat > div.armorclass > div, form.charsheet main section.combat > div.initiative > div, form.charsheet main section.combat > div.speed > div {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 10px;
+}
+form.charsheet main section.combat > div.armorclass > div label, form.charsheet main section.combat > div.initiative > div label, form.charsheet main section.combat > div.speed > div label {
+  font-size: 8px;
+  width: 50px;
+  border: 1px solid black;
+  border-top: 0;
+  background-color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0 0 10px 10px;
+}
+form.charsheet main section.combat > div.armorclass > div input, form.charsheet main section.combat > div.initiative > div input, form.charsheet main section.combat > div.speed > div input {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+form.charsheet main section.combat > div.hp {
+  flex-basis: 100%;
+}
+form.charsheet main section.combat > div.hp > div.regular {
+  background-color: white;
+  border: 1px solid black;
+  margin: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px 10px 0 0;
+}
+form.charsheet main section.combat > div.hp > div.regular > div.max {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+form.charsheet main section.combat > div.hp > div.regular > div.max label {
+  font-size: 10px;
+  text-transform: none;
+  color: #bbb;
+}
+form.charsheet main section.combat > div.hp > div.regular > div.max input {
+  width: 40%;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+  text-align: center;
+}
+form.charsheet main section.combat > div.hp > div.regular > div.current {
+  display: flex;
+  flex-direction: column-reverse;
+}
+form.charsheet main section.combat > div.hp > div.regular > div.current input {
+  border: 0;
+  width: 100%;
+  padding: 1em 0;
+  font-size: 20px;
+  text-align: center;
+}
+form.charsheet main section.combat > div.hp > div.regular > div.current label {
+  font-size: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+form.charsheet main section.combat > div.hp > div.temporary {
+  margin: 10px;
+  margin-top: 0;
+  border: 1px solid black;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: white;
+}
+form.charsheet main section.combat > div.hp > div.temporary input {
+  padding: 1em 0;
+  font-size: 20px;
+  border: 0;
+  text-align: center;
+}
+form.charsheet main section.combat > div.hp > div.temporary label {
+  font-size: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+form.charsheet main section.combat > div.hitdice, form.charsheet main section.combat > div.deathsaves {
+  flex: 1 50%;
+  height: 100px;
+}
+form.charsheet main section.combat > div.hitdice > div, form.charsheet main section.combat > div.deathsaves > div {
+  height: 80px;
+}
+form.charsheet main section.combat > div.hitdice > div {
+  background-color: white;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+form.charsheet main section.combat > div.hitdice > div > div.total {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  padding: 5px 0;
+}
+form.charsheet main section.combat > div.hitdice > div > div.total label {
+  font-size: 10px;
+  color: #bbb;
+  margin: 0.25em;
+  text-transform: none;
+}
+form.charsheet main section.combat > div.hitdice > div > div.total input {
+  font-size: 12px;
+  flex-grow: 1;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  width: 50%;
+  margin-right: 0.25em;
+  padding: 0 0.25em;
+  text-align: center;
+}
+form.charsheet main section.combat > div.hitdice > div > div.remaining {
+  flex: 1;
+  display: flex;
+  flex-direction: column-reverse;
+}
+form.charsheet main section.combat > div.hitdice > div > div.remaining label {
+  text-align: center;
+  padding: 2px;
+  font-size: 10px;
+}
+form.charsheet main section.combat > div.hitdice > div > div.remaining input {
+  text-align: center;
+  border: 0;
+  flex: 1;
+}
+form.charsheet main section.combat > div.deathsaves > div {
+  margin: 10px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+form.charsheet main section.combat > div.deathsaves > div > div.label {
+  text-align: center;
+}
+form.charsheet main section.combat > div.deathsaves > div > div.label label {
+  font-size: 10px;
+}
+form.charsheet main section.combat > div.deathsaves > div > div.marks {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+form.charsheet main section.combat > div.deathsaves > div > div.marks div.deathsuccesses, form.charsheet main section.combat > div.deathsaves > div > div.marks div.deathfails {
+  display: flex;
+  align-items: center;
+}
+form.charsheet main section.combat > div.deathsaves > div > div.marks div.deathsuccesses label, form.charsheet main section.combat > div.deathsaves > div > div.marks div.deathfails label {
+  font-size: 8px;
+  text-align: right;
+  flex: 1 50%;
+}
+form.charsheet main section.combat > div.deathsaves > div div.bubbles {
+  flex: 1 40%;
+  margin-left: 5px;
+}
+form.charsheet main section.combat > div.deathsaves > div div.bubbles input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+form.charsheet main section.combat > div.deathsaves > div div.bubbles input[type=checkbox]:checked {
+  background-color: black;
+}
+form.charsheet main section.attacksandspellcasting {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+form.charsheet main section.attacksandspellcasting > div {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+form.charsheet main section.attacksandspellcasting > div > label {
+  order: 3;
+  text-align: center;
+}
+form.charsheet main section.attacksandspellcasting > div > table {
+  width: 100%;
+}
+form.charsheet main section.attacksandspellcasting > div > table th {
+  font-size: 10px;
+  color: #ddd;
+}
+form.charsheet main section.attacksandspellcasting > div > table input {
+  width: calc(100% - 4px);
+  border: 0;
+  background-color: #eee;
+  font-size: 10px;
+  padding: 3px;
+}
+form.charsheet main section.attacksandspellcasting > div textarea {
+  border: 0;
+}
+form.charsheet main section.equipment {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+form.charsheet main section.equipment > div {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+form.charsheet main section.equipment > div > div.money ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+form.charsheet main section.equipment > div > div.money ul > li {
+  display: flex;
+  align-items: center;
+}
+form.charsheet main section.equipment > div > div.money ul > li label {
+  border: 1px solid black;
+  border-radius: 10px 0 0 10px;
+  border-right: 0;
+  width: 20px;
+  font-size: 8px;
+  text-align: center;
+  padding: 3px 0;
+}
+form.charsheet main section.equipment > div > div.money ul > li input {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 40px;
+  padding: 10px 3px;
+  font-size: 12px;
+  text-align: center;
+}
+form.charsheet main section.equipment > div > label {
+  order: 3;
+  text-align: center;
+  flex: 100%;
+}
+form.charsheet main section.equipment > div > textarea {
+  flex: 1;
+  border: 0;
+}
+form.charsheet main section.flavor {
+  padding: 10px;
+  background: #bbb;
+  border-radius: 10px;
+}
+form.charsheet main section.flavor div {
+  background: white;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 5px;
+  border: 1px solid black;
+}
+form.charsheet main section.flavor div label {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 3px;
+}
+form.charsheet main section.flavor div textarea {
+  border: 0;
+  border-radius: 0;
+  height: 4em;
+}
+form.charsheet main section.flavor div:first-child {
+  border-radius: 10px 10px 0 0;
+}
+form.charsheet main section.flavor div:not(:first-child) {
+  margin-top: 10px;
+}
+form.charsheet main section.flavor div:last-child {
+  border-radius: 0 0 10px 10px;
+}
+form.charsheet main section.features {
+  padding: 10px;
+}
+form.charsheet main section.features div {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+form.charsheet main section.features div label {
+  text-align: center;
+}
+form.charsheet main section.features div textarea {
+  border: 0;
+  padding: 5px;
+  height: 35em;
+}
 </style>
-
-<script>
-  const tabButtons = document.querySelectorAll(".tab-btn");
-  const tabPanels = document.querySelectorAll(".tab-panel");
-
-  tabButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const target = btn.dataset.tab;
-
-      tabButtons.forEach((b) => b.classList.remove("active"));
-      tabPanels.forEach((p) => p.classList.remove("active"));
-
-      btn.classList.add("active");
-      document.getElementById(`tab-${target}`).classList.add("active");
-    });
-  });
-</script>
 
 
 

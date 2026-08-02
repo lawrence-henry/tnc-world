@@ -19,8 +19,6 @@ tags: [Offense, Ranged]
     Your arm is steady, and your aim is true. Although your weapon has been overshadowed by conventional fighting methods, that doesn't mean it can be safely overlooked.
 
     === "Overview"
-        **Role:** Active offense
-
         |Benefits||
         |:------:|:-|
         |**Basic:**|Ignore 4 AP; Increased Range.|

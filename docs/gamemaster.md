@@ -27,25 +27,25 @@ A popular trend among TTRPG players recently is called a Session-0. This is gene
 
 No game or system is one size fits all. If you have an idea for a mechanic or system that works better than what's in this book, feel free to homebrew some house rules. An important note to that, is to write down said rules, so that everyone can play on equal footing, and nobody can accuse you of making up the rules as you go (even though that's totally what we do &mdash; don't tell my players). Below are a few ideas for customizing your game.
 
-### Game Difficulty Setting
+#### Game Difficulty Setting
 
 First up is difficulty settings. Some GMs and players enjoy a solid power fantasy. Others prefer gritty realism. And, others find their home in absolutely brutal grimdark. This is a suggestion for how to accommodate each kind of playstyle, simply by changing the most important currency of the game, the Survivor Points, with which a character can modify and advance their characters. The lower difficulties allow for moderate to fast character growth, and an abundance of versatility, whereas the higher difficulties are unforgiving for mistakes in concept, build, or simply poor dice rolls.
 
 > Adjust as needed.
 
 **Easy Mode:**
-: Players gain 3 Survivor Points per level, starting at character creation. On taking points in Infection Level, players can choose the mutations their characters gain.
+: Players gain 3 Survivor Points per level, starting at character creation. On taking points in Infection Level, players can choose the mutations their characters gain, and are not required to roll a Control Check until and unless they activate Virus Mode.
 
 **Normal Mode:**
-: Players gain 2 Survivor Points per level, starting at character creation. Special Ability Mutations are randomly rolled by the GM.
+: Players gain 2 Survivor Points per level, starting at character creation. Special Ability Mutations are randomly rolled by the GM. On gaining Infection Level, players are not required to roll a Control Check.
 
 **Hard Mode:**
-: Players gain 1 Survivor Point every odd level, starting at character creation. GM rolls 1d6 per character. Players can choose a number at or below the GM's roll to determine starting Infection Level.
+: Players gain 1 Survivor Point every odd level, starting at character creation. GM rolls 1d6 per character. Players can choose a number at or below the GM's roll to determine starting Infection Level. On increasing Infection Level by 1 or more points, players must roll a Control Check against a CR determined by their new Infection Level. This roll is made once per increase, regardless of how much Infection Level increases.
 
 **Nomad Mode:**
-: Players gain 1 Survivor Point every 4 levels, starting at character creation. GM rolls 1d6 per character, the result of which is each character's starting Infection Level. Virus Mode always imposes the Exhausted Condition after use.
+: Players gain 1 Survivor Point every 4 levels, starting at character creation. GM rolls 1d6 per character, the result of which is each character's starting Infection Level. Virus Mode always imposes the Exhausted Condition after use. On increasing Infection Level by 1 or more points, players must roll a Control Check against a CR determined by each successive increase to Infection Level.
 
-### XP Growth or Milestones
+#### XP Growth or Milestones
 
 A GM has, at their disposal, a flexible leveling system capable of both XP gain and Milestone leveling.
 
@@ -55,7 +55,59 @@ Milestone Rewards are an equally equitable solution for player advancement, as i
 
 A crafty GM may choose to use a hybrid of this, for added story flexibility when needed.
 
-### House Rules
+#### Connections
+
+No person exists in a vacuum. Human beings are notoriously communal creatures. This rule exists as a way for players and GMs to represent such community in game.
+
+It's recommended, at the least, for character flavor. Mechanical bonuses are an optional incentive.
+
+If Connections are allowed, each character starts with one at Character Creation &mdash; a person or group who have had meaningful impact on their life. This could be a mentor, friend, rival, lover, or a former captor.
+
+These Connections provide unique bonuses, training, or equipment. Additional Connections may be gained, or existing Connections strengthened, through story events at the GMs discretion, or by spending Survivor Points (1 SP = 1 Connection). The bonus provided must either be assigned by the GM or randomly rolled using the table.
+
+The maximum number of active mechanically beneficial Connections is 3. At level 11 and beyond, this limit is increased to 5.
+
+**Step 1: Roll Connection Type**
+| 3d6 | Connection Type | Description |
+|:---:|:---------------:|:-----------:|
+| 3 | **Nemesis** | A rival or personal enemy who still influences your life. |
+| 4 | **Crush** | A person you once (or still) loved, who motivates or haunts you. |
+| 5 | **Sibling** | A brother, sister, or someone you see as one. |
+| 6 | **Old Flame** | A past lover or intense emotional bond, now estranged. |
+| 7 | **Mentor** | The person who trained or educated you in a key skill. |
+| 8 | **Friend** | A lifelong or trustworthy companion. |
+| 9 | **Ally** | A political, criminal, or military contact who has your back. |
+| 10 | **Caretaker** | Someone who raised or looked out for you when no one else did. |
+| 11 | **Comrade** | A fellow soldier, merc, or survivor from a traumatic event. |
+| 12 | **Employer** | A boss or handler who gave you purpose, jobs, or gear. |
+| 13 | **Childhood Idol** | Someone you looked up to — a celebrity, soldier, or outlaw. |
+| 14 | **Contact** | An informant, techie, fence, or hacker who provides favors. |
+| 15 | **Partner** | Someone you once worked closely with — the break was messy. |
+| 16 | **Ghost** | Someone you let down… or who may not be dead after all. |
+| 17 | **Protector** | They saved your life once — and may be watching still. |
+| 18 | **Your Double** | A twin, clone, or near-identical person with shared history. |
+
+**Step 2: Roll Connection Benefit**
+| 3d6 | Benefit Type | Description |
+|:---:|:-------------:|:-----------:|
+| 3 | **Rare Gear** | Start with a unique or prototype item the Connection gave you. |
+| 4 | **&plus;1 Expertise** | Begin play with 1 free Expertise of your choice. |
+| 5 | **Favor in Reserve** | You may call in a significant favor from them once per campaign arc. |
+| 6 | **Smuggler’s Cache** | Gain 1d6 x 10 Requisition Points worth of contraband gear. |
+| 7 | **Emergency Pickup** | Once per campaign, the Connection will attempt to extract you from danger. |
+| 8 | **Shared Training** | Add &plus;1 to any 1 Ability Score. |
+| 9 | **Personal Intel** | You know something most don’t. Add a lead or secret from the GM. |
+| 10 | **Blackmail File** | Gain leverage over an enemy faction, once per campaign. |
+| 11 | **Safehouse Access** | You know a place to lay low, fully stocked for 3 days of recovery. |
+| 12 | **Old Debts** | You may name one NPC who owes your Connection — and you — a favor. |
+| 13 | **Underworld Mark** | Gain access to the criminal underworld in one city or region. |
+| 14 | **Prototype Weapon** | Start with a one-of-a-kind weapon not available in standard listings. |
+| 15 | **Encrypted Comms** | Once per session, ask your Connection a yes/no question for intel. |
+| 16 | **Burn Notice** | Your Connection burned you. Gain &plus;1 Survivor Point from the fallout. |
+| 17 | **Family Ties** | You have access to a larger organization (military, corporation, etc.) once per story arc. |
+| 18 | **Unfinished Business** | Start the game with a Major Motivation tied to this person. Gain bonus SP when it's resolved. |
+
+#### House Rules
 
 No TTRPG system is universal without heavy lifting or a steep learning curve. And despite a few coming close with the vast, crunchy options at their disposal. This system was designed with simplicity and fast-paced, dynamic, and brutal combat in mind. If you'd like to implement rules that change the tone or flavor of the game, feel free and have fun.
 
@@ -64,7 +116,7 @@ No TTRPG system is universal without heavy lifting or a steep learning curve. An
 The base mechanics of this ruleset are designed for streamlined tactical play, with modularity in mind. While the core game centers around gritty survival scenarios and enhanced humans navigating a world they don't fit, its structure is flexible enough to support a variety of genres and tones with just a few focused tweaks.
 
 - **Zombie Apocalypse:**
-  : Infection Level becomes an almost purely negative item to track. Got bitten? Now there's a timer. Find a cure, or succumb. And the Transformation Stages instead represent Special Infected mutations, each one dragging the character further from humanity.
+  : Infection Level becomes an almost purely negative item to track. Got bitten? Now there's a timer. Find a cure, or succumb. And the Transformation Stages could represent Special Infected mutations, each one dragging the character further from humanity.
 
 - **Martial Arts Mastery:**
   : Got an idea for a rogue warrior, fighting through underground circuits or in street duels? Let Infection Level fuel powerful finishing moves and ki bursts. Possibly even super-powered transformations. Use CP as a finishing move meter system. Chance Breaks become power surges & dangerous overloads.
@@ -119,6 +171,78 @@ This system’s mechanics were designed with ease of building and play in mind. 
 - Vehicle Encounters: Advice on running vehicle encounters.
 
 > [Additional Explanation/Expansion needed here.]
+
+#### Operations
+
+For games in which the GM wants their players to have more control over their mission choices, or if they'd like to run a more sandbox-oriented game, here's an optional ruleset to hopefully help.
+
+All Operations are played using four phases. Situation, Strategy, Player, End.
+
+For ease of communication, the Situation, Strategy, and End phases are reffered to as "Zoom-Out" gameplay. The Player phase is referred to as "Zoom-In" gameplay.
+
+During the Situation phase, players receive current information, as accurate as possible, from a commanding officer (usually a GM controlled NPC, but not necessarily). During this phase, several Missions are proposed.
+
+During the Strategy Phase, players and their Commander decide on team setups, and which teams will be dispatched to which missions.
+
+During the Player phase, the players Zoom-In to their formed party of characters, and outright play through their assigned mission, making decisions in the field.
+
+During the End phase, the GM resolves mission results, updates the Situation and the surrounding world/circumstances.
+
+This can be done in conjunction with a developing campaign, or as a campaign all its own, depending on the needs of your table.
+
+<!-- prettier-ignore -->
+!!! note (Tracking Time during Operations)
+    The Situation and Strategy phases are done at the beginning of the playing day.
+
+    Each Player phase (and/or NPC operation) can be assumed to take approximately 2 hours. GMs can adjust this as needed, or as narratively appropriate.
+
+    The End Phase can be done at the end of each Operation, or at the end of the day, depending on how gritty the GM and players want to get in tracking.
+
+    That said, players can be assumed to be capable of performing up to 3 operations during that period of time, more if they use the **Push It** option.
+
+##### Operation Tracking
+
+**Operational Conditions**
+: Conditions Tracking for operations is a somewhat nebulous process. The GM must decide what is being tracked, and what will affect it at any given time. These can be as numerous or as few as is comfortable to track, but should be decided on before game start.
+
+: Each condition should be paired with a numbered scale, for rapid reference of how the overall operations stand. Each step on the scale represents a general sense of how "solved" or reliable each issue is. Each condition tracked should be tied to something that changes play, meaningfully.
+
+<!-- prettier-ignore -->
+!!! example (Communications)
+    5: Full Coverage, Long-Range Comms, Clear Transmissions
+    4: Minor Static, Occasional Delays in information gathering.
+    3: Comm Dead Zones more Common, Some areas dark or offline.
+    2: Long-Range communication unreliable. Gaps in information gathering, Patrols lose contact often.
+    1: Emergency traffic only, teams have to operate independently
+    0: Radio Silence
+
+: The starting values should be chosen based on how operationally ready the team is. For an optimistic setup, this woudl hover around the middle range values. For entering unknown, or needing to establish footholds, the values would start lower and need to be raised.
+
+: The values of Operational Conditions become the priorities that guide mission creation. If your resources are good, and communication is excellent, but your intelligence gathering is lacking, you have a natural means to introduce a mission to improve it.
+
+**Threshold Effects**
+: While creating the Operational Conditions values, consider how the improvement and/or degradation of those values might affect the players. For instance, if your team has a low Communications value, maybe patrols outside of a certain range lose radio contact. Perhaps, if your medical supplies are low, resting and healing get affected as wounds can't be fully treated.
+
+: Threshold effects could involve procedural changes or roll modification, depending on severity and importance. For example, having more intelligence gathered could lead to bonuses on rolls to collect supplies, which would improve other areas.
+
+<!-- prettier-ignore -->
+!!! Example
+    Fuel: Primarily decreases, but can be replenished with supply runs.
+    Intel: Mostly increases. Only decreases on proving previously gathered information false.
+    Morale: Raises and lowers based on the effects of missions.
+    Security: Which teams are assigned to defense.
+    Communications: Dependent on infrastructure. If a power plant goes offline, there goes part of the grid.
+    Team Readiness: Decreases every mission. Replenishes after resting.
+
+Each day, a team can comfortably take up to 3 missions. Each mission affects the Conditions Tracks as determined by the GM.
+
+**Push It Option**
+: After performing 3 missions, the players can choose to attempt up to two more. This comes with inherent risks, however. Including:
+
+- +1 CR to all checks (cumulative), and +1 CR to all future CR penalties. CR penalty decreases by 1 for every day players do not choose to "Push It".
+
+**Mission Cards**
+:
 
 ### Called Shots & Lingering Injuries
 

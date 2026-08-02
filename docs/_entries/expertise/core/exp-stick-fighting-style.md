@@ -13,9 +13,9 @@ tags: [Offense, Melee]
 
 <!-- prettier-ignore -->
 !!! abstract ""
-    **Type:**
+    **Type:** Style
 
-    **Tags:**
+    **Tags:** Melee, Offense
 
     **Prerequisites:** Trained in Martial Arts, Trained in Archaic Melee, Light Melee, or Heavy Melee; Melee Weapon Equipped
 

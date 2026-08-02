@@ -68,44 +68,46 @@ These Connections provide unique bonuses, training, or equipment. Additional Con
 The maximum number of active mechanically beneficial Connections is 3. At level 11 and beyond, this limit is increased to 5.
 
 **Step 1: Roll Connection Type**
-| 3d6 | Connection Type | Description |
-|:---:|:---------------:|:-----------:|
-| 3 | **Nemesis** | A rival or personal enemy who still influences your life. |
-| 4 | **Crush** | A person you once (or still) loved, who motivates or haunts you. |
-| 5 | **Sibling** | A brother, sister, or someone you see as one. |
-| 6 | **Old Flame** | A past lover or intense emotional bond, now estranged. |
-| 7 | **Mentor** | The person who trained or educated you in a key skill. |
-| 8 | **Friend** | A lifelong or trustworthy companion. |
-| 9 | **Ally** | A political, criminal, or military contact who has your back. |
-| 10 | **Caretaker** | Someone who raised or looked out for you when no one else did. |
-| 11 | **Comrade** | A fellow soldier, merc, or survivor from a traumatic event. |
-| 12 | **Employer** | A boss or handler who gave you purpose, jobs, or gear. |
-| 13 | **Childhood Idol** | Someone you looked up to — a celebrity, soldier, or outlaw. |
-| 14 | **Contact** | An informant, techie, fence, or hacker who provides favors. |
-| 15 | **Partner** | Someone you once worked closely with — the break was messy. |
-| 16 | **Ghost** | Someone you let down… or who may not be dead after all. |
-| 17 | **Protector** | They saved your life once — and may be watching still. |
-| 18 | **Your Double** | A twin, clone, or near-identical person with shared history. |
+
+| 3d6 |  Connection Type   |                           Description                            |
+| :-: | :----------------: | :--------------------------------------------------------------: |
+|  3  |    **Nemesis**     |    A rival or personal enemy who still influences your life.     |
+|  4  |     **Crush**      | A person you once (or still) loved, who motivates or haunts you. |
+|  5  |    **Sibling**     |          A brother, sister, or someone you see as one.           |
+|  6  |   **Old Flame**    |      A past lover or intense emotional bond, now estranged.      |
+|  7  |     **Mentor**     |      The person who trained or educated you in a key skill.      |
+|  8  |     **Friend**     |               A lifelong or trustworthy companion.               |
+|  9  |      **Ally**      |  A political, criminal, or military contact who has your back.   |
+| 10  |   **Caretaker**    |  Someone who raised or looked out for you when no one else did.  |
+| 11  |    **Comrade**     |   A fellow soldier, merc, or survivor from a traumatic event.    |
+| 12  |    **Employer**    |      A boss or handler who gave you purpose, jobs, or gear.      |
+| 13  | **Childhood Idol** |   Someone you looked up to — a celebrity, soldier, or outlaw.    |
+| 14  |    **Contact**     |   An informant, techie, fence, or hacker who provides favors.    |
+| 15  |    **Partner**     |   Someone you once worked closely with — the break was messy.    |
+| 16  |     **Ghost**      |     Someone you let down… or who may not be dead after all.      |
+| 17  |   **Protector**    |      They saved your life once — and may be watching still.      |
+| 18  |  **Your Double**   |   A twin, clone, or near-identical person with shared history.   |
 
 **Step 2: Roll Connection Benefit**
-| 3d6 | Benefit Type | Description |
-|:---:|:-------------:|:-----------:|
-| 3 | **Rare Gear** | Start with a unique or prototype item the Connection gave you. |
-| 4 | **&plus;1 Expertise** | Begin play with 1 free Expertise of your choice. |
-| 5 | **Favor in Reserve** | You may call in a significant favor from them once per campaign arc. |
-| 6 | **Smuggler’s Cache** | Gain 1d6 x 10 Requisition Points worth of contraband gear. |
-| 7 | **Emergency Pickup** | Once per campaign, the Connection will attempt to extract you from danger. |
-| 8 | **Shared Training** | Add &plus;1 to any 1 Ability Score. |
-| 9 | **Personal Intel** | You know something most don’t. Add a lead or secret from the GM. |
-| 10 | **Blackmail File** | Gain leverage over an enemy faction, once per campaign. |
-| 11 | **Safehouse Access** | You know a place to lay low, fully stocked for 3 days of recovery. |
-| 12 | **Old Debts** | You may name one NPC who owes your Connection — and you — a favor. |
-| 13 | **Underworld Mark** | Gain access to the criminal underworld in one city or region. |
-| 14 | **Prototype Weapon** | Start with a one-of-a-kind weapon not available in standard listings. |
-| 15 | **Encrypted Comms** | Once per session, ask your Connection a yes/no question for intel. |
-| 16 | **Burn Notice** | Your Connection burned you. Gain &plus;1 Survivor Point from the fallout. |
-| 17 | **Family Ties** | You have access to a larger organization (military, corporation, etc.) once per story arc. |
-| 18 | **Unfinished Business** | Start the game with a Major Motivation tied to this person. Gain bonus SP when it's resolved. |
+
+| 3d6 |      Benefit Type       |                                          Description                                          |
+| :-: | :---------------------: | :-------------------------------------------------------------------------------------------: |
+|  3  |      **Rare Gear**      |                Start with a unique or prototype item the Connection gave you.                 |
+|  4  |  **&plus;1 Expertise**  |                       Begin play with 1 free Expertise of your choice.                        |
+|  5  |  **Favor in Reserve**   |             You may call in a significant favor from them once per campaign arc.              |
+|  6  |  **Smuggler’s Cache**   |                  Gain 1d6 x 10 Requisition Points worth of contraband gear.                   |
+|  7  |  **Emergency Pickup**   |          Once per campaign, the Connection will attempt to extract you from danger.           |
+|  8  |   **Shared Training**   |                              Add &plus;1 to any 1 Ability Score.                              |
+|  9  |   **Personal Intel**    |               You know something most don’t. Add a lead or secret from the GM.                |
+| 10  |   **Blackmail File**    |                    Gain leverage over an enemy faction, once per campaign.                    |
+| 11  |  **Safehouse Access**   |              You know a place to lay low, fully stocked for 3 days of recovery.               |
+| 12  |      **Old Debts**      |              You may name one NPC who owes your Connection — and you — a favor.               |
+| 13  |   **Underworld Mark**   |                 Gain access to the criminal underworld in one city or region.                 |
+| 14  |  **Prototype Weapon**   |             Start with a one-of-a-kind weapon not available in standard listings.             |
+| 15  |   **Encrypted Comms**   |              Once per session, ask your Connection a yes/no question for intel.               |
+| 16  |     **Burn Notice**     |           Your Connection burned you. Gain &plus;1 Survivor Point from the fallout.           |
+| 17  |     **Family Ties**     |  You have access to a larger organization (military, corporation, etc.) once per story arc.   |
+| 18  | **Unfinished Business** | Start the game with a Major Motivation tied to this person. Gain bonus SP when it's resolved. |
 
 #### House Rules
 
@@ -191,7 +193,7 @@ During the End phase, the GM resolves mission results, updates the Situation and
 This can be done in conjunction with a developing campaign, or as a campaign all its own, depending on the needs of your table.
 
 <!-- prettier-ignore -->
-!!! note (Tracking Time during Operations)
+!!! note "Tracking Time During Operations"
     The Situation and Strategy phases are done at the beginning of the playing day.
 
     Each Player phase (and/or NPC operation) can be assumed to take approximately 2 hours. GMs can adjust this as needed, or as narratively appropriate.
@@ -208,12 +210,17 @@ This can be done in conjunction with a developing campaign, or as a campaign all
 : Each condition should be paired with a numbered scale, for rapid reference of how the overall operations stand. Each step on the scale represents a general sense of how "solved" or reliable each issue is. Each condition tracked should be tied to something that changes play, meaningfully.
 
 <!-- prettier-ignore -->
-!!! example (Communications)
+!!! example "Communications"
     5: Full Coverage, Long-Range Comms, Clear Transmissions
+
     4: Minor Static, Occasional Delays in information gathering.
+
     3: Comm Dead Zones more Common, Some areas dark or offline.
+
     2: Long-Range communication unreliable. Gaps in information gathering, Patrols lose contact often.
+
     1: Emergency traffic only, teams have to operate independently
+
     0: Radio Silence
 
 : The starting values should be chosen based on how operationally ready the team is. For an optimistic setup, this woudl hover around the middle range values. For entering unknown, or needing to establish footholds, the values would start lower and need to be raised.
@@ -226,23 +233,31 @@ This can be done in conjunction with a developing campaign, or as a campaign all
 : Threshold effects could involve procedural changes or roll modification, depending on severity and importance. For example, having more intelligence gathered could lead to bonuses on rolls to collect supplies, which would improve other areas.
 
 <!-- prettier-ignore -->
-!!! Example
-    Fuel: Primarily decreases, but can be replenished with supply runs.
-    Intel: Mostly increases. Only decreases on proving previously gathered information false.
-    Morale: Raises and lowers based on the effects of missions.
-    Security: Which teams are assigned to defense.
-    Communications: Dependent on infrastructure. If a power plant goes offline, there goes part of the grid.
-    Team Readiness: Decreases every mission. Replenishes after resting.
+!!! Example "Operational Status Tracks"
+    **Fuel:** 
+    : Primarily decreases, but can be replenished with supply runs.
+
+    **Intel:**
+    : Mostly increases. Only decreases on proving previously gathered information false.
+
+    **Morale:**
+    : Raises and lowers based on the effects of missions.
+
+    **Security:**
+    : Which teams are assigned to defense.
+
+    **Communications:**
+    : Dependent on infrastructure. If a power plant goes offline, there goes part of the grid.
+
+    **Team Readiness:**
+    : Decreases every mission. Replenishes after resting. Replenishes faster if fewer than 3 missions are performed during an Operation Turn.
 
 Each day, a team can comfortably take up to 3 missions. Each mission affects the Conditions Tracks as determined by the GM.
 
 **Push It Option**
 : After performing 3 missions, the players can choose to attempt up to two more. This comes with inherent risks, however. Including:
 
-- +1 CR to all checks (cumulative), and +1 CR to all future CR penalties. CR penalty decreases by 1 for every day players do not choose to "Push It".
-
-**Mission Cards**
-:
+: +1 CR to all checks (cumulative), and +1 CR to all future CR penalties. CR penalty decreases by 1 for every day players do not choose to "Push It".
 
 ### Called Shots & Lingering Injuries
 

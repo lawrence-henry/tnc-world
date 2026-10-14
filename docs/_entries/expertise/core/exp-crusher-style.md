@@ -35,9 +35,10 @@ tags: [Offense, Melee]
     === "Initiate"
         For every CP spent into the Footwork Chance Action, double the distance you push your target. Any target moved more than 3 yards this way must make a Reflexes Saving Throw (CR 9 + half yards moved) or fall prone.
     === "Advanced"
-        - **Chair Breaker (1+ CP):** You may spend up to 6 CP. You deal extra damage equal to the amount of CP spent, plus your weapon's effective AP. Doing so damages your Melee Weapon. Every CP spent causes the weapon to lose one AP Threshold until it's Completely Destroyed.
-        - **Armor Breaker (3+ CP):** Instead of dealing direct damage, you can attempt to destroy a target's armor. A successful hit forces the target to make a Reflexes Saving Throw (CR 10 + your Might). On a failure, the target's armor loses one AP Threshold per 3 CP spent, until Completely Destroyed.
+        **Chair Breaker (1+ CP):** You may spend up to 6 CP. You deal extra damage equal to the amount of CP spent, plus your weapon's effective AP. Doing so damages your Melee Weapon. Every CP spent causes the weapon to lose one AP Threshold until it's Completely Destroyed.
+        
+        **Armor Breaker (3+ CP):** Instead of dealing direct damage, you can attempt to destroy a target's armor. A successful hit forces the target to make a Reflexes Saving Throw (CR 10 + your Might). On a failure, the target's armor loses one AP Threshold per 3 CP spent, until Completely Destroyed.
     === "Expert"
-        Whenever you roll doubles on an Attack Roll with a Bludgeoning Melee Weapon, you deal your Might in Damage to one of your target's Abilities. This damage persists for a number of rounds equal to your Chance Die. If you roll triples, the damage persists a number of days equal to your Chance Die.
+        Whenever you roll doubles on an Attack Roll with a Bludgeoning Melee Weapon, you can deal your Might in Damage to one of your target's Abilities. This damage persists for a number of rounds equal to your Chance Die. If you roll triples, the damage persists a number of days equal to your Chance Die.
 
 <!-- --8<-- [end:card] -->

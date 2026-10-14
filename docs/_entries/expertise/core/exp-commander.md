@@ -1,20 +1,22 @@
 ---
 title: Commander
-category: crafting
+category: social/support
 source: core
-icon: material-
-tags: [crafting,engineering]
+icon: material-human-greeting-proximity
+tags: [support]
 ---
 
 <!-- --8<-- [start:card] -->
 
-#### :material-:  {#exp-}
+#### :material-human-greeting-proximity: Commander {#exp-commander}
 
 <!-- prettier-ignore -->
 !!! abstract ""
     **Type:** 
+
     **Tags:** 
-    **Prerequisites:** 
+    
+    **Prerequisites:** Willpower 3 or higher, Trained in Leadership
 
     You possess an innate ability to lead and inspire those around you, rallying allies to achieve greatness together.
 
@@ -23,10 +25,10 @@ tags: [crafting,engineering]
 
         |Benefits||
         |:------:|:-|
-        |**Basic:**|  |
-        |**Initiate:**|  |
-        |**Advanced:**|  |
-        |**Expert:**|  |
+        |**Basic:**| Allies +2 Defense |
+        |**Initiate:**| Allies +2 Initiative |
+        |**Advanced:**| Hold The Line (2 CP) |
+        |**Expert:**| Fire At Will (4 CP) |
 
     === "Basic"
         Your commanding presence inspires your allies. Allies within 10 yards who can see and hear you gain a +2 bonus to their Defense and can apply this bonus against one attack roll each round.

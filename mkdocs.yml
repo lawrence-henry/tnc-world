@@ -39,6 +39,9 @@ extra:
       icon: "material/login"
       link: "#"
 
+extra_javascript:
+  - assets/js/character-sheet.js
+  
 markdown_extensions:
   - admonition
   - pymdownx.details

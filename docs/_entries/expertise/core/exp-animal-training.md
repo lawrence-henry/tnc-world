@@ -10,10 +10,14 @@ tags: [utility]
 
 #### :material-dog: Animal Training {#exp-animal-training}
 
+> [:material-file-find: Marked for Review and Playtesting]
+
 <!-- prettier-ignore -->
 !!! abstract ""
     **Type:** Utility
+
     **Tags:** Communication, Utility
+
     **Prerequisites:** Perception of 2 or higher, Trained in Animal Handling, Trained in Empathy
 
     You've always had a way with the creatures of the world. There's just something about you that these creatures trust.

@@ -19,6 +19,8 @@ tags: [Offense, Melee]
 
     **Prerequisites:** Trained in Martial Arts, Trained in Archaic Melee, Light Melee, or Heavy Melee; Melee Weapon Equipped
 
+    **Stances:** This fighting style uses Stances. Unless otherwise stated, only one Stance can be used at a time. Stances can be switched at any time with an Activate Action.
+
     You have focused your training into lengthy or archaic weapons such as staves or spears.
 
     === "Overview"
@@ -32,13 +34,18 @@ tags: [Offense, Melee]
         |**Expert:**| Whirling Staff (4 CP) |
 
     === "Basic"
-        Using the length of your weapon to your advantage, you treat enemies up to 4 yards away as if they were adjacent to you, so you can make Melee Attacks against them (they can't do the same unless they're also using this Expertise). If your way to that target is blocked by cover or another character, you can still attack that target using your Melee Weapon, with a penalty to the Attack Roll equal to the AP of the cover used.
+        **Dragon's Tail Stance:** Using the length of your weapon to your advantage, you treat enemies up to 4 yards away as if they were adjacent to you, so you can make Melee Attacks against them (they can't do the same unless they're also using this Expertise). If your way to that target is blocked by cover or another character, you can still attack that target using your Melee Weapon, with a penalty to the Attack Roll equal to the AP of the cover used.
     === "Initiate"
-        You can use the Stand Firm Chance Action as an Instinct Action, following its other rules as normal, but with a +2 bonus to your resistance against Footwork or Knock Prone. Additionally, if your weapon has the Double Property, you can now attack twice with the same Major Action.
+        You can use Hold Position as an Instinct Action, following its other rules as normal, but with a +2 bonus to your resistance against Footwork or Trip.
+
+        **Kappa Stance:** Reduce your Reach to 2 yards, gaining a +2 bonus to Defense. Additionally, if your weapon has the Double Property, or you are wielding two One-handed or Versatile Melee Weapons, you can now attack twice with the same Major Action.
     === "Advanced"
-        - **Heart Strike (1 CP):** You can perform the Pierce Armor Chance Action for 1 CP instead of the usual 2.
-        - **Sweeping Strike:** You can perform the Knock Prone Chance Action as a Free Action.
+        **Heart Strike (1 CP):** You can perform the Precision Attack Chance Action for 1 CP instead of the usual 2.
+
+        **Sweeping Strike:** You can perform the Trip Chance Action as a Free Action.
+
+        **Pole Vault Smash (3 CP):** You leap into the air using your weapon, bringing it down on an opponent with your full weight behind it. On a successful hit, add your Constitution or Reflexes (your choice) to the Weapon's Base Damage.
     === "Expert"
-        - **Whirling Staff (4 CP):** You move your weapon in a devastating spiral, striking down enemies with brutal efficiency. As a Major Action, you can make a single Melee Attack against all enemies considered adjacent to you. Each enemy hit must make a Constitution Saving Throw (CR 10 + your Level) or take your weapon's Chance Damage and be Dazed until the end of your next turn.
+        **Whirling Staff (6 CP):** You move your weapon in a devastating spiral, striking down enemies with brutal efficiency. As a Major Action, you can make a single Melee Attack against all enemies considered adjacent to you. Each enemy hit must make a Constitution Saving Throw (CR 10 + your Level) or take your weapon's Chance Damage and be Stunned (T1) until the end of your next turn. Melee Attacks targeting you suffer a Major Disadvantage (-5) until the start of your next turn.
 
 <!-- --8<-- [end:card] -->

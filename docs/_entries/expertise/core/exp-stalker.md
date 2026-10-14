@@ -1,19 +1,21 @@
 ---
 title: Stalker
-category: crafting
+category: exploration
 source: core
 icon: material-ninja
-tags: [crafting,engineering]
+tags: [exploration, movement]
 ---
 
 <!-- --8<-- [start:card] -->
 
-#### :material-ninja:  {#exp-stalker}
+#### :material-ninja: Stalker {#exp-stalker}
 
 <!-- prettier-ignore -->
 !!! abstract ""
     **Type:** 
+
     **Tags:** 
+    
     **Prerequisites:** 
 
     Remaining unnoticed is second-nature to you.

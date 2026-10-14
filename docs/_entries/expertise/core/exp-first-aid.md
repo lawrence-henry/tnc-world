@@ -2,19 +2,21 @@
 title: First-Aid
 category: crafting
 source: core
-icon: material-
-tags: [crafting,engineering]
+icon: material-medication
+tags: [support, healing]
 ---
 
 <!-- --8<-- [start:card] -->
 
-#### :material-:  {#exp-first-aid}
+#### :material-medication: First Aid {#exp-first-aid}
 
 <!-- prettier-ignore -->
 !!! abstract ""
-    **Type:** 
-    **Tags:** 
-    **Prerequisites:** 
+    **Type:** Support
+
+    **Tags:**
+
+    **Prerequisites:**
 
     You can treat wounds with greater efficiency.
 
@@ -23,10 +25,10 @@ tags: [crafting,engineering]
 
         |Benefits||
         |:------:|:-|
-        |**Basic:**|  |
-        |**Initiate:**|  |
-        |**Advanced:**|  |
-        |**Expert:**|  |
+        |**Basic:**| 1+ CD Healing, Minor Action Heal |
+        |**Initiate:**| + (Wits x CD) Healing |
+        |**Advanced:**| Triage Expert (3 CP) |
+        |**Expert:**| Free Action Heal, Combat Medicine (4 CP) |
 
     === "Basic"
         Gain a bonus of 1+ your Chance Die on Action Rolls related to Healing. Additionally, Heal is a Minor Action for you.

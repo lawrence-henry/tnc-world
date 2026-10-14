@@ -67,48 +67,6 @@ These Connections provide unique bonuses, training, or equipment. Additional Con
 
 The maximum number of active mechanically beneficial Connections is 3. At level 11 and beyond, this limit is increased to 5.
 
-**Step 1: Roll Connection Type**
-
-| 3d6 |  Connection Type   |                           Description                            |
-| :-: | :----------------: | :--------------------------------------------------------------: |
-|  3  |    **Nemesis**     |    A rival or personal enemy who still influences your life.     |
-|  4  |     **Crush**      | A person you once (or still) loved, who motivates or haunts you. |
-|  5  |    **Sibling**     |          A brother, sister, or someone you see as one.           |
-|  6  |   **Old Flame**    |      A past lover or intense emotional bond, now estranged.      |
-|  7  |     **Mentor**     |      The person who trained or educated you in a key skill.      |
-|  8  |     **Friend**     |               A lifelong or trustworthy companion.               |
-|  9  |      **Ally**      |  A political, criminal, or military contact who has your back.   |
-| 10  |   **Caretaker**    |  Someone who raised or looked out for you when no one else did.  |
-| 11  |    **Comrade**     |   A fellow soldier, merc, or survivor from a traumatic event.    |
-| 12  |    **Employer**    |      A boss or handler who gave you purpose, jobs, or gear.      |
-| 13  | **Childhood Idol** |   Someone you looked up to — a celebrity, soldier, or outlaw.    |
-| 14  |    **Contact**     |   An informant, techie, fence, or hacker who provides favors.    |
-| 15  |    **Partner**     |   Someone you once worked closely with — the break was messy.    |
-| 16  |     **Ghost**      |     Someone you let down… or who may not be dead after all.      |
-| 17  |   **Protector**    |      They saved your life once — and may be watching still.      |
-| 18  |  **Your Double**   |   A twin, clone, or near-identical person with shared history.   |
-
-**Step 2: Roll Connection Benefit**
-
-| 3d6 |      Benefit Type       |                                          Description                                          |
-| :-: | :---------------------: | :-------------------------------------------------------------------------------------------: |
-|  3  |      **Rare Gear**      |                Start with a unique or prototype item the Connection gave you.                 |
-|  4  |  **&plus;1 Expertise**  |                       Begin play with 1 free Expertise of your choice.                        |
-|  5  |  **Favor in Reserve**   |             You may call in a significant favor from them once per campaign arc.              |
-|  6  |  **Smuggler’s Cache**   |                  Gain 1d6 x 10 Requisition Points worth of contraband gear.                   |
-|  7  |  **Emergency Pickup**   |          Once per campaign, the Connection will attempt to extract you from danger.           |
-|  8  |   **Shared Training**   |                              Add &plus;1 to any 1 Ability Score.                              |
-|  9  |   **Personal Intel**    |               You know something most don’t. Add a lead or secret from the GM.                |
-| 10  |   **Blackmail File**    |                    Gain leverage over an enemy faction, once per campaign.                    |
-| 11  |  **Safehouse Access**   |              You know a place to lay low, fully stocked for 3 days of recovery.               |
-| 12  |      **Old Debts**      |              You may name one NPC who owes your Connection — and you — a favor.               |
-| 13  |   **Underworld Mark**   |                 Gain access to the criminal underworld in one city or region.                 |
-| 14  |  **Prototype Weapon**   |             Start with a one-of-a-kind weapon not available in standard listings.             |
-| 15  |   **Encrypted Comms**   |              Once per session, ask your Connection a yes/no question for intel.               |
-| 16  |     **Burn Notice**     |           Your Connection burned you. Gain &plus;1 Survivor Point from the fallout.           |
-| 17  |     **Family Ties**     |  You have access to a larger organization (military, corporation, etc.) once per story arc.   |
-| 18  | **Unfinished Business** | Start the game with a Major Motivation tied to this person. Gain bonus SP when it's resolved. |
-
 #### House Rules
 
 No TTRPG system is universal without heavy lifting or a steep learning curve. And despite a few coming close with the vast, crunchy options at their disposal. This system was designed with simplicity and fast-paced, dynamic, and brutal combat in mind. If you'd like to implement rules that change the tone or flavor of the game, feel free and have fun.
@@ -131,50 +89,17 @@ This system’s mechanics were designed with ease of building and play in mind. 
 
 ### Running Encounters
 
-> Combat Encounters, Building Monster Manual still, Horde Combat, Using the Environment, Special Challenges/Objectives
+> [Marked as Unfinished]
 
-<table>
-<caption>Encounter Goals</caption>
-<thead>
-<th>3d6</th><th>Goal</th>
-</thead>
-<tbody>
-<tr>
-<td>1-2</td><td><strong>Breakthrough.</strong> The characters must pass through a dangerous area.</td>
-</tr>
-<tr>
-<td>3-4</td><td><strong>Broker Peace.</strong> Two groups are fighting; the characters must step in and end the conflict, preferably witnout further violence.</td>
-</tr>
-<tr>
-<td>5-6</td><td><strong>Persuade.</strong> Despite the enemy's aggression, the character's must convince the enemy to stop fighting them.</td>
-</tr>
-<tr>
-<td>7-8</td><td><strong>Prevent Escape.</strong> The characters must kill or otherwise subdue the enemies before one or more can escape.</td>
-</tr>
-<tr>
-<td>9-10</td><td><strong>Protection.</strong> The characters must protect a person or object that the other side hopes to destroy.</td>
-</tr>
-<tr>
-<td>11-12</td><td><strong>Retrieval.</strong> The characters must take possession of an object or remove a person from the area of the encounter.</td>
-</tr>
-<tr>
-<td>13-14</td><td><strong>Stealth.</strong> The characters must get through the encounter area without making the adversaries aware of their presence. This works especially well when the adversaries aren't necessarily bad, have hostages, or if the characters alert the enemies, even more will show up.</td>
-</tr>
-<tr>
-<td>15-16</td><td><strong>Stop an Event.</strong> A dangerous ritual, assassination attempt, or other time sensitive event must be stopped before it's too late.</td>
-</tr>
-<tr>
-<td>17-18</td><td><strong>Take Out One Target</strong> Only one of the creatures in the combat is the actual target; the others are either minions or innocents duped into serving them. Defeating the target is enough to end the combat.</td>
-</tr>
-</tbody>
-</table>
+- Combat Encounters, Building Monster Manual still, Horde Combat, Using the Environment, Special Challenges/Objectives
 
 - Non-Combat Encounters: negotiations, puzzles, moral dilemmas.
+
 - Vehicle Encounters: Advice on running vehicle encounters.
 
-> [Additional Explanation/Expansion needed here.]
-
 #### Operations
+
+> [Marked as Unfinished (Currently in Playtesting)]
 
 For games in which the GM wants their players to have more control over their mission choices, or if they'd like to run a more sandbox-oriented game, here's an optional ruleset to hopefully help.
 
@@ -265,32 +190,39 @@ Sometimes you need surprise and violence. Sometimes you need the precision of a 
 
 This optional module is designed for GMs and players who want a more tactical, anatomical layer to combat. It is not required for standard play.
 
-At its heart, a Called Shot lets a character aim at a specific part of an opponent's body to cause anch intended effect &mdash; like disabling a weapon hand, knocking out an opponent with a blow to the head, or delivering a lung-crushing punch.
+At its heart, a Called Shot lets a character aim at a specific part of an opponent's body to cause an intended effect &mdash; like disabling a weapon hand, knocking out an opponent with a blow to the head, or delivering a lung-crushing punch.
 
 The system is narrative-focused, as opposed to a simple increase in damage. It imposes Conditions, adds into Lingering Injuries, or could simply be used by the GM to add flavor to the flow of battles.
 
 - **Attempting A Called Shot:**
-  : The character must first spend a Minor Action to "Call" their shot. This is an opposed Action Roll:
+  : When Calling a Shot, identify the location you are targeting and the Condition or effect you are attempting to inflict. The intended effect must reasonably follow from the targeted anatomy and the nature of the attack. The character must spend a Minor Action to "Call" their shot. This is an opposed Action Roll:
 
-**Wits (Healing)** vs **Target's Reflexes (Acrobatics)** or **Willpower (Deception)** (target's choice).
+- **Call**
+  For a character untrained in Healing, that character can only Call a general area, as indicated on the **Body Location** table. After declaring their intent, the character must make a **Wits** vs **Target's Reflexes (Acrobatics)** or **Willpower (Deception)** (target's choice). On a success, the character rolls their Attack Roll with a penalty based on where they'd like to aim (detailed below), and the GM rolls on the subsequent **Hit Location** table to determine where, specifically, the attack landed and what Condition or effect it applies. On a failure, the Attack is not rolled and automatically misses the target.
+
+  For the character trained in Healing, that character can Call a specific area, as indicated on the appropriate body part's **Hit Location** table. After declaring their intent, the character must make a **Wits (Healing)** vs **Target's Reflexes (Acrobatics)** or **Willpower (Deception)** (target's choice). On a success, the character rolls their Attack Roll with a penalty appropriate to the targeted location. On a successful Attack Roll, the attack hits the declared Hit Location and applies the appropriate Condition or effect. On a failure, the Attack is not rolled and automatically misses the target.
 
 - **Attack Roll Penalties:**
   : Depending on where the character aims:
 
 **Minor Disadvantage (-2)**
-: For non-vital locations such as extremities or limbs.
+: For non-vital locations such as extremities, limbs, or items.
 
 **Major Disadvantage (-5)**
 : For vital points such as head, heart, or internal organs.
 
 - **Resolution:**
-  : If the Called Shot hits, the GM rolls or selects an appropriate result on the **Hit Locations Table**. For areas where the left or right side of the body are of importance during the random roll, the GM's Chance Die determines the side. An odd number indicates the left; whereas an even number indicates the right.
+  : If the Called Shot hits, apply the appropriate Condition to the target, as indicated in the table below. In cases where the GM needs to determine a lingering injury, or a randomly placed Called Shot by an NPC, the GM rolls or selects an appropriate result on the **Hit Locations Table**. For areas where the left or right side of the body are of importance during the random roll, the GM's Chance Die determines the side. An odd number indicates the left; whereas an even number indicates the right.
 
 <!-- prettier-ignore -->
-!!! info "Hit Locations, Conditions, Healing"
-    Outer body hit locations can go up to Tier 3 Conditions. All effects last until Healed via Surgery Action Roll. Unless specified in a special ability, only one Condition can be applied per hit.
+!!! info "Optional: Hit Locations, Conditions, Healing"
+    Instead of additional damage, hitting specific locations causes the target to suffer a Condition or effect based on the location hit, and potentially the weapon that caused the damage. GMs should adjudicate this as appropriate. A Called Shot must inflict at least 1 Damage after AP to impose or increase a Condition, unless the attack's nature reasonably causes the Condition without penetrating or damaging the location.
 
-    All internal hit locations impose Tier 3 or above Conditions. All effects last until Healed via Surgery Action Roll. Unless specified in a special ability, only one Condition can be applied per hit.
+    Outer body hit locations can increase up to Tier 3 Conditions. All effects last until Healed via a Wits (Healing) Roll, CR 10 + Condition Tier. Unless specified in a special ability, only one Condition can be applied per hit.
+
+    All internal hit locations impose Tier 3, or increase Conditions above Tier 3. All effects last until Healed via Surgery Action Roll, CR 12 + Condition Tier. Unless specified in a special ability, only one Condition can be applied per hit.
+
+    Non-Tiered effects last until Healed unless otherwise stated.
 
 <table>
 <thead>
@@ -321,7 +253,7 @@ The system is narrative-focused, as opposed to a simple increase in damage. It i
 </tr>
 <tr>
 <td>15-18</td>
-<td>Internal</td>
+<td>Vital/Internal Organ</td>
 </tr>
 </tbody>
 </table>
@@ -341,32 +273,32 @@ The system is narrative-focused, as opposed to a simple increase in damage. It i
 <tr>
 <td>3</td>
 <td>Brain</td>
-<td>Confused (T5), Bleeding (T5), Cannot use Wits or Willpower</td>
+<td>Confusion (T5), Bleeding (T5), Cannot use Wits or Willpower, Stunned (T5) </td>
 </tr>
 <tr>
 <td>4-6</td>
 <td>Eyes</td>
-<td>Impaired Sense (Sight), Stunned (Pain), Confusion (Blurred Vision)</td>
+<td>Sensory Impairment (Sight), Stunned (Pain), Confusion (Blurred Vision)</td>
 </tr>
 <tr>
 <td>7-8</td>
 <td>Ears</td>
-<td>Impaired Sense (Hearing), Stunned (ringing disorientation), Poisoned (sickened)</td>
+<td>Sensory Impairment (Hearing), Stunned (ringing disorientation), Poisoned (sickened)</td>
 </tr>
 <tr>
 <td>9-12</td>
 <td>Nose</td>
-<td>Bleeding, Confusion, Impaired Sense (smell)</td>
+<td>Bleeding, Confusion, Sensory Impairment (Smell)</td>
 </tr>
 <tr>
 <td>13-14</td>
 <td>Jaw</td>
-<td>Silenced, Fatigue (difficulty breathing, Tier 1)</td>
+<td>Silenced, Fatigue (difficulty breathing, Tier 1), Stunned</td>
 </tr>
 <tr>
 <td>15-18</td>
 <td>Neck/Throat</td>
-<td>Silenced, Winded, Bleeding (Tier 3)</td>
+<td>Silenced, Winded, Bleeding (Tier 3), Stunned (Tier 4)</td>
 </tr>
 </tbody>
 </table>
@@ -406,7 +338,7 @@ The system is narrative-focused, as opposed to a simple increase in damage. It i
 <tr>
 <td>15-18</td>
 <td>Fingers</td>
-<td>Slowed, Impaired Sense (touch), Entangled, -5 penalty to Grapple Action Rolls.</td>
+<td>Slowed, Sensory Impairment (Touch), Entangled, -5 penalty to Grapple Action Rolls.</td>
 </tr>
 </tbody>
 </table>
@@ -441,7 +373,7 @@ The system is narrative-focused, as opposed to a simple increase in damage. It i
 <tr>
 <td>9-12</td>
 <td>Ribcage</td>
-<td>Winded, Fatigued, Bleeding, Auto-fail next Suffocation Action Roll</td>
+<td>Winded, Fatigue, Bleeding, Auto-fail next Suffocation Action Roll</td>
 </tr>
 <tr>
 <td>13-14</td>
@@ -496,7 +428,7 @@ The system is narrative-focused, as opposed to a simple increase in damage. It i
 <tr>
 <td>15-18</td>
 <td>Foot</td>
-<td>Slowed, Impaired Sense (balance), -5 on Action Rolls to resist being moved</td>
+<td>Slowed, Sensory Impairment (Balance), -5 on Action Rolls to resist being moved</td>
 </tr>
 </tbody>
 </table>
@@ -525,6 +457,8 @@ Virus Mode is a powerful ability&mdash;a last resort. A powerful, desperate tran
 
 ### Environmental Considerations
 
+> [:material-file-find: Marked for Review and Playtesting]
+
 Games in this system rely and thrive on high tension, and one of the most effective tools to build that tension should be the world itself. The crafty GM will use the environment as a character all its own.
 
 #### Environmental Hazards
@@ -539,7 +473,7 @@ Environmental threats should force players to adapt&mdash;not necessarily by dea
 
 Let gear feel valuable and fragile.
 
-- **Encourage Planning:** Players should consider what to bring into dangerous area. If they don't prepare for the cold or radiation, the environment should make them regret it.
+- **Encourage Planning:** Players should consider what to bring into a dangerous area. If they don't prepare for the cold or radiation, the environment should make them regret it.
 
 - **Breakage is Drama:** Have batteries short out, guns jam due to lack of maintenance, or armor melting from an acid drip. Use the player's own equipment to create tense moments and force them to adapt.
 
@@ -549,7 +483,7 @@ Survival in this game is a question of how long the characters can hold out, how
 
 - **Food, Ammo, Health Items:** Got critical items to collect during an extended mission? Limit availability in key moments. Use scarcity to increase the drama &mdash; maybe one Health Stim is left, but there are two PCs near 0 Health.
 
-- **Breathers &equals; Tactical Strategy:** Since resting is used to recharge Health and life support, they are tactical decisions. Create times when doing one puts the other at risk. [revise]
+- **Breathers &equals; Tactical Strategy:** [under construction]
 
 - **Downtime Activities** [under construction]
 
@@ -557,15 +491,11 @@ Survival in this game is a question of how long the characters can hold out, how
 
 #### Survivor Point Awards
 
-> [Revision Required]
-
 The Survivor Point Checklist is meant to track a character's evolution not only in combat, but through exploration, roleplay, creativity, and personal growth. However, unchecked, it can quickly snowball into power creep. Here are a few guidelines to keep rewards balanced and meaningful:
 
-**Standard Award Rate:** Each marked checkbox grants 1 SP, representing consistent character progression.
+**Standard Award Rate:** Each marked checkbox grants 2 SP.
 
 **Bonus SP Awards:** For moments of exceptional creativity, roleplaying, or dramatic risk-taking, consider awarding &plus;1 additional SP. These moments should feel rare and earned.
-
-**Session Pacing:** A party might earn between 2–5 SP per session (per character) depending on length and engagement. Use this to calibrate your pacing, accelerating or slowing as needed.
 
 **Milestone Option:** For major narrative breakthroughs or completed arcs, consider awarding a flat &plus;2 to &plus;6 SP to all players, separate from checkboxes.
 

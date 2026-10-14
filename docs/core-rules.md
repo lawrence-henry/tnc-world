@@ -140,10 +140,7 @@ As mentioned above, your off-color die is called the Chance Die. The number of C
 
 When doubles are rolled on certain types of tests, this generates **Chance Points**. These points go into a pool, to be used to fuel various special maneuvers called Chance Actions.
 
-A Player Character's Chance Pool starts at **6** Chance Points at the beginning of every session and, except where specified, caps at **18**. Unused points are lost at the end of the session.
-
-<!-- prettier-ignore -->
-!!! 
+Unless specified as optional, or changed by the GM, a Player Character's Chance Pool starts at **6** Chance Points at the beginning of every session and, except where specified, caps at **18**. Unused points are lost at the end of the session.
 
 ## Combat
 
@@ -347,6 +344,12 @@ RANGED ATTACK:
 SPRINT:
 : You can move up to double your Speed in yards. You cannot take this action if you are prone (you’d need to use the Move action to stand up first).
 
+<!-- prettier-ignore -->
+!!! warning "Sustained Sprinting"
+    A character may use Sprint for 2 consecutive rounds without a check. If they choose to keep sprinting on a third consecutive round, they must make a Constitution Check CR 9 + Winded Tier. The CR for this check increases by +1 for each additional consecutive round of Sprinting.
+
+    On a failure, increase Winded Condition by 1 Tier. Spending a full round without using Sprint resets the consecutive-round count, but does not remove any Winded Tiers acquired. Winded Tiers are removed as indicated in the Conditions chapter.
+
 #### Attacks & Damage
 
 Combat revolves around two primary attack types: Melee and Ranged, both resolved the same way:
@@ -357,6 +360,7 @@ Combat revolves around two primary attack types: Melee and Ranged, both resolved
 4. **Calculate Base Damage.** On a successful hit, you deal an amount of Damage equal to Weapon Damage + Ability Score.
    **Chance Damage (On Doubles).** Whenever you roll Doubles on an attack, add your Chance Die to your **Base Damage**.
    **Critical Damage (on Triples).** Whenever you roll Triples, add twice your Chance Die to your **Base Damage**.
+   **Massive Critical.** If a Critical Damage result deals damage equal to at least twice the target's Constitution Ability in a single attack (minimum 1), and that damage reduces the target's Health to 0, the target cannot use any survival mechanic to remain standing.
 
 #### Death & Dying
 
@@ -375,6 +379,7 @@ Combat revolves around two primary attack types: Melee and Ranged, both resolved
 - A **Helpless**, **Unconscious**, or **Dying** character can be executed as a Major Action. The attacker forces a special Saving Throw (TN 10 + Base Damage).
 
 - If the target is Helpless or Unconscious but not already Dying, failure reduces them to 0 Health and they begin Dying. Success leaves them at 1 Health but Unconscious for a duration rolled on the Downtime Chart, regardless of healing.
+
 - If the target is already Dying, they automatically fail and are killed outright.
 
 #### Healing
@@ -399,5 +404,132 @@ Rest:
 Professional Medical Care:
 : Being cared for in a professional medical environment grants significant benefits to healing. Most notably, a +2 bonus to Health recovery for every Rest.
 
+### Connections
 
-#### Character Advancement
+> [:material-file-find: Marked for Review and Playtesting]
+
+Each character begins with one Connection &mdash; a person or group who has had a meaningful impact on their life. This might be a mentor, friend, rival, lover, or even a former captor. These Connections provide unique bonuses, training, or equipment. Additional Connections may be gained &mdash; or existing ones strengthened &mdash; through story events or by spending Survivor Points (1 SP = 1 Connection).
+
+In the event a Connection is killed, the player retains previously gained bonuses, but cannot advance that particular Connection any further. Benefits already recieved remain with the character. Benefits requiring the Connection's continued assistance may become unavailable if the Connection dies, disappears, or otherwise becomes unable to provide them.
+
+**Step 1: Roll Connection Type**
+
+| 1d6 | Connection Type  |             Description             |
+| :-: | :--------------: | :---------------------------------: |
+|  1  |    **Family**    | Parent, Sibling, Caretaker, Spouse  |
+|  2  |  **Companion**   |      Friend, Comrade, Partner       |
+|  3  |   **Romantic**   | Crush, Old Flame, Significant Other |
+|  4  | **Professional** |      Mentor, Employer, Contact      |
+|  5  |  **Adversary**   |      Nemesis, Rival, Betrayer       |
+|  6  |   **Unusual**    |    Ghost, Double, Childhood Idol    |
+
+**Step 2: Roll Connection Benefit**
+
+| 1d6 |     Benefit Type     |                                                                                                                                                          Description                                                                                                                                                           |
+| :-: | :------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  1  |    **Equipment**     |                                                                                                      Gain a single GM-Approved Unique or Prototype Item the Connection gave you, or 1d6 x 10 RP worth of Contraband Gear.                                                                                                      |
+|  2  |  **Training Bonus**  |                                                                                                                                                     Gain +1 Expertise Tier                                                                                                                                                     |
+|  3  |    **Resources**     |                              Material support: equipment or shelter access, supplies, funding, transportation. Once per campaign arc, you can request significant material support (up to 2d6 x 5 RP in value). The Connection must be willing and capable of providing the required assistance.                               |
+|  4  |   **Information**    |           Personal Intel, Blackmail File, Encrypted Comms. Once per campaign arc, request useful intelligence from your Connection. This may include personal information, compromising evidence, or access to restricted communications. The GM determines what the Connection can reasonably know/have access to.            |
+|  5  |    **Influence**     | Social or organizational support: favors, introductions, protection, extraction, or intervention. Once per campaign arc, you can request a significant favor, such as emergency extraction, an introduction, or intervention on your behalf. The Connection must be willing and capable of providing the requested assistance. |
+|  6  | **Personal History** |                                                                                                                                                 Add +1 to any 1 Ability Score.                                                                                                                                                 |
+
+**Optional:** At the GMs discretion, players may choose their first Connection. All subsequent Connections &mdash; whether gained through narrative or Survivor Point expenditure &mdash; must be rolled randomly or assigned by the GM.
+
+**Strengthening Connections:** At certain levels, players gain bonuses to their Connections. They can deepen an existing Connection, or gain a new one, if it's appropriate. Optionally, at the GM’s discretion, players may spend additional Survivor Points to deepen an existing Connection. This may:
+
+- Unlock a second benefit from the chart
+- Upgrade an existing one (e.g. a rare item becomes modified or enhanced)
+
+Changes or useage of Connections benefits should be narratively justified and roleplayed during downtime or a major story milestone.
+
+### Advancement
+
+Primarily, advancement in TNC is based on a combination of Experience Points (XP) and a mechanic called Survivor Points (SP). Where XP is a measure of a character gaining potentially life-saving increases to their abilities, Survivor Points represent the practical application of a character's knowledge gained through missions and encounters.
+
+That said, these systems are separated. XP is rewarded in TNC for things such as completing tasks and missions, defeating enemies, and solving puzzles.
+
+SP, on the other hand, is only available on meeting certain requirements set by the GM, such as surviving a near-death experience, resolving a character's arc, uncovering major secrets, etc.
+
+##### XP Rewards:
+
+Characters can earn XP for a great number of activities, including but not limited to: Combat, Negotiations, Navigating Hazardous Environments, Solving Puzzles, Exceptional Roleplay, Mission or Goal Completion. GMs are encouraged to use the values below in conjunction with PC levels to determine how much of a challenge or how exceptionally the PCs met their goals.
+
+- **Failure:** The PCs have failed their encounter's goals, but lived to learn from their mistakes. They gain 10&percnt; the normal amount of experience they would have gained for succeeding.
+
+- **Trivial Threat:** A simple or easy circumstance or goal. Very low chance of failure, allowing for a minimum of effort. PCs gain up to 1/10<sup>th</sup> of the XP needed to reach their next level.
+
+- **Low Threat:** The chance of failure is slim, but still requires some resources. Manageable risks. Characters get up to 1/4<sup>th</sup> of the XP needed to reach their next level.
+
+- **Moderate Threat:** A more moderate or hard encounter, in which the characters are likely to be injured, or they have to use abilities or equipment to avoid failure. PCs gain up to 1/2 of the XP needed to reach their next level.
+
+- **High Threat:** An excessively dangerous encounter against capable opponents. These situations almost guarantee injury, and are likely to cause character deaths. Tactical retreats are not out of the realm of necessity for this level of encounter. PCs gain up to the full amount of XP needed to reach their next level, and 1 SP.
+
+- **Nightmare Threat:** The situation or opposition poses a substantially dangerous and potentially fatal threat. These encounters likely involve creatures or enemies equal to or stronger than the PCs, bringing victory down to a matter of luck as well as skill. PCs gain 1-2 levels, and +2 SP.
+
+| **XP Total** | **Level** |                                       **Level Benefits**                                       |
+| :----------: | :-------: | :--------------------------------------------------------------------------------------------: |
+|      0       |     1     |                            Starting **Expertise**, Background Trait                            |
+|    2,000     |     2     |                                      **+1 Ability Score**                                      |
+|    4,000     |     3     |                                       New **Expertise**                                        |
+|    6,000     |     4     |                             Background Trait, **Connection Bonus**                             |
+|    8,000     |     5     |                                       New **Expertise**                                        |
+|    10,000    |     6     |                            **Chance Break**, New **Specialization**                            |
+|    13,000    |     7     |                            New **Expertise**, **+1 Ability Score**                             |
+|    16,000    |     8     |                   Background Trait, **Connection Bonus**, +3 CP Maximum (21)                   |
+|    19,000    |     9     |                                     New **Specialization**                                     |
+|    22,000    |    10     |                            New **Expertise**, **Connection Bonus**                             |
+|    25,000    |    11     |                                      **+1 Ability Score**                                      |
+|    28,000    |    12     |                     Background Trait, +3 CP Maximum (24), **Chance Break**                     |
+|    32,000    |    13     |                                       New **Expertise**                                        |
+|    36,000    |    14     |                                     New **Specialization**                                     |
+|    40,000    |    15     |                             Background Trait, **Connection Bonus**                             |
+|    44,000    |    16     |                           New **Specialization**, +3 CP Maximum (27)                           |
+|    48,000    |    17     |                            New **Expertise**, **+1 Ability Score**                             |
+|    52,000    |    18     |                              New **Expertise**, **Chance Break**                               |
+|    56,000    |    19     |                             Background Trait, **Connection Bonus**                             |
+|    60,000    |    20     | **Leviathan Activation**, Final **Connection Bonus**, **+1 Ability Score**, +3 CP Maximum (30) |
+
+##### Gaining Levels
+
+Characters primarily gain levels by gathering experience points from their adventures. Experience can be awarded at the end of every encounter, adventure, or game session, by GM discretion. When your experience total reaches the amount needed for a new level, your character rises to that level, gaining the benefits listed in the Character Advancement Table. In addition, the following two increases occur at every level:
+
+- Your character's Health increases by 1d6+ Constitution at levels 2-10. From levels 11-20, and beyond, your Health increases just by your Constitution ability. Gaining Health at higher levels becomes increasingly more difficult, just as your abilities do. (Changes to your Constitution do not add retroactive Health, but increase your gain starting from the level you increase it. Likewise, anything that would damage your Constitution Ability doesn't take away from your current maximum Health.)
+
+- Your RP increases by 2d6 + Wits. If you roll doubles, roll your Chance Die and add its value to your previous result. This represents bonus pay for exceptional work.
+
+##### Survivor Points
+
+A character can collect Survivor Points through various means, dictated by their GM. A sample checklist for rewarding SP can be found in the GM section of this book. SP can be spent in a number of ways to improve Ability scores, gain Infection Level, and more. For lower ranked abilities, this will be a direct increase. But, as with all things, at some point it will become harder for the character to grow in their most potent abilities. The exact number of Survivor Points required to increase an ability is dependent on the new ability score they're trying to achieve.
+
+> Be sure to keep track of Survivor Points spent, and where you've spent them. Some things, like Ability increases, don't go into effect until the required points have been spent.
+
+Additionally, Weapon Group Training can be acquired using a single Survivor Point each. Expertise Levels can be acquired using 1-4 Survivor Points each. Chance Breaks can be acquired using 4 Survivor Points each. Finally, Specializations can be acquired using 5 Survivor Points each.
+
+##### Ability Advancement Table
+
+| SP Cost | Ability Increase |
+| :-----: | :--------------: |
+|    1    |     -1 to 5      |
+|    2    |      6 to 8      |
+|    3    |     9 to 12      |
+
+##### Special SP Advancements
+
+| SP Cost |                                                           Purchase                                                           |
+| :-----: | :--------------------------------------------------------------------------------------------------------------------------: |
+|    1    | 1 Basic Expertise Tier <br> 1 Trait <br> 1 Weapon Group <br> _-or-_ <br> 1 Infection Level <br>_-or-_<br> 1 Connection Bonus |
+|    2    |                                                  1 Initiate Expertise Tier                                                   |
+|    3    |                                                  1 Advanced Expertise Tier                                                   |
+|    4    |                                   1 Expert Expertise Tier <br> _-or-_ <br> 1 Chance Break                                    |
+|    5    |                                                       1 Specialization                                                       |
+
+##### RP Increases
+
+| SP Cost | Purchase |
+| :------ | :------- |
+| 1       | 1d6      |
+| 2       | 2d6      |
+| 3       | 3d6      |
+
+_Note:_ SP spent on Requisition Points grant a one-time increase to the character's current RP. These purchases do not affect RP gained in any other way.

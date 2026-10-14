@@ -33,7 +33,7 @@ This is a list of features common to various items and weapons, both to define i
 : Holds up to 6 bullets in the weapon at a time. Bullets are loaded into the cylinder at a rate of 1 Round per Minor Action. The cylinder revolves after every trigger pull, cycling the next loaded Round into the weapon's chamber.
 
 **Acid Damage:**
-: When used against objects, it moves the item one step lower on the Item Destruction Chart per round until that Item is Completely Destroyed. When used against a biological target, it decreases Armor Protection (AP) from all sources by 1 per round. Worn armor at 0 AP is useless weight, and will no longer protect you from damage. For characters with the Hardened Skin Special Ability Mutation, lost AP is restored by 1 AP per Rest. Every Round after the initial hit, a creature can attempt a Reflexes Saving Throw CR 15 to end the effect. Any creature with an AP of 0 while affected by Acid takes 10 Damage at the start of every turn until they pass the Saving Throw.
+: When used against objects, it moves the item one step lower on the AP Threshold Table per round until that Item is Completely Destroyed. When used against a biological target, it decreases Armor Protection (AP) from all sources by 1 per round. Worn armor at 0 AP is useless weight, and will no longer protect you from damage. For characters with the Hardened Skin Special Ability Mutation, lost AP is restored by 1 AP per Rest. Every Round after the initial hit, a creature can attempt a Reflexes Saving Throw CR 15 to end the effect. Any creature with an AP of 0 while affected by Acid takes 10 Damage at the start of every turn until they pass the Saving Throw.
 
 **AP-Tuned:**
 : When fired at any non-living character or object, the loaded ammunition is treated as AP ammo, regardless of whether or not it's actually loaded, allowing the damage of the weapon to ignore an additional 6 AP provided by material.
@@ -96,7 +96,7 @@ This is a list of features common to various items and weapons, both to define i
 : Imposes a -2 penalty to Reflexes when determining Movement Speed.
 
 **High Caliber:**
-: On rolling triples, before determining Chance Actions, the attacker can spend 3 CP. The target makes a Constitution Saving Throw, CR 10+ the value on the Attacker's Chance Die, or the Damage dealt will not heal until the target has received Surgery.
+: On rolling triples, before determining Chance Actions, the attacker can spend 3 CP. The target makes a Constitution Saving Throw, CR 10 + the value on the Attacker's Chance Die, or the Damage dealt will not heal until the target has received Surgery.
 
 **Improvised:**
 : An item with this property has primary functions that have nothing to do with weaponry or causing damage.
@@ -181,6 +181,9 @@ This is a list of features common to various items and weapons, both to define i
 **Blind:**
 : Applies T3 of the Impaired Sense (Sight) Condition on a failed save. This effect decreases by 1 Tier at the beginning of each of the target's subsequent turns.
 
+**Burn:**
+: Applies one or more Tiers of the Burning Condition on a failed save. The number of Tiers applied is specified in the weapon's description. This effect increases by 1 Tier at the beginning of each of the affected target's subsequent turns. This effect lasts 2d6 rounds, unless the fire is extinguished.
+
 **Color-Code:**
 : Weapon can be purchased in a variety of colors to fit various tactical communication scenarios.
 
@@ -211,7 +214,7 @@ This is a list of features common to various items and weapons, both to define i
 : Ignores difficult terrain penalties for most natural environments (mud, sand, snow, etc.), but reduces Top Speed by 1 category.
 
 **Autonomous:**
-: The vehicle has an onboard AI capable of basic self-navigation, though it still requires a human operator for combat maneuers and other complex actions.
+: The vehicle has an onboard AI capable of basic self-navigation, though it still requires a human operator for combat maneuvers and other complex actions.
 
 **Electric Vehicle (EV):**
 : Requires at least 1 hour of charging per hour of use. Maximum of 6 hours on a full charge.
@@ -266,31 +269,31 @@ This is a list of features common to various items and weapons, both to define i
 <th colspan="4">Downtime Table</th>
 </tr>
 <tr>
-<th>Roll (1d10)</th>
+<th>Roll (2d6)</th>
 <th>Category</th>
 <th>Downtime</th><th>Description</th>
 </tr>
 </thead>
 <tr>
-<td>1-3</td>
+<td>2-5</td>
 <td>Short</td>
 <td>2d6 hours or 1d6 days.</td>
 <td>An urgent follow-up mission with little time for recovery.</td>
 </tr>
 <tr>
-<td>4-6</td>
+<td>6-7</td>
 <td>Moderate</td>
 <td>1d6+1 Weeks</td>
 <td>Standard rest and preparation period.</td>
 </tr>
 <tr>
-<td>7-9</td>
+<td>8-11</td>
 <td>Long</td>
 <td>2d6 Weeks</td>
 <td>Enough time to regroup, investigate leads, or heal.</td>
 </tr>
 <tr>
-<td>10</td>
+<td>12</td>
 <td>Extended</td>
 <td>1d6+1 Months</td>
 <td>A longer break, possibly after a major event or injury. Shift Season every 3 months.</td>

@@ -9,7 +9,7 @@ tags: [Defense, Melee]
 
 <!-- --8<-- [start:card] -->
 
-#### :material-shield: Agile Defense Styles {#exp-agile-defense-style}
+#### :material-shield: Agile Defense Style {#exp-agile-defense-style}
 
 <!-- prettier-ignore -->
 !!! abstract ""
@@ -42,11 +42,13 @@ tags: [Defense, Melee]
         Additionally, when you use the Defend Action, you gain a Major Advantage on your next attack roll against a target within your Melee Range. If this benefit is not used before the end of your next turn, it is lost.
 
     === "Advanced"
-        - **Swift-Shift (1 CP):** Use **Defend** as an Instinct Action.
-        - **Brutal Counter (2 CP):** If an enemy misses their attack within your Melee Range due to your use of the Defend Action, you may add half of your Reflexes Ability and the target's last used Attack Bonus to your next Melee Damage Roll. If your attack already uses Reflexes, use your Willpower Ability for the bonus instead.
+        **Swift-Shift (1 CP):** Use **Defend** as an Instinct Action.
+
+        **Brutal Counter (2 CP):** If an enemy misses their attack within your Melee Range due to your use of the Defend Action, you may add half of your Reflexes Ability and the target's last used Attack Bonus to your next Melee Damage Roll. If your attack already uses Reflexes, use your Willpower Ability for the bonus instead.
 
     === "Expert"
-        - Defense bonus increases to **+5**.
-        - **Only The Strong:** If an enemy misses you with an attack within your Melee Range due to your use of the Defend Action, that enemy takes your Unarmed or Melee Attack Damage as part of their action.
+        Defense bonus increases to **+5**.
+
+        **Only The Strong:** If an enemy misses you with an attack within your Melee Range due to your use of the Defend Action, that enemy takes your Unarmed or Melee Attack Damage as part of their action.
 
 <!-- --8<-- [end:card] -->

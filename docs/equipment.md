@@ -123,10 +123,6 @@ Some items simply can't be bought or requisitioned outright, without the right a
 
 Any item of 30 or higher RP, at the GM's discretion, can possibly be broken down into monthly payments of RP, the amount of which is decided on at the time of purchase.
 
-<!-- prettier-ignore -->
-!!! info
-    **Example:** A Forced Entry Unit armor costs 583 RP (representing ~$17,490 or so). A character wishing to own/use this item could make an agreement for 6.5-7 RP/month for 90 months, or 49 RP/month for 1 year.
-
 ## Bundles & Packs
 
 For when you want to get right into the game, or decide you don't feel like comparing items across multiple tables, these pre-packed inventories are here for your convenience.
@@ -157,9 +153,11 @@ For when you want to get right into the game, or decide you don't feel like comp
 
 - **Scholar Pack:** Backpack, Reference Manual, 1 Tool Kit
 
-- **White Collar Pack:** Stylish Outfit (+5 to social checks), Membership Card (treated as having +5 RP when purchasing Vehicles or Miscellaneous Gear), Emergency Contact (1 Chosen Connection)
+- **White Collar Pack:** Stylish Outfit (+5 to social checks), Membership Card (choose one item worth 50 RP or more, subject to GM approval, that the character owns or has regular access to), Emergency Contact (1 Chosen Connection, beyond the normal starting Connection)
 
 #### Specialist Kit
+
+> [:material-file-find: Marked for Review and Playtesting]
 
 - **Assassin's Pack (50 RP):** Stiletto, Custom Pistol, Suppressor, 3 Reload Boxes
 
@@ -169,13 +167,11 @@ For when you want to get right into the game, or decide you don't feel like comp
 
 - **Marksman's Pack (80 RP):** Machine Pistol, Marksman Rifle, 6 Reload Boxes
 
-- **Field Medic's Pack:** Portable Hospital, Painkillers, Adrenaline Booster
+- **Field Medic's Pack (50 RP):** Portable Hospital, Painkillers, Adrenaline Booster
 
 - **Researcher's Pack (50 RP):** Research Tablet, 1 Tool Kit, 1 Unit Sample Tubes (5)
 
 - **Sniper's Pack (70 RP):** Sniper Rifle, Revolver, 6 Reload Boxes
-
-> [Review Necessary, Expansion Ideas?]
 
 ## Armor
 
@@ -205,7 +201,7 @@ Much like weapons, covered later in this chapter, armor has been mostly abstract
     : How hard it is to get hurt from being hit. Determined by Constitution + AP
 
     *Speed:*
-    : How fast your character moves in a turn of combat. Speed is determined by your Reflexes ability, and modified by your Armor Protection. Starting at 0, a character can move 10 yards per turn, increasing or decreasing that movement speed by 2 yards per turn. A character with 0 Speed cannot move, and automatically fails Reflex Saving Throws.
+    : How fast your character moves in a turn of combat. Speed is determined by your Reflexes ability, and modified by your Armor Protection. Starting at 0, a character can move 22 yards per turn, increasing or decreasing that movement speed by 2 yards per turn. A character with 0 Speed cannot move, and automatically fails Reflex Saving Throws.
 
     Wearing armor provides a static penalty (based on the AP of the armor) to your Ability for determining speed. For example, a police officer with a Reflexes of +2 can normally move at 14 yards per turn. Wearing a Light-Duty Vest (AP 5), however, makes his Reflexes count as a -3 for movement purposes, making him move at 4 yards per turn due to the encumbrance of the armor.
 
@@ -234,7 +230,7 @@ Much like weapons, covered later in this chapter, armor has been mostly abstract
 
 #### Civilian/Covert Armor
 
-**Armor Protection:** +2, **Cost:** 10 RP
+**Armor Protection:** +4, **Cost:** 10 RP
 
 : A light, discreet set of armor that offers some protection without looking like military or tactical gear. Provides a +1 bonus to social checks involving diplomacy. Emphasizes mobility over protection.
 
@@ -250,12 +246,6 @@ Much like weapons, covered later in this chapter, armor has been mostly abstract
 
 : A Kevlar or ceramic vest designed to fit underneath the clothing for concealment, to stop most pistol caliber rounds, and some shotgun rounds. Provides an additional +3 bonus to AP against Called Shots aimed at the Chest, Heart, or Vitals/Gut.
 
-#### Armored Suit
-
-**Armor Protection:** +2, **Cost:** 45 RP
-
-: A dress suit made of bullet and cut resistant fabrics. Often utilized by groups such as the US Secret Service, in the protection details of high-value individuals. It provides reasonable enough protection at a minimum cost to mobility. The downside to this is that it cannot be modified, outside of stylistic choices.
-
 ### Medium Armor
 
 | Armor Defense: | +3  | Units: |  6  |
@@ -270,7 +260,7 @@ Much like weapons, covered later in this chapter, armor has been mostly abstract
 
 #### Concealable Vest
 
-**Armor Protection:** +6, **Cost:** 25 RP
+**Armor Protection:** +5, **Cost:** 25 RP
 
 : Similar to the Undercover Vest, but with one key difference, being that it has pouches designed to hold replaceable armor plates. Provides an additional +3 bonus to Defense against Called Shots aimed at the Chest, Heart, or Vitals/Gut.
 
@@ -282,7 +272,7 @@ Much like weapons, covered later in this chapter, armor has been mostly abstract
 
 #### Tactical Vest
 
-**Armor Protection:** +7, **Cost:** 40 RP
+**Armor Protection:** +8, **Cost:** 40 RP
 
 : A more robust armor system, utilizing replaceable armor plates. This armor is often standard-issue for tactical police units, and military units. Has +4 Attachment Points for additional equipment to be mounted to it. Provides an additional +3 bonus to Defense against Called Shots aimed at the Chest, Heart, or Vitals/Gut.
 
@@ -387,21 +377,21 @@ Weapons in this system are broken into groups. Training and Proficiency with wea
 
 Most Weapons in this group add your Might Ability to the Damage indicated, after accounting for the Chance Die.
 
-|    Weapon     | Damage | Min.Might | Cost | Units |               Notes               |
-| :-----------: | :----: | :-------: | :--: | :---: | :-------------------------------: |
-|      Sap      |   2    |     0     | N/A  |   1   |               Stun                |
-|     Mace      |   2    |     2     |  3   |   2   |          Armor-Piercing           |
-| Quarterstaff  |   3    |     1     |  1   |   2   |     Reach, Versatile, Double      |
-|   Warhammer   |   3    |     4     |  5   |   3   |     Versatile, Armor Piercing     |
-|    Dagger     |   2    |     0     |  1   |   1   |          Finesse, Thrown          |
-|     Spear     | 3 / 2  |     2     |  8   |   2   |     Reach, Versatile, Thrown      |
-|    Rapier     |   3    |     0     |  4   |   2   |         Finesse, Precise          |
-|  Short Sword  |   3    |     1     |  3   |   2   |          Finesse, Bleed           |
-|  Battle Axe   |   3    |     4     |  16  |   3   |     Versatile, Armor-Piercing     |
-|   Longsword   |   3    |     3     |  5   |   2   |                 -                 |
-|    Halberd    |   4    |     5     |  20  |   3   | Reach, Two-Handed, Armor-Piercing |
-| Bastard Sword |   4    |     5     |  20  |   3   |             Versatile             |
-|  Greatsword   |   4    |     6     |  25  |   3   | Reach, Two-Handed, Armor Piercing |
+|    Weapon     | Damage | Min.Might | Cost | Units |                Notes                 |
+| :-----------: | :----: | :-------: | :--: | :---: | :----------------------------------: |
+|      Sap      |   2    |     0     | N/A  |   1   |                 Stun                 |
+|     Mace      |   2    |     2     |  3   |   2   |            Armor-Piercing            |
+| Quarterstaff  |   3    |     1     |  1   |   2   |       Reach, Versatile, Double       |
+|   Warhammer   |   3    |     4     |  5   |   3   | Versatile, Armor-Piercing, Knockdown |
+|    Dagger     |   2    |     0     |  1   |   1   |   Finesse, Thrown, Armor-Piercing    |
+|     Spear     | 3 / 2  |     2     |  8   |   2   |       Reach, Versatile, Thrown       |
+|    Rapier     |   3    |     0     |  4   |   2   |           Finesse, Precise           |
+|  Short Sword  |   3    |     1     |  3   |   2   |            Finesse, Bleed            |
+|  Battle Axe   |   3    |     4     |  16  |   3   |      Versatile, Armor-Piercing       |
+|   Longsword   |   3    |     3     |  5   |   2   |                  -                   |
+|    Halberd    |   4    |     5     |  20  |   3   |  Reach, Two-Handed, Armor-Piercing   |
+| Bastard Sword |   4    |     5     |  20  |   3   |              Versatile               |
+|  Greatsword   |   4    |     6     |  25  |   3   |  Reach, Two-Handed, Armor Piercing   |
 
 ##### Sap
 
@@ -535,14 +525,14 @@ All Weapons in this group may add your Might or Reflexes Ability to the Damage i
 
 Weapons in this group can often double as Stealth or Thrown Weapons, though that may not be their primary purpose. These weapons are built with maneuverability and precision in mind, and can be used with either your Might or Reflexes Ability.
 
-|     Weapon      | Damage | Min. Might | Cost | Units |                 Notes                  |
-| :-------------: | :----: | :--------: | :--: | :---: | :------------------------------------: |
-|      Shiv       |   2    |     0      |  0   |   1   |     Concealable, Improvised, Bleed     |
-| Concealed Knife |   2    |     0      |  5   |   1   |          Finesse, Concealable          |
-|    Karambit     |   2    |     2      |  12  |   1   |      Finesse, Concealable, Bleed       |
-|    Stiletto     |   2    |     0      |  8   |   2   | Concealable, Precision, Armor-Piercing |
-| Tactical Knife  |   4    |     1      |  10  |   2   |        Finesse,Thrown,Leverage         |
-| Handheld Taser  |   1    |     0      |  5   |   2   |           Ionic, Concealable           |
+|     Weapon      | Damage | Min. Might | Cost | Units |                Notes                 |
+| :-------------: | :----: | :--------: | :--: | :---: | :----------------------------------: |
+|      Shiv       |   2    |     0      |  0   |   1   |    Concealable, Improvised, Bleed    |
+| Concealed Knife |   2    |     0      |  5   |   1   |         Finesse, Concealable         |
+|    Karambit     |   2    |     2      |  12  |   1   |     Finesse, Concealable, Bleed      |
+|    Stiletto     |   2    |     0      |  8   |   2   | Concealable, Precise, Armor-Piercing |
+| Tactical Knife  |   4    |     1      |  10  |   2   |       Finesse,Thrown,Leverage        |
+| Handheld Taser  |   1    |     0      |  5   |   2   |          Ionic, Concealable          |
 
 ##### Shiv
 
@@ -564,7 +554,7 @@ Weapons in this group can often double as Stealth or Thrown Weapons, though that
 
 ##### Stiletto
 
-**Damage:** 2 Piercing (Concealable, Precision, Armor-Piercing)
+**Damage:** 2 Piercing (Concealable, Precise, Armor-Piercing)
 
 : A successor to the archaic dagger, the Stiletto is a thin, pointed blade designed for quick, lethal strikes to the unarmored portions of armored opponents.
 
@@ -584,16 +574,16 @@ Weapons in this group can often double as Stealth or Thrown Weapons, though that
 
 Weapons of this category tend to be large, awkward to wield, or require specific training to use properly.
 
-|     Weapon     | Damage | Min. Might | Cost | Units |               Notes                |
-| :------------: | :----: | :--------: | :--: | :---: | :--------------------------------: |
-| Climbing Hook  |   2    |     3      |  12  |   2   | Improvised,Bleed,Thrown, Versatile |
-|    Crowbar     |   3    |     2      |  10  |   3   |        Improvised, Leverage        |
-|  Baseball Bat  |   3    |     1      |  4   |   2   |                Stun                |
-| Combat Hatchet |   3    |     1      |  8   |   2   |               Thrown               |
-|    Machete     |   3    |     2      |  12  |   2   |               Bleed                |
-|     Katana     |   4    |     2      |  15  |   2   |          Versatile, Bleed          |
-| Fireman's Axe  |   4    |     3      |  20  |   2   |     Versatile, Armor-Piercing      |
-|  Sledgehammer  |   5    |     4      |  10  |   3   |       Two-Handed, Knockdown        |
+|     Weapon     | Damage | Min. Might | Cost | Units |                 Notes                 |
+| :------------: | :----: | :--------: | :--: | :---: | :-----------------------------------: |
+| Climbing Hook  |   2    |     3      |  12  |   2   |  Improvised,Bleed,Thrown, Versatile   |
+|    Crowbar     |   3    |     2      |  10  |   3   |         Improvised, Leverage          |
+|  Baseball Bat  |   3    |     1      |  4   |   2   |                 Stun                  |
+| Combat Hatchet |   3    |     1      |  8   |   2   |                Thrown                 |
+|    Machete     |   3    |     2      |  12  |   2   |                 Bleed                 |
+|     Katana     |   4    |     2      |  15  |   2   |       Versatile, Precise, Bleed       |
+| Fireman's Axe  |   4    |     3      |  20  |   2   |       Versatile, Armor-Piercing       |
+|  Sledgehammer  |   5    |     4      |  10  |   3   | Two-Handed, Knockdown, Armor-Piercing |
 
 ##### Climbing Hook
 
@@ -659,7 +649,11 @@ For assault with a weapon no one thought could be deadly, but unfortunately was.
 
 : This can be just about any item that isn't nailed down that you can get your hands around and heft, an item that has been modified through crafting, or a firearm being utilized as a melee weapon for any reason. This weapon cannot be any larger than an equivalent weapon appropriate for wielding.
 
-: An Improvised weapon can make contact with a character or another object 10 times before it breaks partially, going down 1 AP threshold per break, as indicated in the Equipment: Damage & Destruction subsection. The Effects of the AP threshold only apply to the item's core function. A broken rifle probably ain't going to shoot right.
+: Rolling a 4 on Attacks with this weapon, regardless of doubles, deals your Chance Die in Damage to your Improvised Weapon's AP.
+
+: Rolling a 3 on Attacks with this weapon, regardless of doubles, deals twice your Chance Die in Damage to your Improvised Weapon's AP.
+
+: See Equipment: Damage & Destruction for AP Values, and what incoming Damage means for your Improvised Weapon. The Effects of AP threshold only apply to the item's core function. A broken rifle probably ain't going to shoot right, even if you keep hitting someone with it.
 
 <table style="text-align:center;">
 <thead>
@@ -823,7 +817,7 @@ Weapons in this group have been used historically, some traditions continuing wh
 | :------------------: | :----: | :--: | :-----------: | :-----: | :---: | :-----------------------------: |
 |       Blowgun        |   1    |  0   |       1       |    4    |   1   |             Silent              |
 |   Bowgun/Crossbow    |   4    |  1   |       2       |   20    |   2   |   Two-Handed, Armor-Piercing    |
-| Compound Bow/Longbow |   3    |  1   |       3       |   15    |   3   |        Heavy, Two-Handed        |
+| Compound Bow/Longbow |   3    |  1   |       3       |   15    |   3   |       Two-Handed, Precise       |
 |      Short Bow       |   2    |  1   |       2       |   10    |   2   |     Two-Handed, Fast Reload     |
 |        Sling         |   1    |  1   |       1       |    0    |   1   | Silent, Cheap Ammo, Fast Reload |
 
@@ -988,7 +982,7 @@ _Note:_ For a 6-cylinder revolver, increase RP cost by 5
 <tr>
 <td>Shotgun</td>
 <td>8</td>
-<td>5</td>
+<td>8</td>
 <td>1</td>
 <td>20</td>
 <td>2</td>
@@ -1015,7 +1009,7 @@ _Note:_ For a 6-cylinder revolver, increase RP cost by 5
 <tr>
 <td>Sniper Rifle</td>
 <td>10</td>
-<td>10</td>
+<td>8</td>
 <td>3</td>
 <td>50</td>
 <td>3</td>
@@ -1084,7 +1078,7 @@ _Note:_ For a 6-cylinder revolver, increase RP cost by 5
 <td>3</td>
 <td>60</td>
 <td>4</td>
-<td>Armor-Piercing, Precise, Two-Handed, AP-Tuned, Single Shot</td>
+<td>Armor-Piercing, Precise, Two-Handed, Heavy, AP-Tuned, Single Shot, Reliable</td>
 </tr>
 <tr>
 <td>Grenade Launcher</td>
@@ -1118,7 +1112,7 @@ _Note:_ For a 6-cylinder revolver, increase RP cost by 5
 
 ##### Anti-Materiel Rifle (AMR)
 
-**Damage:** 12 Ballistic (Armor-Piercing, Precise, Two-Handed, Heavy, AP-Tuned, Reliable)
+**Damage:** 12 Ballistic (Armor-Piercing, Precise, Two-Handed, Heavy, AP-Tuned, Single Shot, Reliable)
 **Ammo:** 4 Rifle Ammo
 
 : A devastating high caliber rifle, designed to destroy items and disable armored vehicles. This Single Shot weapon's bolt action feed system ensures this weapon can remain in service consistently.
@@ -1165,7 +1159,7 @@ _Note:_ For a 6-cylinder revolver, increase RP cost by 5
 |     Mine (Claymore)     | 3 Blast + 3 Slashing |     4     |  25  |        Directional, Bleed (T5)        |
 |       Mine (EMP)        |          0           |     0     |  25  |     Directional, Blind, Ion Blast     |
 |    Molotov Cocktail     |        3 Fire        |     2     |  8   |            Splash x2, Burn            |
-|       Sticky Bomb       |       5 Blast        |     5     |  30  |           Sticky, Timed x2            |
+|       Sticky Bomb       |       5 Blast        |     5     |  30  |     Sticky, Destructive, Timed x2     |
 |     Thermite Charge     |       10 Fire        |     5     |  30  |     Sticky, Burning, Destructive      |
 
 :
@@ -1219,7 +1213,7 @@ Deals damage to a single target. The target must make a CR 12 Constitution Savin
 **Radius:** 6 yards
 **Save:** Reflexes CR 14
 
-Explodes in a 6 yard radius. Any creatures caught in the blast must make a Reflexes Saving Throw CR 15 or suffer the Hypothermic Condition.
+Explodes in a 6 yard radius. Any creatures caught in the blast must make a Reflexes Saving Throw CR 14 or suffer the Hypothermic Condition.
 
 ##### Grenade (Acid)
 
@@ -1265,7 +1259,7 @@ Explodes in a 10-yard radius. Targets within that range that can see and/or hear
 
 ##### Grenade (Fragmentation)
 
-**Damage:** 3 Blast + 2 Slashing
+**Damage:** 4 Blast + 2 Slashing
 **Radius:** 6 yards
 **Save:** Reflexes CR 13
 **Special Properties:** Bleed (T2), Timed
@@ -1322,7 +1316,7 @@ Explodes in an 8-yard radius. Targets damaged by this weapon must make a Reflexe
 **Damage:** 4 Blast
 **Radius:** 4 yards
 **Save:** N/A
-**Special Properties:** Sticky, Destructive
+**Special Properties:** Sticky, Destructive, Timed x2
 
 Explodes in a 4-yard radius. One side of this device has a strong magnet. For applications where a metal surface is unavailable, there is a patch with a fast-acting strong adhesive. If the adhesive is used, this weapon can be applied to a target or surface with a successful Wits (Explosives) Action Roll CR 10.
 
@@ -1331,9 +1325,9 @@ Explodes in a 4-yard radius. One side of this device has a strong magnet. For ap
 **Damage:** 10 Fire
 **Radius:** 6 yards
 **Save:** Reflexes CR 13
-**Special Properties:** Sticky, Burn, Shapeable, Destructive
+**Special Properties:** Sticky, Burn x3, Shapeable, Destructive
 
-A 1-foot patch filled with thermite. When activated, it burns through structural and hardened materials, creating intense heat in a 6-yard radius. Anyone within 3 yards of this device while it's active must make a Reflexes Saving Throw CR 13. If successful, target takes half damage. If failed, this weapon applies the Burning Condition.
+A 1-foot patch filled with thermite. When activated, the Thermite Charge produces an initial explosion of intense heat affecting a 6-yard radius. Anyone within 3 yards of this device while it's active must make a Reflexes Saving Throw CR 13. If successful, target takes half damage. If failed, this weapon applies the Burning Condition.
 
 ## Miscellaneous Gear
 
@@ -1400,13 +1394,13 @@ A 1-foot patch filled with thermite. When activated, it burns through structural
 
 |        Item         | RP Cost | Units |                                                                                                                                      Notes                                                                                                                                      |
 | :-----------------: | :-----: | :---: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    First-Aid Kit    |    5    |   2   |                                                                           A polyester pouch containing a variety of medical supplies. Improve the Health recovery effect of other Medical Items by 1.                                                                           |
-|      Bandages       |    2    |   1   |                                                                                                                    Reduces Bleeding Tier, up to T3. 5 Uses.                                                                                                                     |
+|    First-Aid Kit    |    5    |   2   |                                                                           A polyester pouch containing a variety of medical supplies. Improve the Health recovery effect of other Medical Items by 2. Gain +2 to Healing Checks.                                                                          |
+|      Bandages       |    2    |   1   |                                                                                                                  Reduces Bleeding by 1 Tier, up to T3. 5 Uses.                                                                                                                  |
 |     Painkillers     |    1    |   1   |                                                                                                                            Recover 5 Health. 5 Uses.                                                                                                                            |
 |     Antiseptic      |    2    |   1   |                                                                                                   Automatically pass Saving Throw related to injury-based Infections. 5 uses.                                                                                                   |
 |     Anti-emetic     |    1    |   1   |                                                                                                                  Reduces Poisoned by 1 Tier, up to T3. 5 uses.                                                                                                                  |
-|     Medic's Bag     |   10    |   2   |                                     A large nylon bag containing a comprehensive set of first-aid supplies needed in emergencies. Improve the Health recovery effect of other Medical Items by 5. Reduce any Condition by 1 Tier, up to T3.                                     |
-|  Portable Hospital  |   20    |   3   | A tightly packed nylon bag filled with medical supplies, for use in potentially fatal emergencies where it's not possible to reach a hospital in a reasonable amount of time. Improve the Health recovery effect of other Medical Items by 10. Reduce any Condition by 2 Tiers. |
+|     Medic's Bag     |   10    |   2   |                                     A large nylon bag containing a comprehensive set of first-aid supplies needed in emergencies. Improve the Health recovery effect of other Medical Items by 5. Gain +5 to Healing Checks. Reduce any Condition by 1 Tier, up to T3.                                     |
+|  Portable Hospital  |   20    |   3   | A tightly packed nylon bag filled with medical supplies, for use in potentially fatal emergencies where it's not possible to reach a hospital in a reasonable amount of time. Improve the Health recovery effect of other Medical Items by 10. Gain +10 to Healing Checks. Reduce any Condition by up to 2 Tiers. |
 | Adrenaline Booster  |    5    |   1   |                                                                                                    Reduce Stunned, Weakness, or Winded (any Tier) by 2 Tiers. Once per Rest.                                                                                                    |
 | Hemostatic Medicine |    8    |   1   |                                                                                                   Recover 3 Health. Reduce Bleeding Condition (any Tier) by 2. Once per Rest.                                                                                                   |
 |       Splint        |    1    |   2   |                                                               A makeshift brace. If you are suffering Slowed or Weakness T4 or above, this item treats those Conditions as reduced by 2 Tiers for up to 2 Rests.                                                                |
@@ -1434,6 +1428,8 @@ Creating new items often costs time, money, and materials. How much time, how mu
     When crafting, if something you're trying to build is out of the ordinary, check with your GM to consider the item's fit within the campaign setting, or power scaling.
 
 ### Core Crafting Mechanic
+
+> [:material-file-find: Marked for Review and Playtesting]
 
 A character wishing to craft equipment must know something about what they're trying to build. This is represented by a Wits (Design) check with a CR based on the item's tier, as shown in the charts below. This Design check can take several hours to several days, again depending on the Crafting tier of the item in question.
 
@@ -1488,6 +1484,7 @@ Crafting time can be reduced if multiple characters assist with the creation of 
 </table>
 
 #### Complications (3d6 Roll)
+> Complications and Bonuses Subject to Immediate Review and Change.
 
 | Roll | Complication                                                                                                                                               |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1893,7 +1890,7 @@ In terms of direct attacks, items and equipment must be targeted via Called Shot
 
 Any time an item is hit, or if an attack roll would hit a target behind full cover, or if the target is missed by 2 or less, the item or cover's AP soaks up a portion of the damage. Subtract the AP from the attack's damage, representing the absorption of some of the impact. If the damage exceeds the cover or item's AP, any remaining damage goes through to what's behind it.
 
-Every time the AP of the item or cover in question is breached, the item's AP is reduced by an amount equal to the attacking character's Chance Die. Standard Rounds always go against whatever the current AP is. Armor-Piercing Rounds ignore a portion or bypass AP altogether. Explosives or Acid generally degrade larger areas of items or cover at any given time, potentially destroying it completely.
+Every time the AP of the item or cover in question is breached, after resolving the attack's damage, the item's AP is reduced by an amount equal to the attacking character's Chance Die. Standard Rounds always go against whatever the current AP is. Armor-Piercing Rounds ignore a portion or bypass AP altogether. Explosives or Acid generally degrade larger areas of items or cover at any given time, potentially destroying it completely.
 
 Some objects are harder than others to destroy. You can't bring a building down with a rifle, after all. When it comes to structures and hardened materials, even if its AP becomes 0, then without actual demolitions, it cannot be destroyed, and functions at the Quarter Damage Threshold until destroyed with the proper ordnance.
 

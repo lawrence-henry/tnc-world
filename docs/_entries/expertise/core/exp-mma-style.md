@@ -38,8 +38,8 @@ tags: [Offense, Ranged]
     === "Initiate"
         Pick one Initiate Tier Ability of any Expertise with the Style tag. 2 times per Rest, as a Minor Action, you can swap this ability for another Initiate Tier Ability. You can only gain the benefits from one Initiate Tier Ability in this way at a time.
     === "Advanced"
-        - Pick one Advanced Tier Ability of any Expertise with the Style tag. 1 time per rest, as a Major Action, you can swap this ability for another Advanced Tier Ability. You can only gain the benefits from one Advanced Tier Ability in this way at a time.
+        Pick one Advanced Tier Ability of any Expertise with the Style tag. 1 time per rest, as a Major Action, you can swap this ability for another Advanced Tier Ability. You can only gain the benefits from one Advanced Tier Ability in this way at a time.
     === "Expert"
-        - Pick one Expert Tier Ability of any Expertise with the Style Label. This ability can only be swapped during an extended Rest (i.e.: as a downtime activity). You can only gain the benefits from one Expert Tier Ability in this way at a time.
+        Pick one Expert Tier Ability of any Expertise with the Style Label. This ability can only be swapped during an extended Rest (i.e.: as a downtime activity). You can only gain the benefits from one Expert Tier Ability in this way at a time.
 
 <!-- --8<-- [end:card] -->

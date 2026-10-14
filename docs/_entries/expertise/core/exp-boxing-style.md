@@ -13,8 +13,10 @@ tags: [Offense, Melee]
 <!-- prettier-ignore -->
 !!! abstract ""
     **Type:** Style
+
     **Tags:** Offense, Melee
-    **Prerequisites:** Trained in Martial Arts; No Weapon Equipped
+
+    **Prerequisites:** Trained in Martial Arts, No Weapon Equipped
 
     You can float, and you can sting. Any proper fighter should be good at using their fists when possible, as pugilism is the way of the strong.
 
@@ -34,8 +36,8 @@ tags: [Offense, Melee]
     === "Initiate"
         On any round where you have not moved two yards or more, you gain half your Perception as a Bonus to your Defense.
     === "Advanced"
-        - **Hard Hook (2+ CP):** On any round where you have moved at least two yards or more, you can ignore up to 1 AP per 2 CP spent, provided by Light or Medium Armor with your Unarmed Attack.
+        **Hard Hook (2+ CP):** On any round where you have moved at least two yards or more, you can ignore up to 1 AP per 2 CP spent, provided by Light or Medium Armor with your Unarmed Attack.
     === "Expert"
-        - **Rope-A-Dope (4 CP):** After you have used the Hard Hook Chance Action, until the start of your next turn, any Melee Attacks you are targeted and missed by cause your Attacker to gain Winded (T1+) Condition, the Tier of Winded increasing for every missed Melee Attack.
+        **Rope-A-Dope (4 CP):** After you have used the Hard Hook Chance Action, until the start of your next turn, any Melee Attacks targeting you that are missed by your Attacker causes that Attacker to gain Winded (T1+) Condition, the Tier of Winded increasing for every missed Melee Attack.
 
 <!-- --8<-- [end:card] -->

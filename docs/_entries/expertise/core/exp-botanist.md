@@ -13,7 +13,9 @@ tags: [crafting,engineering]
 <!-- prettier-ignore -->
 !!! abstract ""
     **Type:** Crafting
+
     **Tags:** 
+    
     **Prerequisites:** Trained with Natural Lore or Poison Lore
 
     You have a knack for using the natural world to your advantage, skillfully crafting medicines and poisons from gathered ingredients.

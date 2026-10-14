@@ -36,8 +36,8 @@ tags: [Offense, Ranged]
     === "Initiate"
         When you use Aim while wielding a Small-Arms Weapon, you gain a +2 bonus to your Attack Roll instead of the usual +1.
     === "Advanced"
-        - **Deadeye Shot (2 CP):** Once per Round, you can reroll a single failed Attack Roll with a Small-Arms weapon, and may use either result.
+        **Deadeye Shot (2 CP):** Once per Round, you can reroll a single failed Attack Roll with a Small-Arms weapon, and may use either result.
     === "Expert"
-        - **Lethal Focus:** While using a Small-Arms Weapon, if you roll Doubles, your Damage ignores up to 4 AP provided by a target's armor or cover. If you roll triples, your Damage ignores up to 6 AP provided by a target's armor or cover.
+        **Lethal Focus:** While using a Small-Arms Weapon, if you roll Doubles, your Damage ignores up to 4 AP provided by a target's armor or cover. If you roll triples, your Damage ignores up to 6 AP provided by a target's armor or cover.
 
 <!-- --8<-- [end:card] -->

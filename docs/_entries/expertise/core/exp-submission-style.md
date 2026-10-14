@@ -32,10 +32,17 @@ tags: [Offense, Melee]
     === "Initiate"
         You can use Grapple as a Minor Action.
     === "Advanced"
-        - **Ground-And-Pound (3 CP):** A target grappled by you must make a Might Saving Throw (CR 10 + your Might Ability). On a failure, both you and the target become Prone. While Prone, you can use your Free Action to immediately deal Grapple Strike Damage twice.
-        - **Sleeper Hold (6+ CP):** You maneuver to your target's throat and clench. The target makes a Constitution Saving Throw (CR 9 + your Might) to resist, with the CR increasing every round the Grapple is held. On a failed roll, target gains 1 Tier of the Fatigue Condition. For every additional 6 CP spent, increase the CR increase and the Tier count of the Condition by +1 (maximum +3 per round, with a maximum Tier of 5, and a maximum CR of 20).
+        **Ground-And-Pound (3 CP):** A target grappled by you must make a Might Saving Throw (CR 10 + your Might Ability). On a failure, both you and the target become Prone. As loing as you maintain the grapple while Prone, you can use your Free Action to deal Grapple Strike Damage up to twice per Round, without reactivating this Chance Action.
+
+        **Sleeper Hold (6+ CP):** You maneuver to your target's throat and clench. The target makes a Constitution Saving Throw (CR 9 + your Might) to resist, with the CR increasing every round the Grapple is held. On a failed roll, target gains 1 Tier of the Fatigue Condition. For every additional 6 CP spent, increase the CR by +3, and the Tier count of the Condition by +1 (maximum +3 per round, with a maximum Tier of 5, and a maximum CR of 18 + your Might).
     === "Expert"
-        - **Kraken Grapple (2 CP):** Your Grapple Strikes gain a +2 bonus to Damage. Additionally, your Grapple Strike Unarmed Attacks gain the Armor-Piercing Property, ignoring up to 4 of a target's AP.
-        - **Full Lock (12 CP):** Spend all of your Actions for the turn to immediately place your target at Tier 5 Entangled. Target makes a Might or Reflexes Saving Throw (CR 10 + your Might) to resist.
+        **Kraken Grapple:** Your Grapple Strikes gain a +2 bonus to Damage. Additionally, your Grapple Strike Unarmed Attacks gain the Armor-Piercing Property, ignoring up to 4 of a target's AP.
+
+        **Full Lock (12 CP):** Spend all of your Actions for the turn to immediately place your target at Tier 5 Entangled. Target makes a Might or Reflexes Saving Throw (CR 12 + your Might) to resist. Starting on your next turn, and for every Round the target is Entangled this way, they gain an additional Condition Tier based on the body part locked by the Grapple. This Lock can be changed only if this Chance Action is reactivated.
+
+           - Head: Stunned
+           - Torso: Winded
+           - Arms: Weakness
+           - Legs: Slowed
 
 <!-- --8<-- [end:card] -->

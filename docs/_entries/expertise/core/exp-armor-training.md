@@ -2,18 +2,22 @@
 title: Armor Training
 category: utility
 source: core
-icon: material-armor
+icon: material-shield
 tags: [utility]
 ---
 
 <!-- --8<-- [start:card] -->
 
-#### :material-armor:  {#exp-armor-training}
+#### :material-shield: Armor Training {#exp-armor-training}
+
+> [:material-file-find: Marked for Review and Playtesting]
 
 <!-- prettier-ignore -->
 !!! abstract ""
     **Type:** Utility
+
     **Tags:** Defense, Passive
+
     **Prerequisites:** None
 
     

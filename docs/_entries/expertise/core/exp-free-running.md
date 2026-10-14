@@ -1,9 +1,9 @@
 ---
 title: Free Running
-category: crafting
+category: exploration
 source: core
-icon: material-
-tags: [crafting,engineering]
+icon: material-run-fast
+tags: [exploration]
 ---
 
 <!-- --8<-- [start:card] -->
@@ -12,9 +12,11 @@ tags: [crafting,engineering]
 
 <!-- prettier-ignore -->
 !!! abstract ""
-    **Type:** 
-    **Tags:** 
-    **Prerequisites:** 
+    **Type:** Exploration
+
+    **Tags:**
+
+    **Prerequisites:**
 
     You excel at remaining in motion. It's hard to slow you down.
 

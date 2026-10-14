@@ -377,7 +377,7 @@ Throughout a game, it is possible to suffer from a number of debilitating Condit
 
 <!-- prettier-ignore -->
 !!! warning "Sudden Death"
-    If a character gains 10 or more Condition Markers, in any combination, their body could potentially go into shock, killing them. At the 10th Marker, players roll a Constitution Saving Throw CR 10, adding +1 to the Save for every additional Marker over the 10th.
+    Unless stated otherwise by an ability, if a character gains 10 or more Condition Tiers, in any combination, their body could potentially go into shock, killing them. At and above the 10th Tier, the character must roll a Constitution Saving Throw CR 10, gaining +1 to the CR for every additional Tier. This save is made once for each additional Tier.
 
 > Revision needed beyond this point.
 
@@ -397,8 +397,6 @@ Each new level grants:
 
 - A **floating pool of Ability Score points** (usable only during Virus Mode).
 - **1 Mutation per level**, rolled randomly, or chosen secretly by the GM.
-
-Each new level also requires the player to make an immediate Control Check.
 
 Ability Score Points can only be distributed once per activation.
 

@@ -2,18 +2,20 @@
 title: Survivalist
 category: crafting
 source: core
-icon: material-
+icon: material-forest-outline
 tags: [crafting,engineering]
 ---
 
 <!-- --8<-- [start:card] -->
 
-#### :material-:  {#exp-survivalist}
+#### :material-forest-outline: Survivalist {#exp-survivalist}
 
 <!-- prettier-ignore -->
 !!! abstract ""
     **Type:** 
+
     **Tags:** 
+
     **Prerequisites:** 
 
     You have an excellent grasp on outdoor survival techniques. These skills will be invaluable should things go south, as you're convinced they eventually will.
@@ -24,9 +26,9 @@ tags: [crafting,engineering]
         |Benefits||
         |:------:|:-|
         |**Basic:**| Major Advantage on Navigation and Tracking |
-        |**Initiate:**|  |
-        |**Advanced:**|  |
-        |**Expert:**|  |
+        |**Initiate:**| 2+ 1/2 Level to Track, Hunt, and Forage |
+        |**Advanced:**| Always Downwind |
+        |**Expert:**| Clean Kill (6 CP) |
 
     === "Basic"
         You have a keen understanding of the wilderness. Gain a Major Advantage (+5) on Navigation and Tracking Action Rolls in natural environments. Additionally, when foraging or searching for food and water, you can move up to 5 yards faster than normal without penalty.

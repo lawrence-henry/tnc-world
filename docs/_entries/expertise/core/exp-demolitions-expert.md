@@ -1,19 +1,23 @@
 ---
-title: 
+title: Demolitions Expert
 category: crafting
 source: core
-icon: material-
-tags: [crafting,engineering]
+icon: material-bomb
+tags: [crafting,engineering,utility,destruction]
 ---
 
 <!-- --8<-- [start:card] -->
 
-#### :material-:  {#exp-}
+#### :material-bomb: Demolitions Expert {#exp-demolitions-expert}
+
+> [:material-file-find: Marked for Review and Playtesting]
 
 <!-- prettier-ignore -->
 !!! abstract ""
-    **Type:** 
+    **Type:** Utility
+
     **Tags:** 
+
     **Prerequisites:** 
 
     You've made a career out of a mentality that most don't understand. Either you're right, or suddenly it's not your problem anymore. So far, you've had a good run of being right.

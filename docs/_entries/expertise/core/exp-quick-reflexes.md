@@ -1,22 +1,24 @@
 ---
-title: 
-category: crafting
+title: Quick Reflexes
+category: Exploration
 source: core
-icon: material-
-tags: [crafting,engineering]
+icon: material-fast-forward
+tags: []
 ---
 
 <!-- --8<-- [start:card] -->
 
 #### :material-fast-forward: Quick Reflexes {#exp-quick-reflexes}
 
-> Needs Review and Playtesting
+[:material-file-find: Marked for Review and Playtesting]
 
 <!-- prettier-ignore -->
 !!! abstract ""
-    **Type:** 
-    **Tags:** 
-    **Prerequisites:** 
+    **Type:**
+
+    **Tags:**
+
+    **Prerequisites:**
 
     You have rapid and instinctual reactions.
 

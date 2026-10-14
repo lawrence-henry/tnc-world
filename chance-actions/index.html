@@ -834,6 +834,12 @@
 
 <h1 id="chance-actions">Chapter 5: Chance Actions<a class="headerlink" href="#chance-actions" title="Permanent link">&para;</a></h1>
 <p>Chance Actions cover a wide array of potential maneuvers a character can attempt, whether in or out of combat. They are fueled from a pool of Chance Points, built up by rolling Doubles and Triples on the dice.</p>
+<dl>
+<dt><strong>Chance Pool:</strong></dt>
+<dd>Your Chance Pool can normally contain a maximum of 18 Chance Points. Any Chance Points generated beyond this maximum are lost.</dd>
+<dt><strong>Spending Chance Points:</strong></dt>
+<dd>Unless stated otherwise, Chance Points are spent when a Chance Action is declared. Spent Chance Points are not recovered if an associated Action Roll fails.</dd>
+</dl>
 <!-- prettier-ignore -->
 <div class="admonition important">
 <p class="admonition-title">Doubles and Triples</p>
@@ -860,23 +866,23 @@
 </div>
 <h3 id="general-combat">General Combat<a class="headerlink" href="#general-combat" title="Permanent link">&para;</a></h3>
 <dl>
-<dd><strong>Assessment (1+ CP):</strong> Choose a single target. As a Free Action, make a Perception (Empathy) Action Roll CR 10 + your target's Wits (Deception). If you win, ignore up to 5 points of your Target's total Defense. Add one additional target per CP spent.</dd>
-<dd><strong>Acrobatic Bluff (1+ CP):</strong> Gain up to a +3 bonus to your Defense by spending a Minor Action and rolling a Reflexes (Acrobatics) Action Roll CR 10 + your target's Perception (Empathy).</dd>
+<dd><strong>Assessment (1+ CP):</strong> Choose a single target. As a Free Action, make a Perception (Empathy) Action Roll CR 10 + your target's Wits (Deception). If you win, gain a +2 bonus to your next Defense against that target. Add one additional target per CP spent.</dd>
+<dd><strong>Acrobatic Bluff (1+ CP):</strong> Choose a single target. Roll a Reflexes (Acrobatics) as a Minor Action, CR 10 + your target's Perception (Empathy). On a success, gain a Minor Advantage on your next attack against that target. Add one additional target per CP spent.</dd>
 <dd><strong>Brace (1+ CP):</strong> When subjected to a Saving Throw, you can spend an Instinct Action to increase your roll against that Saving Throw by 1 per CP spent.</dd>
 <dd><strong>Team Attack (2 CP):</strong> On a successful attack, choose an ally that can see and hear you within 6 yards. That ally can use an Instinct Action to immediately attack the same enemy, with a +1 bonus.</dd>
 <dd><strong>Taunt (2 CP):</strong> Roll a Willpower (Deception) Action Roll as a Minor Action versus Perception (Empathy) or Willpower (Self-Discipline) of any target within 10 yards. If you win, any aggressive actions made by that opponent must target you for the next minute (4 rounds).</dd>
 <dd><strong>Back-to-Back (2 CP):</strong> You bolster an adjacent ally's defense, providing both of you with a +1 bonus to Defense until the start of your next turn.</dd>
 <dd><strong>Savage Striker (2 CP):</strong> Your attack does an extra +2 Damage.</dd>
 <dd><strong>Precision Attack (2 CP):</strong> Your attack ignores up to 2 AP provided by equipment.</dd>
-<dd><strong>Evasive Maneuvers (3 CP):</strong> As an Instinct Action, you can impose a -2 penalty on an opponent's Ranged Attack Roll.[evaluation required]</dd>
-<dd><strong>Rapid Attack (3 CP):</strong> You can make one additional attack, either against an enemy you are already engaged with, or a different target within range and sight. You must have a loaded Ranged weapon to make a Ranged Attack. Doubles on this attack do not produce more CP.</dd>
+<dd><strong>Evasive Maneuvers (3 CP):</strong> As an Instinct Action, you can impose a -2 penalty on an opponent's Ranged Attack Roll.</dd>
+<dd><strong>Rapid Attack (3 CP):</strong> You can make one additional attack, either against an enemy you are already engaged with, or a different target within range and sight. You must have a loaded Ranged weapon to make a Ranged Attack. This additional attack does not produce more CP, regardless of Doubles or Triples.</dd>
 <dd><strong>Inflict Wounds (3 CP):</strong> Your attack deals 1/2 its Base Damage but attempts to inflict a single Tier 1 Condition, based on damage type (i.e.: Bleeding, Winded, Weakened). The target must roll a Constitution Saving Throw CR 8 + your Chance Die or suffer the Condition.</dd>
 <dd><strong>Heavy Hitter (6 CP):</strong> Your attack ignores up to 5 AP provided by Equipment.</dd>
-<dd><strong>Shocking Brutality (6 CP):</strong> If you take out an opponent, you can spend your Instinct Action. Any opponents within 6 yards to witness the attack must roll a Willpower Saving Throw CR 10 + your Chance Die from the attack roll. On a successful Save, the targets gain Tier 1 of the Fear Condition. On a failed Save, Tier 3.</dd>
+<dd><strong>Shocking Brutality (6 CP):</strong> If you take out an opponent, you can spend your Instinct Action. Any opponents within 6 yards to witness the attack must roll a Willpower Saving Throw CR 10 + your Chance Die from the attack roll. On a successful Save, the targets gain Tier 1 of the Fear Condition. On a failed Save, they instead gain Tier 3.</dd>
 <dd><strong>Lethal Blow (6 CP):</strong> Your attack does an extra +5 Damage.</dd>
 <dd><strong>Close Call (9 CP):</strong> If an attack would take you to 0 Health, you fall Unconscious with 1 Health instead.</dd>
 <dd><strong>Weak Point (9 CP):</strong> You find a point of extreme vulnerability that you can target for a single attack. You ignore up to half of your target's AP (round up) for this attack.</dd>
-<dd><strong>Last Stand (9 CP):</strong> After falling to 0 Health, you can activate this Chance Action as an Instinct Action. Doing so gives you a single round where you ignore all Damage and Conditions. During this round, no Healing Action Rolls work to your benefit, and you fall to Dying with 1d6 rounds removed from the Dying timer.</dd>
+<dd><strong>Last Stand (9 CP):</strong> After falling to 0 Health, you can activate this Chance Action as an Instinct Action. Until the end of your next turn, you ignore all Damage and Conditions. Until the end of your next turn, no Healing Action Rolls work to your benefit, and you fall to Dying and immediately remove 1d6 rounds from your Dying timer.</dd>
 </dl>
 <h3 id="melee">Melee<a class="headerlink" href="#melee" title="Permanent link">&para;</a></h3>
 <dl>
@@ -890,7 +896,7 @@
 <dd><strong>Riposte (3 CP):</strong> If an opponent misses you with a Melee Attack before the start of your next turn, you can make an immediate Melee Counterattack against them as an Instinct Action, adding your Wits to the Damage Total.</dd>
 <dd><strong>Vicious Stomp (6 CP):</strong> Make an immediate attack against a target that falls prone within your reach as an Instinct Action. If you hit, add your Chance Die to the Damage (this stacks with the bonuses from rolling Doubles and Triples).</dd>
 <dd><strong>Whirlwind Assault (6 CP):</strong> Make a series of attacks against all enemies within range of your Melee Attack. Make a single Attack Action Roll, comparing it to each enemy's Defense, resolving Damage as normal.</dd>
-<dd><strong>Devastating Combination (6 CP):</strong> You make additional Melee Attacks in rapid succession. Make a single Attack Action Roll with a +2 bonus to the roll. You land a number of hits equal to the value on your Chance Die, adding that amount to your Damage Total.</dd>
+<dd><strong>Devastating Combination (6 CP):</strong> You make additional Melee Attacks in rapid succession. Make a single Attack Action Roll with a +2 bonus to the roll. You land a number of consecutive hits equal to the value on your Chance Die. Add that value to your Damage Total.</dd>
 </dl>
 <h3 id="ranged">Ranged<a class="headerlink" href="#ranged" title="Permanent link">&para;</a></h3>
 <dl>
@@ -900,7 +906,7 @@
 <dd><strong>Overwatch (3 CP):</strong> Designate a target behind full cover that you have already perceived. If that target moves before the start of your next turn, Roll a Ranged Attack Action Roll as an Instinct Action.</dd>
 <dd><strong>Tactical Takedown (6 CP):</strong> Whenever a target falls Prone within your CQB or Short Range, you can make a single Ranged Attack against that target as an Instinct Action. On a successful hit, add twice your Chance Die to the Damage (this stacks with the bonuses from rolling Doubles and Triples).</dd>
 <dd><strong>One Shot Left (12 CP):</strong> As long as you have only one piece of ammunition loaded in your weapon and on your person, you can spend an Instinct Action. If you do, gain a +5 bonus to your Base Damage, and add 3x your Chance Die to the Damage (this stacks with the bonuses from rolling Doubles and Triples).</dd>
-<dd><strong>Headshot (18 CP):</strong> You spend an Instinct Action, a Free Action, and a Minor Action, to line up a devastating shot. On a successful hit, deal Critical Damage x2.</dd>
+<dd><strong>Headshot (18 CP):</strong> You spend all of your actions (Non, Instinct, Free, Minor, and Major) in order to line up and deliver a devastating shot. Make an attack roll as normal, with a Major Disadvantage (-5) penalty to the roll. Doing so provides 4 points which can be distributed to raise the value of up to two of your rolled dice up to their maximum result. The modified values are used for the Attack Roll and can create Doubles or Triples. On a successful hit, maximize your Chance Die and triple the damage. On a Near-Miss, your Chance Die is used as it lies, and double the damage. On a Miss, deal normal damage, regardless of Doubles or Triples.</dd>
 </dl>
 <h3 id="grappling">Grappling<a class="headerlink" href="#grappling" title="Permanent link">&para;</a></h3>
 <dl>
@@ -909,18 +915,42 @@
 <dd><strong>Desperate Grab (3 CP):</strong> On any attack (yours or your opponent's) that ends with a Near-Miss, you can spend an Instinct Action to initiate a Grapple.</dd>
 <dd><strong>Binding Throw (3 CP):</strong> On a successful Throw Action Roll, you initiate a Lock Action Roll as an Instinct Action. Your target makes a Reflexes Saving Throw CR 10 + your Chance Die.</dd>
 <dd><strong>Deadly Grapple (6 CP):</strong> While you are in control of a Grapple, you can make an Attack Action Roll as a Minor Action with a +3 bonus to your Base Damage. This attack ends the Grapple.</dd>
+<dd><strong>Chokehold (6 CP):</strong> While you are in control of a Grapple, you can initiate a Chokehold as a Major Action. Your target makes a Constitution Saving Throw CR 10 + your Might Ability. On a failed save, the target gains Fatigue (T1). The target makes the Saving Throw every round you maintain the Chokehold with a Major Action. On a successful save of 2 or more, they break free of the Grapple.</dd>
 <dd><strong>Bone Breaker (12 CP):</strong> While you are in control of a Grapple, you initiate a Lock Action Roll with a Minor Disadvantage (-2). Your target makes a Reflexes or Might Saving Throw (target's choice) CR 10 + your Chance Die. On a successful Save, the Target suffers the Weakness (T2) Condition until they are able to take a Rest. On a failed save, the target suffers Weakness (T4) until they are able to get Surgery.</dd>
-<dd><strong>Chokehold (12 CP):</strong> While you are in control of a Grapple, you can initiate a Chokehold as a Major Action. Your target makes a Constitution Saving Throw CR 10 + your Might Ability. On a failed save, the target gains Fatigue (T1). The target makes the Saving Throw every round you maintain the Chokehold with a Major Action. On a successful save of 2 or more, they break free of the Grapple.</dd>
 <dd><strong>Sickle and Hammer (12 CP):</strong> Make an opposed Attack Roll against an incoming Melee Attack. If you succeed, your target's attack fails and you initiate a Grapple, dealing Unarmed Critical Damage.</dd>
 <dd><strong>Neckbreaker (18 CP):</strong> While you are in control of a Grapple, you initiate a Lock Action Roll as a Major Action. Your target makes a Constitution Saving Throw CR 10 + your Chance Die. On a successful Save, the target suffers the Incapacitated Condition until they are able to get Surgery. On a failed Save, the target suffers the Paralyzed Condition and begins Suffocating.</dd>
 </dl>
 <h3 id="exploration-chance-actions">Exploration Chance Actions<a class="headerlink" href="#exploration-chance-actions" title="Permanent link">&para;</a></h3>
 <dl>
-<dd><strong>Slice The Pie ():</strong> You can get the lay of the land without putting yourself in danger. When near an open door, you can make a Perception Action Roll CR 9. On a success, you gain an accurate layout of the room (threats, sources of cover, points of interest, etc). If you roll Doubles with your success, you may immediately move into the nearest cover, using your result as a Reflexes (Stealth) roll.</dd>
-<dd><strong>Vertical Coffin ():</strong> </dd>
-<dd><strong>Breach and Clear ():</strong> You go through doors ready to strike. For the next minute after activating this Chance Action, the next time you would enter a room and begin, you gain a +5 bonus to Initiative.</dd>
+<dd><strong>I Know A Way (1 CP):</strong> When navigating toward a known destination, identify a plausible alternate route. The GM reveals one route that avoids a known obstacle, hazard, or heavily traveled area. The alternate route may introduce a different complication.</dd>
+<dd><strong>Something's Wrong (1 CP):</strong> After entering an area, ask the GM whether anything immediately observable is inconsistent, recently disturbed, concealed poorly, or otherwise out of place. The GM must truthfully identify one such detail if one exists.</dd>
+<dd><strong>Slice The Pie (2 CP):</strong> You can get the lay of the land without putting yourself in danger. When approaching an opening, corner, doorway, or similar obstruction, make a Perception Action Roll CR 11. On a success, the GM reveals the immediately observable threats, cover, exits, and significant features beyond it without requiring you to fully expose yourself to potential threats.</dd>
+<dd><strong>Ambush (3 CP):</strong> As long as you remain undetected, gain a +5 bonus to your next Initiative Action Roll against threats you can accurately percieve. This benefit ends after 2 minutes, or if you are detected before Initiative is rolled, whichever comes first.</dd>
+<dd><strong>Follow the Signs (3 CP):</strong> After making a successful Perception Action Roll to examine an area or object, ask the GM one question about what happened there that could reasonably be inferred from the physical evidence. The GM Answers truthfully, though incomplete evidence may produce an incomplete answer.</dd>
+<dd><strong>No Time to Waste (3+ CP):</strong> Any Action that would normally take longer than one turn takes half its normal duration for every 3 CP spent on this Chance Action. This cannot reduce the Action's duration below one turn.</dd>
+<dd><strong>Prepared for This (3 CP):</strong> When confronted with an environmental obstacle, you may reveal that you previously prepared one mundane, non-weapon item reasonably available to your character that would assist with the situation (such as a rope, flashlight, battery, zip tie, or chalk). You must still possess sufficient carrying capacity/Active Inventory space for it. After use, the item is added to your Active Inventory.</dd>
+<dd><strong>Breach and Clear (6 CP):</strong> If you have accurately identified that a threat exists on the other side of an enclosed area, before entering through a door, window, hatch, or similar opening, declare a Breach. You gain a Surprise Round, during which you can take one full turn before rolling Initiative.</dd>
+<dd><strong>Just In Time (6 CP):</strong> When an environmental hazard, structural failure, ambush, or similar danger is revealed, immediately take up to one Major Action before resolving its consequences.</dd>
+<dd><strong>Safe Passage (6 CP):</strong> After successfully navigating an area containing environmental hazards, choose a number of allies up to your Perception Ability. Those allies may immediately use your route without repeating any of the required Action Rolls, and automatically avoiding the same hazards. This does not disarm, disable, or otherwise remove those hazards.</dd>
 </dl>
 <h3 id="roleplaying">Roleplaying<a class="headerlink" href="#roleplaying" title="Permanent link">&para;</a></h3>
+<dl>
+<dd><strong>Read the Room (1 CP):</strong> Gain insight into the people around you. Choose a number of targets equal to your Willpower Ability. You can ask the GM one question about each character's behavior or body language that could be emotionally significant. This could be whether they appear receptive, hostile, frightened, or intending a potential action. The GM answers that question truthfully based on what your character can perceive.</dd>
+<dd><strong>Sincerity (1+ CP):</strong> When making an Interaction Action Roll, you may spend a Free Action to increase your roll by +1 per CP spent, up to a maximum bonus equal to your Willpower Ability.</dd>
+<dd><strong>Flourish (2+ CP):</strong> Make your success memorable. After succeeding on an Interaction Action Roll, choose one character per 2 CP spent, up to your Willpower Ability, who witnessed it. Until you give them a reason to think otherwise, they remember you primarily by the impression you deliberately presented during the interaction (such as, but not limited to: competent, intimidating, harmless, professional, sympathetic, or eccentric).</dd>
+<dd><strong>Tell (2 CP):</strong> Choose one target you can observe during an interaction. For the next minute of interaction, the GM must inform you if their behavior noticeably changes in response to one specific subject, person, object, or statement.</dd>
+<dd><strong>Bad Cop (2 CP):</strong> When an ally succeeds on an Interaction Action Roll, reinforce their position with an Interaction Action Roll using a contrasting approach. On a success, choose one: the target accidentally reveals an additional detail, makes a minor immediate concession, or focuses their attention on you instead of your ally. This interaction automatically worsens the target's disposition.</dd>
+<dd><strong>Good Cop (2 CP):</strong> When an ally fails an Interaction Action Roll, immediately make an Interaction Action Roll of your own against the same target using a different approach. Their failure does not worsen the target's disposition until your roll is resolved, and only if your roll does not succeed.</dd>
+<dd><strong>Common Ground (3 CP):</strong> After learning something meaningful about another character's Goals, Ties, Motivations, or Connections, invoke one of your own that genuinely overlaps with it. Gain a Major Advantage on your next Interaction Action Roll concerning that shared interest.</dd>
+<dd><strong>Don't Give In (3 CP):</strong> When a character other than you is suffering from a mental Condition (Confusion, Enraged, or Fear), you can roll a Wits (Healing) or Willpower (Morale, Persuasion, or Deception) CR 10 + Condition Tier, your choice. On a success, reduce the target's mental Condition by a number equal to your Chance Die, to a minimum of 0. On a failure, increase the Condition by 1 Tier. A character can only benefit from this Chance Action once per Rest.</dd>
+<dd><strong>Let Me Handle This (3 CP):</strong> When an ally would suffer an immediate social consequence from a failed Interaction Action Roll, if you can plausibly intervene, make a contrasting Interaction Action Roll as an Instinct Action. On a success, prevent your ally from suffering that consequence and gain Minor Advantage on further Interaction Action Rolls for the next minute. On a failure, your ally's consequence is redirected toward yourself.</dd>
+<dd><strong>One More Question (3 CP):</strong> When an NPC attempts to end an interaction, leave, hang up, dismiss you, or otherwise cut the conversation short, you may ask one final question or make one final Interaction Action Roll before they do.</dd>
+<dd><strong>Play Along (3 CP):</strong> When you are the target of an interaction, you may conceal your true response and intentions, gaining a +2 bonus on any checks made to reinforce that concealment. Until you act against their interaction, they believe you have accepted it unless they discover evidence otherwise.</dd>
+<dd><strong>You Didn't Hear That From Me (3 CP):</strong> After successfully obtaining information from a target, they do not immediately recognize the significance of what they revealed. Unless something later draws attention to it, they treat the disclosure as unimportant.</dd>
+<dd><strong>Change The Subject (6 CP):</strong> After an Interaction Action Roll creates suspicion, hostility, or unwanted attention, introduce a plausible distraction or new conversational focus. The immediate consequence is delayed until the end of the scene unless someone has compelling reason to pursue it immediately.</dd>
+<dd><strong>Hear Me Out (6 CP):</strong> When a target would ordinarily refuse to hear your argument because of hostility, orders, prejudice, fear, or circumstances, they will hear you out long enough for you to make one Interaction Action Roll. This does not make an impossible request more possible, nor does it force them to agree.</dd>
+<dd><strong>I Know A Guy (6 CP):</strong> Declare one of your established Connections as relevant to the current situation. Briefly describe the connection, how you know them, and how they might plausibly assist. The GM determines their current disposition and circumstances.</dd>
+</dl>
 
 
 
@@ -976,6 +1006,8 @@
     
     
       <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../assets/js/character-sheet.js"></script>
       
     
   </body>
